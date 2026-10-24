@@ -1,0 +1,586 @@
+{
+  "threshold": 0.99,
+  "trials": 3,
+  "retrieved_for_brief": [
+    {
+      "id": "m01",
+      "sim": 0.662,
+      "angle": "Pitch the 3-minute level as a calm wind-down before sleep"
+    },
+    {
+      "id": "m24",
+      "sim": 0.645,
+      "angle": "Play in the dark for the neon glow"
+    },
+    {
+      "id": "m09",
+      "sim": 0.632,
+      "angle": "Hand-built puzzles with no random luck"
+    },
+    {
+      "id": "m04",
+      "sim": 0.609,
+      "angle": "Claim a gentle but clever challenge with no timers"
+    },
+    {
+      "id": "m05",
+      "sim": 0.601,
+      "angle": "Frame the daily board as a small daily ritual"
+    },
+    {
+      "id": "m14",
+      "sim": 0.589,
+      "angle": "Fully playable with one thumb"
+    }
+  ],
+  "arms": {
+    "memory_off": [
+      {
+        "report": {
+          "retrieved": [],
+          "rounds": 1,
+          "max_sim_first": 0.825,
+          "max_sim_final": 0.825,
+          "over_threshold_final": 0,
+          "threshold": 0.99
+        },
+        "angles": [
+          {
+            "audience": "Wind-Down Seekers",
+            "hook_line": "A puzzle game with zero ticking clocks.",
+            "angle": "Position Lantern Drift as a screen-time ritual that eases you into the evening, with no timers rushing you.",
+            "closest_note": "m01",
+            "sim": 0.769
+          },
+          {
+            "audience": "Wind-Down Seekers",
+            "hook_line": "Watch your whole board drift into the dusk.",
+            "angle": "Show the satisfying moment the lanterns float up into the dusk as a visual reward for finishing a level.",
+            "closest_note": "m01",
+            "sim": 0.743
+          },
+          {
+            "audience": "Wind-Down Seekers",
+            "hook_line": "Three minutes. One thread of light. Exhale.",
+            "angle": "Pitch the three-minute level as the perfect length for a cozy pause between tasks or before lights out.",
+            "closest_note": "m01",
+            "sim": 0.825
+          },
+          {
+            "audience": "Clever Puzzle Fans",
+            "hook_line": "One right tap can light up the whole board.",
+            "angle": "Highlight the chain-reaction mechanic as the clever twist: one correct connection can set off a cascade of released lanterns.",
+            "closest_note": "m09",
+            "sim": 0.713
+          },
+          {
+            "audience": "Clever Puzzle Fans",
+            "hook_line": "Can you find the one tile that fixes this?",
+            "angle": "Challenge viewers to spot the tile rotation that connects every lantern, in a short 'can you solve it' format.",
+            "closest_note": "m09",
+            "sim": 0.742
+          },
+          {
+            "audience": "Clever Puzzle Fans",
+            "hook_line": "A new puzzle board waits for you every day.",
+            "angle": "Emphasize the daily board as a fresh, bite-sized brain teaser to solve each morning.",
+            "closest_note": "m05",
+            "sim": 0.771
+          },
+          {
+            "audience": "Commuters and Offline Players",
+            "hook_line": "No signal? Lantern Drift still glows.",
+            "angle": "Lead with the offline promise for travel, tunnels, and flights, showing a puzzle being solved with no signal.",
+            "closest_note": "m06",
+            "sim": 0.785
+          },
+          {
+            "audience": "Commuters and Offline Players",
+            "hook_line": "Got a three-minute gap? Light a few lanterns.",
+            "angle": "Frame the free-to-play, three-minute level as the ideal fit for a short commute or a waiting-room gap.",
+            "closest_note": "m01",
+            "sim": 0.751
+          },
+          {
+            "audience": "Commuters and Offline Players",
+            "hook_line": "Your daily puzzle, even without Wi-Fi.",
+            "angle": "Show a day's routine anchored by the daily board, a small habit to complete on the way to work or school, with no account or connection needed.",
+            "closest_note": "m05",
+            "sim": 0.758
+          }
+        ],
+        "max_sim": 0.825,
+        "mean_sim": 0.762,
+        "over_threshold": 0
+      },
+      {
+        "report": {
+          "retrieved": [],
+          "rounds": 1,
+          "max_sim_first": 0.813,
+          "max_sim_final": 0.813,
+          "over_threshold_final": 0,
+          "threshold": 0.99
+        },
+        "angles": [
+          {
+            "audience": "Wind-Down Seekers",
+            "hook_line": "A puzzle with no timer. Finally.",
+            "angle": "Position the game as a pressure-free evening ritual, highlighting that levels have no timers so players can unwind at their own pace.",
+            "closest_note": "m01",
+            "sim": 0.805
+          },
+          {
+            "audience": "Wind-Down Seekers",
+            "hook_line": "Watch your whole day float away.",
+            "angle": "Show the satisfying moment when the lanterns float up into the dusk as a visual 'exhale' at the end of a long day.",
+            "closest_note": "m01",
+            "sim": 0.675
+          },
+          {
+            "audience": "Wind-Down Seekers",
+            "hook_line": "Three quiet minutes, saved just for you.",
+            "angle": "Pitch the daily board as a small, cozy end-of-day habit that takes only about three minutes.",
+            "closest_note": "m01",
+            "sim": 0.807
+          },
+          {
+            "audience": "Clever-Puzzle Enthusiasts",
+            "hook_line": "Can you light every lantern in one thread?",
+            "angle": "Tease the spatial challenge of routing a single thread of light through every lantern, inviting viewers to spot the solution before the reveal.",
+            "closest_note": "m09",
+            "sim": 0.716
+          },
+          {
+            "audience": "Clever-Puzzle Enthusiasts",
+            "hook_line": "One tile turn. Then everything lights up.",
+            "angle": "Highlight the chain-reaction mechanic as the payoff for a well-planned path, where one right tap sets off a cascade.",
+            "closest_note": "m02",
+            "sim": 0.637
+          },
+          {
+            "audience": "Clever-Puzzle Enthusiasts",
+            "hook_line": "Today's board is new. Take your time.",
+            "angle": "Lean on the new daily board as a fresh brain-teaser to solve each day, with no timer rushing the thinking.",
+            "closest_note": "m05",
+            "sim": 0.736
+          },
+          {
+            "audience": "Commuters and Offline Players",
+            "hook_line": "No signal? Your lanterns still glow.",
+            "angle": "Emphasize that the game works offline, making it the perfect companion for flights, subways, and dead-signal zones.",
+            "closest_note": "m06",
+            "sim": 0.752
+          },
+          {
+            "audience": "Commuters and Offline Players",
+            "hook_line": "One level. One stop. Done.",
+            "angle": "Frame each roughly 3-minute level as the ideal length for a single stop on a commute.",
+            "closest_note": "m02",
+            "sim": 0.813
+          },
+          {
+            "audience": "Commuters and Offline Players",
+            "hook_line": "Free puzzle for your phone, offline and cozy.",
+            "angle": "Show that it's free to play on both iOS and Android, so it's an easy download for anyone who wants something to fill idle moments.",
+            "closest_note": "m09",
+            "sim": 0.657
+          }
+        ],
+        "max_sim": 0.813,
+        "mean_sim": 0.733,
+        "over_threshold": 0
+      },
+      {
+        "report": {
+          "retrieved": [],
+          "rounds": 1,
+          "max_sim_first": 0.817,
+          "max_sim_final": 0.817,
+          "over_threshold_final": 0,
+          "threshold": 0.99
+        },
+        "angles": [
+          {
+            "audience": "Evening Wind-Down Seekers",
+            "hook_line": "Watch every lantern float up into the dusk.",
+            "angle": "Show the payoff of a finished board, with every lantern drifting up into a dusky sky, as a soothing visual reward.",
+            "closest_note": "m01",
+            "sim": 0.749
+          },
+          {
+            "audience": "Evening Wind-Down Seekers",
+            "hook_line": "A puzzle game that never rushes you.",
+            "angle": "Contrast the stress of typical mobile games with a puzzle that has no timers and never rushes the player.",
+            "closest_note": "m04",
+            "sim": 0.811
+          },
+          {
+            "audience": "Evening Wind-Down Seekers",
+            "hook_line": "One gentle tap at a time. Light the way.",
+            "angle": "Show close-up, slow gameplay of a single tap rotating a paper tile and a thread of light slowly connecting the board.",
+            "closest_note": "m01",
+            "sim": 0.78
+          },
+          {
+            "audience": "Pocket-Time Players",
+            "hook_line": "Three minutes. No Wi-Fi. One tiny sunset.",
+            "angle": "Pair the 3-minute level length with offline play to promise a full puzzle anywhere, no Wi-Fi needed.",
+            "closest_note": "m04",
+            "sim": 0.731
+          },
+          {
+            "audience": "Pocket-Time Players",
+            "hook_line": "The offline puzzle for tunnels, flights, and waiting rooms.",
+            "angle": "Depict real-life dead-time scenarios (tunnels, flights, waiting rooms) as text overlays on gameplay footage, with the game as the fix.",
+            "closest_note": "m06",
+            "sim": 0.667
+          },
+          {
+            "audience": "Pocket-Time Players",
+            "hook_line": "A free puzzle that fits inside a coffee break.",
+            "angle": "Position the game as a free, bite-sized break that fits inside a coffee break, on iOS or Android.",
+            "closest_note": "m09",
+            "sim": 0.686
+          },
+          {
+            "audience": "Daily-Ritual Puzzle Fans",
+            "hook_line": "One new board every day. Can you light it?",
+            "angle": "Lean into the daily board as a fresh once-a-day puzzle ritual.",
+            "closest_note": "m05",
+            "sim": 0.817
+          },
+          {
+            "audience": "Daily-Ritual Puzzle Fans",
+            "hook_line": "Find the one rotation that frees every lantern.",
+            "angle": "Tease the chain-reaction mechanic as a clever 'aha' moment, showing a board that seems stuck until one rotation releases the lanterns.",
+            "closest_note": "m05",
+            "sim": 0.68
+          },
+          {
+            "audience": "Daily-Ritual Puzzle Fans",
+            "hook_line": "Looks cozy. Thinks sneaky.",
+            "angle": "Play on the contrast between the cozy paper-craft look and the genuinely tricky routing puzzles underneath.",
+            "closest_note": "m09",
+            "sim": 0.786
+          }
+        ],
+        "max_sim": 0.817,
+        "mean_sim": 0.745,
+        "over_threshold": 0
+      }
+    ],
+    "memory_on": [
+      {
+        "report": {
+          "retrieved": [
+            {
+              "id": "m01",
+              "sim": 0.662
+            },
+            {
+              "id": "m24",
+              "sim": 0.645
+            },
+            {
+              "id": "m09",
+              "sim": 0.632
+            },
+            {
+              "id": "m04",
+              "sim": 0.609
+            },
+            {
+              "id": "m05",
+              "sim": 0.601
+            },
+            {
+              "id": "m14",
+              "sim": 0.589
+            }
+          ],
+          "rounds": 1,
+          "max_sim_first": 0.813,
+          "max_sim_final": 0.813,
+          "over_threshold_final": 0,
+          "threshold": 0.99
+        },
+        "angles": [
+          {
+            "audience": "Dead-Time Fillers",
+            "hook_line": "No Wi-Fi? Your lanterns still glow.",
+            "angle": "Show the game working in airplane mode, so no signal is needed to play.",
+            "closest_note": "m06",
+            "sim": 0.773
+          },
+          {
+            "audience": "Dead-Time Fillers",
+            "hook_line": "One board. One coffee line. Done.",
+            "angle": "Show a single 3-minute level finishing in the time it takes a coffee order to arrive.",
+            "closest_note": "m02",
+            "sim": 0.712
+          },
+          {
+            "audience": "Dead-Time Fillers",
+            "hook_line": "Download once. Puzzle anywhere.",
+            "angle": "Position the free download as a ready-to-go puzzle for travel days.",
+            "closest_note": "m09",
+            "sim": 0.692
+          },
+          {
+            "audience": "Cozy Aesthetic Seekers",
+            "hook_line": "Watch every lantern drift into the dusk.",
+            "angle": "Close-up of the lanterns lifting into the dusk sky after a chain reaction, as a visual payoff.",
+            "closest_note": "m24",
+            "sim": 0.603
+          },
+          {
+            "audience": "Cozy Aesthetic Seekers",
+            "hook_line": "Paper tiles that turn like tiny origami.",
+            "angle": "Highlight the folded-paper tile look, and show the satisfying turn of a single tile.",
+            "closest_note": "m03",
+            "sim": 0.651
+          },
+          {
+            "audience": "Cozy Aesthetic Seekers",
+            "hook_line": "One last tap. Then a whole sky lights up.",
+            "angle": "Show a chain reaction releasing lanterns one after another, set to a gentle sound.",
+            "closest_note": "m01",
+            "sim": 0.669
+          },
+          {
+            "audience": "Pressure-Free Solo Players",
+            "hook_line": "No chat. No rivals. Just light.",
+            "angle": "Contrast the game with noisy, competitive apps by stressing it is purely single-player, with no chat or rivals.",
+            "closest_note": "m22",
+            "sim": 0.755
+          },
+          {
+            "audience": "Pressure-Free Solo Players",
+            "hook_line": "A puzzle game that's only about you.",
+            "angle": "Frame the game as a space where you set the pace and nobody watches.",
+            "closest_note": "m22",
+            "sim": 0.775
+          },
+          {
+            "audience": "Pressure-Free Solo Players",
+            "hook_line": "Three quiet minutes, entirely yours.",
+            "angle": "Pitch the short level as a calm midday reset between tasks.",
+            "closest_note": "m01",
+            "sim": 0.813
+          }
+        ],
+        "max_sim": 0.813,
+        "mean_sim": 0.716,
+        "over_threshold": 0
+      },
+      {
+        "report": {
+          "retrieved": [
+            {
+              "id": "m01",
+              "sim": 0.662
+            },
+            {
+              "id": "m24",
+              "sim": 0.645
+            },
+            {
+              "id": "m09",
+              "sim": 0.632
+            },
+            {
+              "id": "m04",
+              "sim": 0.609
+            },
+            {
+              "id": "m05",
+              "sim": 0.601
+            },
+            {
+              "id": "m14",
+              "sim": 0.589
+            }
+          ],
+          "rounds": 1,
+          "max_sim_first": 0.799,
+          "max_sim_final": 0.799,
+          "over_threshold_final": 0,
+          "threshold": 0.99
+        },
+        "angles": [
+          {
+            "audience": "Offline Commuters",
+            "hook_line": "No signal? Your lanterns still glow.",
+            "angle": "Show that the game runs fully offline, so a tunnel or airplane mode never interrupts play.",
+            "closest_note": "m06",
+            "sim": 0.778
+          },
+          {
+            "audience": "Offline Commuters",
+            "hook_line": "One board fits between two stations.",
+            "angle": "Pitch a roughly 3-minute level as the right size for a gap between stops.",
+            "closest_note": "m02",
+            "sim": 0.799
+          },
+          {
+            "audience": "Offline Commuters",
+            "hook_line": "Free puzzle game. No Wi-Fi required.",
+            "angle": "Lead with free and offline together: download once and play anywhere, with no account needed to start.",
+            "closest_note": "m06",
+            "sim": 0.715
+          },
+          {
+            "audience": "Paper-Craft Cozy Seekers",
+            "hook_line": "Turn paper tiles. Thread the light.",
+            "angle": "Highlight the tactile feel of turning paper tiles to guide a thread of light.",
+            "closest_note": "m03",
+            "sim": 0.669
+          },
+          {
+            "audience": "Paper-Craft Cozy Seekers",
+            "hook_line": "Watch every lantern drift into the dusk.",
+            "angle": "Focus on the dusk visual payoff, with lanterns drifting upward once the board is connected.",
+            "closest_note": "m01",
+            "sim": 0.704
+          },
+          {
+            "audience": "Paper-Craft Cozy Seekers",
+            "hook_line": "A tiny paper world, lit one lantern at a time.",
+            "angle": "Present the game as a small handmade world with calm, cozy art and no realistic humans, just paper and light.",
+            "closest_note": "m05",
+            "sim": 0.66
+          },
+          {
+            "audience": "Chain-Reaction Payoff Chasers",
+            "hook_line": "One tap. A whole board lifts off.",
+            "angle": "Tease the cascade: one well-placed rotation can set off a chain that releases many lanterns.",
+            "closest_note": "m02",
+            "sim": 0.625
+          },
+          {
+            "audience": "Chain-Reaction Payoff Chasers",
+            "hook_line": "Plan the path. Enjoy the chain reaction.",
+            "angle": "Frame each level as a setup-and-payoff loop where careful routing leads to a rewarding chain reaction.",
+            "closest_note": "m02",
+            "sim": 0.616
+          },
+          {
+            "audience": "Chain-Reaction Payoff Chasers",
+            "hook_line": "Today's board hides a perfect chain reaction.",
+            "angle": "Invite players to chase the most satisfying release, with a new daily board offering a fresh cascade to discover.",
+            "closest_note": "m05",
+            "sim": 0.683
+          }
+        ],
+        "max_sim": 0.799,
+        "mean_sim": 0.694,
+        "over_threshold": 0
+      },
+      {
+        "report": {
+          "retrieved": [
+            {
+              "id": "m01",
+              "sim": 0.662
+            },
+            {
+              "id": "m24",
+              "sim": 0.645
+            },
+            {
+              "id": "m09",
+              "sim": 0.632
+            },
+            {
+              "id": "m04",
+              "sim": 0.609
+            },
+            {
+              "id": "m05",
+              "sim": 0.601
+            },
+            {
+              "id": "m14",
+              "sim": 0.589
+            }
+          ],
+          "rounds": 1,
+          "max_sim_first": 0.718,
+          "max_sim_final": 0.718,
+          "over_threshold_final": 0,
+          "threshold": 0.99
+        },
+        "angles": [
+          {
+            "audience": "Dead-Time Fillers",
+            "hook_line": "No signal? Your lanterns still glow.",
+            "angle": "Show that the game works in a no-signal spot like a tunnel or airplane cabin, with the puzzle still glowing on screen.",
+            "closest_note": "m24",
+            "sim": 0.712
+          },
+          {
+            "audience": "Dead-Time Fillers",
+            "hook_line": "One board. About 3 minutes. Perfect gap-filler.",
+            "angle": "Pitch one board as the right size for a short wait, such as a coffee brewing or a train between stops.",
+            "closest_note": "m01",
+            "sim": 0.718
+          },
+          {
+            "audience": "Dead-Time Fillers",
+            "hook_line": "Free, offline, and ready when you're stuck waiting.",
+            "angle": "Contrast the usual frustration of a dead phone connection with a free game that needs no Wi-Fi.",
+            "closest_note": "m06",
+            "sim": 0.712
+          },
+          {
+            "audience": "Cozy Aesthetes",
+            "hook_line": "Paper tiles, turning one tap at a time.",
+            "angle": "Open on a close-up of the paper tiles turning, selling the tactile, handmade look of the board.",
+            "closest_note": "m03",
+            "sim": 0.698
+          },
+          {
+            "audience": "Cozy Aesthetes",
+            "hook_line": "Watch the lanterns rise into the dusk.",
+            "angle": "Show the final payoff of lanterns floating up into a dusk sky as a scene worth watching on its own.",
+            "closest_note": "m01",
+            "sim": 0.612
+          },
+          {
+            "audience": "Cozy Aesthetes",
+            "hook_line": "A puzzle game that looks like folded paper.",
+            "angle": "Frame the game as a pretty, quiet thing that is also a little clever, appealing to people who like their games to look like illustrations.",
+            "closest_note": "m09",
+            "sim": 0.711
+          },
+          {
+            "audience": "Chain-Reaction Satisfaction Seekers",
+            "hook_line": "One last tap. Then everything lights up.",
+            "angle": "Build tension by showing a single final tile rotation that completes the circuit and triggers a cascade of lanterns.",
+            "closest_note": "m01",
+            "sim": 0.684
+          },
+          {
+            "audience": "Chain-Reaction Satisfaction Seekers",
+            "hook_line": "Chain reactions you'll want to replay.",
+            "angle": "Lead with the chain reaction itself, showing lanterns releasing one after another across the board.",
+            "closest_note": "m03",
+            "sim": 0.603
+          },
+          {
+            "audience": "Chain-Reaction Satisfaction Seekers",
+            "hook_line": "Connect every lantern. Feel it click.",
+            "angle": "Tease the satisfaction of routing light so that every lantern connects, and invite viewers to picture the moment it clicks.",
+            "closest_note": "m05",
+            "sim": 0.629
+          }
+        ],
+        "max_sim": 0.718,
+        "mean_sim": 0.675,
+        "over_threshold": 0
+      }
+    ]
+  },
+  "cost_usd": 0.1661
+}

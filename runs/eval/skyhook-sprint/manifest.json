@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "run_id": "skyhook-sprint",
+  "generated_at": "2026-10-24T02:13:30",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Skyhook Sprint",
+    "category": "One-thumb arcade puzzler (fictional)",
+    "pitch": "Swing a grapple between floating islands and flip switches in the right order to build a bridge, one thumb at a time.",
+    "mechanics": [
+      "Hold to swing the grapple",
+      "Release to jump between islands",
+      "Flip switches in the correct order to build a bridge",
+      "80 levels",
+      "Ghost replays of your best run"
+    ],
+    "art_style": "Crisp flat vector sky with bold outlines",
+    "tone": "Energetic and confident",
+    "palette": [
+      "#101820",
+      "#1E6FD9",
+      "#EAF4FF",
+      "#FFC93C"
+    ],
+    "style_tokens": [
+      "crisp flat vector",
+      "bold outlines",
+      "floating islands",
+      "open blue sky",
+      "bright sun accents",
+      "clean ink linework"
+    ],
+    "facts": [
+      "Core control is hold to swing and release to jump",
+      "The game uses one-thumb input",
+      "There are 80 levels",
+      "Players build bridges by flipping switches in the right order",
+      "Ghost replays show your best run",
+      "The art style is crisp flat vector sky with bold outlines",
+      "The palette is sky #1E6FD9, cloud #EAF4FF, sun #FFC93C, and ink #101820",
+      "The target audience is commuters who play with one hand"
+    ],
+    "not_true": [
+      "No online leaderboards at launch",
+      "No real-money prizes or payouts"
+    ],
+    "launch_goal": "Reach commuters who play with one hand by delivering a satisfying one-thumb puzzler with 80 levels and ghost replays at launch."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m14",
+        "sim": 0.735
+      },
+      {
+        "id": "m09",
+        "sim": 0.668
+      },
+      {
+        "id": "m04",
+        "sim": 0.647
+      },
+      {
+        "id": "m22",
+        "sim": 0.633
+      },
+      {
+        "id": "m01",
+        "sim": 0.632
+      },
+      {
+        "id": "m16",
+        "sim": 0.614
+      }
+    ],
+    "rounds": 2,
+    "max_sim_first": 0.902,
+    "max_sim_final": 0.742,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Dead-Time Commuters",
+      "audience_note": "Riders on trains and buses who want to turn travel time into a quick burst of fun. They are usually standing or holding a strap, so one-hand play suits their day.",
+      "angle": "Position the game as the thing that makes a commute feel like a sprint rather than dead time.",
+      "hook_line": "Turn your commute into a sky sprint.",
+      "copy": {
+        "meta": {
+          "headline": "Turn your commute into a sky sprint",
+          "text": "Hold to swing, release to jump. Flip switches in order to build bridges between floating islands. Play with one thumb.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Your commute, now a sky sprint",
+          "text": "Hold to swing, release to jump. Flip switches, build bridges, and sprint through your ride.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Sky sprint for your commute",
+          "text": "Hold to swing, release to jump. Build sky bridges with one thumb.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Dead-Time Commuters",
+      "audience_note": "Riders on trains and buses who want to turn travel time into a quick burst of fun. They are usually standing or holding a strap, so one-hand play suits their day.",
+      "angle": "Show the hold-to-swing, release-to-jump loop as a rhythm that fits in a packed carriage with one hand on the strap.",
+      "hook_line": "One hand on the strap. One swing to the next island.",
+      "copy": {
+        "meta": {
+          "headline": "One hand on the strap. One swing.",
+          "text": "Hold to swing. Release to jump. It is a simple rhythm that works in a packed carriage with one thumb.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "One hand on the strap. Swing.",
+          "text": "Hold to swing, release to jump. Hop island to island with your other hand on the strap.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "One-thumb sky swinging",
+          "text": "Hold to swing, release to jump. Easy to play with one hand on the strap.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Dead-Time Commuters",
+      "audience_note": "Riders on trains and buses who want to turn travel time into a quick burst of fun. They are usually standing or holding a strap, so one-hand play suits their day.",
+      "angle": "Highlight the 80 levels as a long run of stops you can ride through, one island at a time.",
+      "hook_line": "80 levels. Plenty to ride through.",
+      "copy": {
+        "meta": {
+          "headline": "80 levels. Plenty to ride through.",
+          "text": "Swing between floating islands and flip switches to build bridges across 80 levels. Race the ghost of your best run.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "80 levels to ride through",
+          "text": "Hold to swing, release to jump, flip switches, build bridges. 80 levels, one thumb.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "80 levels of sky bridges",
+          "text": "Swing between islands, flip switches in order, and build bridges across 80 levels.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Personal-Best Chasers",
+      "audience_note": "Players motivated by beating their own record instead of other people. They enjoy replaying a level to tighten a run, and ghost replays give them a clear target.",
+      "angle": "Treat the 80 levels as a set of personal benchmarks to revisit, tightening the swing-and-switch route each time you return.",
+      "hook_line": "80 levels. Make every run cleaner.",
+      "copy": {
+        "meta": {
+          "headline": "80 levels. Make every run cleaner.",
+          "text": "Swing, release, flip switches in order, build the bridge. Then come back and tighten your route. One thumb is enough.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "80 levels. Run them cleaner.",
+          "text": "Hold to swing, release to jump, flip switches in order. Revisit 80 levels and tighten each run.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Make every run cleaner",
+          "text": "Swing, jump, flip switches in order. Tighten your route across 80 levels.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Personal-Best Chasers",
+      "audience_note": "Players motivated by beating their own record instead of other people. They enjoy replaying a level to tighten a run, and ghost replays give them a clear target.",
+      "angle": "Frame improvement as a duel with yesterday's you, using the ghost as the opponent.",
+      "hook_line": "Your toughest rival is you, yesterday.",
+      "copy": {
+        "meta": {
+          "headline": "Your toughest rival is you, yesterday.",
+          "text": "Race the ghost of your best run. Hold to swing, release to jump, and beat the run you set before.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Your rival is you, yesterday.",
+          "text": "Your ghost replays your best run. Hold, release, and swing past it. One thumb.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Beat yesterday's you",
+          "text": "Chase your own ghost across 80 levels. Hold to swing, release to jump.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Personal-Best Chasers",
+      "audience_note": "Players motivated by beating their own record instead of other people. They enjoy replaying a level to tighten a run, and ghost replays give them a clear target.",
+      "angle": "Show the loop of watching your best run, spotting the slack, and swinging it tighter.",
+      "hook_line": "Watch your best run. Then beat it.",
+      "copy": {
+        "meta": {
+          "headline": "Watch your best run. Then beat it.",
+          "text": "Watch the ghost, spot the slack, then swing it tighter. Flip switches in order and build the bridge faster.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Watch your best run. Beat it.",
+          "text": "Spot the slack in your ghost run, then swing it tighter. One thumb. 80 levels.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Watch your best. Beat it.",
+          "text": "Study your ghost replay, find the slack, swing it tighter. One thumb is all it takes.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Bold-Art Aesthetes",
+      "audience_note": "Players who pick games for their look and feel, and who are drawn to clean, confident visual design. The crisp vector sky, bold outlines and sunny palette are what catch their eye.",
+      "angle": "Lead with the crisp flat vector sky as the world you swing through.",
+      "hook_line": "Crisp vector skies, made for swinging.",
+      "copy": {
+        "meta": {
+          "headline": "Crisp vector skies, made for swinging.",
+          "text": "Swing a grapple through a flat vector sky with bold outlines. Hold, release, and build bridges with one thumb.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Crisp vector skies to swing",
+          "text": "Hold to swing, release to jump. Flat vector sky, bold outlines, 80 levels, one thumb.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Swing Through Vector Skies",
+          "text": "Hold to swing, release to jump. Crisp vector art, bold outlines, 80 levels.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Bold-Art Aesthetes",
+      "audience_note": "Players who pick games for their look and feel, and who are drawn to clean, confident visual design. The crisp vector sky, bold outlines and sunny palette are what catch their eye.",
+      "angle": "Spotlight the palette of sky blue, cloud white, and sun yellow against deep ink outlines.",
+      "hook_line": "Sky blue, sun yellow, bold ink outlines.",
+      "copy": {
+        "meta": {
+          "headline": "Sky blue, sun yellow, bold ink outlines.",
+          "text": "Sky blue, cloud white and sun yellow, framed in ink. Swing between islands and flip switches to build bridges.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Sky blue and sun yellow",
+          "text": "Bold ink outlines on a sunny sky. Hold to swing, release to jump, build the bridge.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Sky Blue, Sun Yellow, Ink",
+          "text": "Bold ink outlines, a sunny palette and one-thumb swinging across 80 levels.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Bold-Art Aesthetes",
+      "audience_note": "Players who pick games for their look and feel, and who are drawn to clean, confident visual design. The crisp vector sky, bold outlines and sunny palette are what catch their eye.",
+      "angle": "Pair the confident art style with the satisfying moment a bridge snaps into place between islands.",
+      "hook_line": "Bold outlines. Big sky. One bridge to build.",
+      "copy": {
+        "meta": {
+          "headline": "Bold outlines. Big sky. One bridge.",
+          "text": "Flip the switches in the right order and watch the bridge snap into place. Hold to swing, release to jump.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Big sky. One bridge to build.",
+          "text": "Flip switches in order and the bridge snaps into place. Hold to swing, release to jump.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Bold Outlines, Big Sky",
+          "text": "Flip switches in order, build the bridge. Hold to swing, release to jump.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 4.4,
+      "usd": 0.0054
+    },
+    {
+      "step": "angles",
+      "seconds": 28.7,
+      "usd": 0.0614
+    },
+    {
+      "step": "copy",
+      "seconds": 67.6,
+      "usd": 0.1641
+    }
+  ],
+  "cost": {
+    "usd": 0.2309,
+    "calls": 6,
+    "tokens_in": 5768,
+    "tokens_out": 14954
+  }
+}

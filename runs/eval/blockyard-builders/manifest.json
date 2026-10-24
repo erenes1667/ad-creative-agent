@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "run_id": "blockyard-builders",
+  "generated_at": "2026-10-24T02:13:08",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Blockyard Builders",
+    "category": "Physics puzzle (casual, fictional demo)",
+    "pitch": "Stack wobbly blocks with drag-and-drop precision to keep a tiny crane operator's lunch from tumbling off the site.",
+    "mechanics": [
+      "Drag and drop blocks to build stacks",
+      "Realistic-feeling physics governs balance, wobble, and collapse",
+      "120 levels",
+      "Daily challenge"
+    ],
+    "art_style": "Chunky, toy-like 3D with saturated primary colors",
+    "tone": "Funny and slightly absurd",
+    "palette": [
+      "#0E1A3A",
+      "#2457D6",
+      "#FFFFFF",
+      "#FFD21F"
+    ],
+    "style_tokens": [
+      "chunky toy-like 3D",
+      "saturated primary colors",
+      "wobbly stacked blocks",
+      "tiny crane operator",
+      "absurd lunchbox peril"
+    ],
+    "facts": [
+      "Players drag and drop blocks to build stacks.",
+      "Physics feels realistic, so stacks wobble and can collapse.",
+      "The game has 120 levels.",
+      "The game includes a daily challenge.",
+      "The art style is chunky, toy-like 3D with saturated primary colors.",
+      "The palette uses yellow #FFD21F, blue #2457D6, red #E5322D, and white #FFFFFF.",
+      "The tone is funny and slightly absurd.",
+      "The premise is stacking blocks to keep a tiny crane operator's lunch from falling."
+    ],
+    "not_true": [
+      "No multiplayer",
+      "No real-money rewards",
+      "Not a photorealistic game (the art is chunky and toy-like)"
+    ],
+    "launch_goal": "Reach casual players who share clips of funny stacking failures with friends."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m16",
+        "sim": 0.705
+      },
+      {
+        "id": "m09",
+        "sim": 0.698
+      },
+      {
+        "id": "m04",
+        "sim": 0.689
+      },
+      {
+        "id": "m11",
+        "sim": 0.654
+      },
+      {
+        "id": "m01",
+        "sim": 0.616
+      },
+      {
+        "id": "m02",
+        "sim": 0.613
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.772,
+    "max_sim_final": 0.772,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Daily-ritual players",
+      "audience_note": "People who like a small recurring game habit, such as a daily puzzle with their coffee or a lunch break. They value a reason to come back each day more than a huge backlog of content. The daily challenge is the draw.",
+      "angle": "Frame the daily challenge as a fresh, recurring emergency: the crane operator's lunch is in danger again today.",
+      "hook_line": "Today's lunch needs saving. Again.",
+      "copy": {
+        "meta": {
+          "headline": "Today's lunch needs saving. Again.",
+          "text": "A new daily challenge is up. Stack wobbly blocks and keep the crane operator's lunch off the ground.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Today's lunch needs saving.",
+          "text": "New daily challenge. Drag, drop and stack blocks so the crane operator's lunch stays up.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Save the lunch. Again.",
+          "text": "A new daily block-stacking challenge. Keep the crane operator's lunch from falling.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Daily-ritual players",
+      "audience_note": "People who like a small recurring game habit, such as a daily puzzle with their coffee or a lunch break. They value a reason to come back each day more than a huge backlog of content. The daily challenge is the draw.",
+      "angle": "Position the daily challenge as a silly little ritual to pair with your morning coffee.",
+      "hook_line": "Your daily dose of wobbly block stacking.",
+      "copy": {
+        "meta": {
+          "headline": "Your daily dose of wobbly blocks.",
+          "text": "Pour a coffee, stack some blocks, save a tiny lunch. A new daily challenge is waiting.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Daily wobbly block stacking",
+          "text": "Pair it with your coffee. One new daily challenge, one tiny crane operator's lunch to save.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "A daily dose of wobbly blocks",
+          "text": "Drag and drop blocks with your morning coffee. A new daily challenge is waiting.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Daily-ritual players",
+      "audience_note": "People who like a small recurring game habit, such as a daily puzzle with their coffee or a lunch break. They value a reason to come back each day more than a huge backlog of content. The daily challenge is the draw.",
+      "angle": "Play on the running joke that the operator is always hungry, so there's always a new challenge waiting.",
+      "hook_line": "He's hungry again. New challenge inside.",
+      "copy": {
+        "meta": {
+          "headline": "He's hungry again. New challenge.",
+          "text": "The crane operator is hungry again, so there's a new daily challenge. Stack carefully. Lunch is on the line.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "He's hungry again.",
+          "text": "New daily challenge: stack the blocks, save the crane operator's lunch. He'll be hungry tomorrow.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "He's hungry again.",
+          "text": "New daily challenge. Stack wobbly blocks and keep the crane operator's lunch safe.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Level-clearing completionists",
+      "audience_note": "Players who want to work through a full set of levels and feel their skill grow. They are motivated by mastery and progress, and they like a big, finite goal. The 120 levels and the physics that rewards careful stacking appeal to them.",
+      "angle": "Use the 120-level count as a big, funny quest standing between one worker and his meal.",
+      "hook_line": "120 levels stand between him and lunch.",
+      "copy": {
+        "meta": {
+          "headline": "120 Levels Stand Between Him and Lunch",
+          "text": "A tiny crane operator is hungry. Stack wobbly blocks, clear all 120 levels, and keep his lunch off the ground.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "120 Levels Until Lunch",
+          "text": "Drag and drop wobbly blocks to save a tiny crane operator's lunch. Clear all 120 levels.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "120 Levels to Save Lunch",
+          "text": "Stack wobbly blocks across 120 levels to keep a tiny crane operator's lunch safe.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Level-clearing completionists",
+      "audience_note": "Players who want to work through a full set of levels and feel their skill grow. They are motivated by mastery and progress, and they like a big, finite goal. The 120 levels and the physics that rewards careful stacking appeal to them.",
+      "angle": "Appeal to mastery: the physics is realistic, so players who learn to read the wobble get better.",
+      "hook_line": "Learn to read the wobble. Then beat it.",
+      "copy": {
+        "meta": {
+          "headline": "Learn to Read the Wobble. Then Beat It.",
+          "text": "The physics feels real, so stacks wobble and fall. Watch closely, stack with care, and get better through 120 levels.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Read the Wobble. Beat It.",
+          "text": "Realistic physics means stacks wobble and fall. Learn the sway and climb 120 levels.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Read the Wobble. Beat It.",
+          "text": "Stack blocks with care. Learn how the wobble works and improve over 120 levels.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Level-clearing completionists",
+      "audience_note": "Players who want to work through a full set of levels and feel their skill grow. They are motivated by mastery and progress, and they like a big, finite goal. The 120 levels and the physics that rewards careful stacking appeal to them.",
+      "angle": "Challenge players to prove their consistency across the entire level set.",
+      "hook_line": "Can you save lunch 120 times?",
+      "copy": {
+        "meta": {
+          "headline": "Can You Save Lunch 120 Times?",
+          "text": "Every level, a tiny crane operator's lunch is on the line. Drag, drop, and stack through all 120. Daily challenge too.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Save Lunch 120 Times?",
+          "text": "Drag and drop blocks to rescue one tiny lunch, level after level. Plus a daily challenge.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Save Lunch 120 Times?",
+          "text": "Can you stack steady through 120 levels? Plus a daily challenge to keep you sharp.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Toy-box charm seekers",
+      "audience_note": "Players drawn to playful visuals and absurd humor more than to difficulty. They want something bright, tactile, and funny to unwind with. The chunky toy-like 3D art, the primary-color palette, and the ridiculous premise are the draw.",
+      "angle": "Lead with the tactile, toy-like look of the blocks and set it against the absurdly high stakes.",
+      "hook_line": "Chunky toy blocks. Dangerously important lunch.",
+      "copy": {
+        "meta": {
+          "headline": "Chunky blocks. Very important lunch.",
+          "text": "Chunky toy blocks. Dangerously important lunch. Stack your way through 120 levels and keep it off the ground.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Chunky blocks, risky lunch.",
+          "text": "Chunky toy blocks. Dangerously important lunch. Drag, drop, and stack through 120 levels.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Toy Blocks, Serious Lunch",
+          "text": "Chunky toy blocks. Dangerously important lunch. Stack 120 levels of wobbly blocks.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Toy-box charm seekers",
+      "audience_note": "Players drawn to playful visuals and absurd humor more than to difficulty. They want something bright, tactile, and funny to unwind with. The chunky toy-like 3D art, the primary-color palette, and the ridiculous premise are the draw.",
+      "angle": "Describe the core loop as a comic mix of confidence and hope: drag, drop, and wait for the wobble.",
+      "hook_line": "Drag. Drop. Hope. Repeat.",
+      "copy": {
+        "meta": {
+          "headline": "Drag. Drop. Hope. Repeat.",
+          "text": "Drag a block, drop it, wait for the wobble. Keep a tiny operator's lunch up there. 120 levels and a daily challenge.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Drag. Drop. Hope. Repeat.",
+          "text": "Drag, drop, then wait for the wobble. Save a tiny operator's lunch across 120 levels.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Drag. Drop. Hope. Repeat.",
+          "text": "Drag, drop, and wait for the wobble. Daily challenge and 120 levels of lunch defense.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Toy-box charm seekers",
+      "audience_note": "Players drawn to playful visuals and absurd humor more than to difficulty. They want something bright, tactile, and funny to unwind with. The chunky toy-like 3D art, the primary-color palette, and the ridiculous premise are the draw.",
+      "angle": "Highlight the contrast between the tiny crane operator and the huge worry over his lunch.",
+      "hook_line": "Tiny operator. Enormous lunch anxiety.",
+      "copy": {
+        "meta": {
+          "headline": "Tiny operator. Enormous lunch worry.",
+          "text": "One tiny crane operator. One huge lunch worry. Stack wobbly blocks and keep his lunch off the ground.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Tiny operator, big lunch fear",
+          "text": "A tiny operator. An enormous lunch worry. Stack wobbly blocks to save it.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Save a Tiny Operator's Lunch",
+          "text": "Tiny operator, enormous lunch worry. Stack wobbly blocks across 120 levels.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 6.8,
+      "usd": 0.0065
+    },
+    {
+      "step": "angles",
+      "seconds": 15.3,
+      "usd": 0.0293
+    },
+    {
+      "step": "copy",
+      "seconds": 54.0,
+      "usd": 0.1436
+    }
+  ],
+  "cost": {
+    "usd": 0.1794,
+    "calls": 5,
+    "tokens_in": 4338,
+    "tokens_out": 11958
+  }
+}

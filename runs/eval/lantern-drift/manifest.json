@@ -1,0 +1,393 @@
+{
+  "version": 1,
+  "run_id": "lantern-drift",
+  "generated_at": "2026-10-24T02:11:39",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Lantern Drift",
+    "category": "Casual puzzle (mobile, iOS and Android)",
+    "pitch": "Rotate paper tiles to link a thread of light across the board, then watch every lantern float up into the dusk.",
+    "mechanics": [
+      "Tap a tile to rotate it and connect light paths",
+      "Link every lantern on the board with one continuous thread of light",
+      "Chain reactions release lanterns that float upward",
+      "Levels run about 3 minutes each",
+      "A new daily board is available every day"
+    ],
+    "art_style": "Warm paper-cut dusk with layered paper, soft grain, and no realistic humans",
+    "tone": "Calm, cozy, and a little clever",
+    "palette": [
+      "#1B1F4B",
+      "#FFB547",
+      "#FFF1D6",
+      "#E8556D"
+    ],
+    "style_tokens": [
+      "layered paper-cut shapes",
+      "soft paper grain texture",
+      "warm amber glow",
+      "indigo dusk sky",
+      "floating paper lanterns",
+      "no realistic human figures"
+    ],
+    "facts": [
+      "Free to play",
+      "Works offline",
+      "No timers on levels",
+      "No multiplayer",
+      "Levels take about 3 minutes",
+      "New daily board",
+      "Available on iOS and Android",
+      "Global soft launch"
+    ],
+    "not_true": [
+      "Does not offer real-money prizes or rewards",
+      "Has no chat",
+      "Has no combat mode",
+      "Has no multiplayer",
+      "Has no level timers",
+      "Does not use realistic humans in its art"
+    ],
+    "launch_goal": "Drive installs from casual puzzle players through Meta, TikTok, and Google UAC during the global soft launch."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m01",
+        "sim": 0.669
+      },
+      {
+        "id": "m24",
+        "sim": 0.642
+      },
+      {
+        "id": "m09",
+        "sim": 0.641
+      },
+      {
+        "id": "m04",
+        "sim": 0.618
+      },
+      {
+        "id": "m05",
+        "sim": 0.604
+      },
+      {
+        "id": "m16",
+        "sim": 0.595
+      }
+    ],
+    "rounds": 2,
+    "max_sim_first": 0.812,
+    "max_sim_final": 0.76,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Offline Commuters and Travelers",
+      "audience_note": "Players who want a satisfying mental break in dead-time moments such as trains, flights, waiting rooms, and spotty-signal spots. They value a game that works anywhere and fits into short gaps.",
+      "angle": "Show that the tap-only controls (just tap a tile to rotate it) are easy to play while standing, holding a strap, or on a bumpy ride.",
+      "hook_line": "Just tap a tile. Even on a bumpy ride.",
+      "copy": {
+        "meta": {
+          "headline": "Just tap a tile. Even on a bumpy ride.",
+          "text": "One tap rotates a tile. Link the light, free the lanterns. Plays offline, no timers, about 3 minutes a level.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "One tap. Even on bumpy rides.",
+          "text": "Tap a tile to rotate it and link the light. Works offline, so it rides along anywhere.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Tap a tile. Link the light.",
+          "text": "Rotate tiles with one tap. Works offline, with no timers on any level.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Offline Commuters and Travelers",
+      "audience_note": "Players who want a satisfying mental break in dead-time moments such as trains, flights, waiting rooms, and spotty-signal spots. They value a game that works anywhere and fits into short gaps.",
+      "angle": "Offer a calm, cozy bubble of quiet puzzling in the middle of a loud, crowded carriage or station.",
+      "hook_line": "A calm corner in a crowded carriage",
+      "copy": {
+        "meta": {
+          "headline": "A calm corner in a crowded carriage",
+          "text": "Quiet, cozy puzzles for loud stations and packed trains. Free to play, works offline, no timers.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "A calm corner in the crowd",
+          "text": "Cozy tile puzzles for loud, packed rides. No timers, no multiplayer, works offline.",
+          "cta": "Install Now"
+        },
+        "google_uac": {
+          "headline": "A calm corner on your commute",
+          "text": "Cozy light puzzles that work offline. No timers, so there is no rush.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Offline Commuters and Travelers",
+      "audience_note": "Players who want a satisfying mental break in dead-time moments such as trains, flights, waiting rooms, and spotty-signal spots. They value a game that works anywhere and fits into short gaps.",
+      "angle": "Turn a dull, gray commute into a small glowing moment by ending each level with lanterns rising into the dusk.",
+      "hook_line": "Turn a gray commute into lantern light",
+      "copy": {
+        "meta": {
+          "headline": "Turn a gray commute into lantern light",
+          "text": "Link the thread of light and watch every lantern float up into the dusk. Free to play. Works offline.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Gray commute, lantern light",
+          "text": "Link the light, then watch lanterns rise into the dusk. About 3 minutes a level, offline.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Light up a gray commute",
+          "text": "Link the light, then watch lanterns float up. Free to play and works offline.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Cozy Aesthetic Seekers",
+      "audience_note": "Players drawn to handcrafted visuals and gentle mood, who download games for how they look and feel. They want a pretty, soothing reward in every session.",
+      "angle": "Spotlight the payoff moment where connected lanterns drift up into the dusk sky.",
+      "hook_line": "Watch every lantern float into the dusk",
+      "copy": {
+        "meta": {
+          "headline": "Watch every lantern float into the dusk",
+          "text": "Link every lantern with one thread of light, then watch them rise. Free to play, works offline, no timers.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Lanterns drift into the dusk",
+          "text": "Link every lantern with one thread of light, then watch them rise. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Lanterns float into the dusk",
+          "text": "Link every lantern, then watch them rise into the dusk. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Cozy Aesthetic Seekers",
+      "audience_note": "Players drawn to handcrafted visuals and gentle mood, who download games for how they look and feel. They want a pretty, soothing reward in every session.",
+      "angle": "Highlight the paper-tile craft look, with tiles that turn with each tap.",
+      "hook_line": "Tiny paper tiles. One thread of light.",
+      "copy": {
+        "meta": {
+          "headline": "Tiny paper tiles. One thread of light.",
+          "text": "Tap a paper tile to turn it and guide the light. A soft paper look, about 3 minutes a level.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Paper tiles, one light thread",
+          "text": "Tap a paper tile to turn it and guide the light. About 3 minutes a level.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Tiny paper tiles, one thread",
+          "text": "Turn paper tiles to guide a thread of light. Free to play, works offline.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Cozy Aesthetic Seekers",
+      "audience_note": "Players drawn to handcrafted visuals and gentle mood, who download games for how they look and feel. They want a pretty, soothing reward in every session.",
+      "angle": "Present the chain reaction as a visual reward, with one link setting off the next.",
+      "hook_line": "One last tap lights up the whole sky",
+      "copy": {
+        "meta": {
+          "headline": "One last tap lights up the whole sky",
+          "text": "Each link sets off the next, and the lanterns drift up. Play at your pace, with no timers.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "One last tap lights the sky",
+          "text": "Each link sets off the next, and the lanterns drift up. No timers.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "One last tap lights the sky",
+          "text": "Each link sets off the next until the sky fills with lanterns. No timers.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Pressure-Free Escapists",
+      "audience_note": "Players tired of noisy, competitive apps who want a quiet game with no opponents or social demands. Their motivation is to switch off the outside world, not to win.",
+      "angle": "Contrast the game with chat-heavy, combat-driven mobile games by stressing there is nothing to fight or answer.",
+      "hook_line": "No chat. No combat. Just light.",
+      "copy": {
+        "meta": {
+          "headline": "No chat. No combat. Just light.",
+          "text": "Rotate paper tiles, link a thread of light, and let the lanterns float up into the dusk. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "No chat. No combat. Just light",
+          "text": "Turn paper tiles to link a thread of light. Lanterns float up when you finish. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "No chat. No combat. Just light",
+          "text": "Link a thread of light across paper tiles and watch lanterns rise. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Pressure-Free Escapists",
+      "audience_note": "Players tired of noisy, competitive apps who want a quiet game with no opponents or social demands. Their motivation is to switch off the outside world, not to win.",
+      "angle": "Stress that there is nobody to beat, so players solve at their own pace.",
+      "hook_line": "Nobody to beat. Just a thread to follow.",
+      "copy": {
+        "meta": {
+          "headline": "Nobody to beat. Just a thread to follow.",
+          "text": "No timers, no opponents. Rotate tiles at your own pace, about 3 minutes a level, and light every lantern.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Nobody to beat. Just a thread.",
+          "text": "No timers, no opponents. Rotate tiles at your pace and light every lantern.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Nobody to beat. Just a thread.",
+          "text": "No timers and no opponents. Solve each board in about 3 minutes, your way.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Pressure-Free Escapists",
+      "audience_note": "Players tired of noisy, competitive apps who want a quiet game with no opponents or social demands. Their motivation is to switch off the outside world, not to win.",
+      "angle": "Offer the game as a quiet corner of the phone, free to download and easy to return to.",
+      "hook_line": "The quietest game on your phone",
+      "copy": {
+        "meta": {
+          "headline": "The quietest game on your phone",
+          "text": "Free to play, works offline, no timers. Open it whenever you want a calm few minutes with paper lanterns.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "A quiet corner of your phone",
+          "text": "Free, works offline, no timers. Open it for a calm few minutes and light the lanterns.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "A quiet corner of your phone",
+          "text": "Free to play and works offline. No timers. Light the lanterns at your own pace.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 6.9,
+      "usd": 0.0093
+    },
+    {
+      "step": "angles",
+      "seconds": 26.5,
+      "usd": 0.0547
+    },
+    {
+      "step": "copy",
+      "seconds": 60.0,
+      "usd": 0.1451
+    }
+  ],
+  "cost": {
+    "usd": 0.2091,
+    "calls": 7,
+    "tokens_in": 6434,
+    "tokens_out": 13889
+  }
+}

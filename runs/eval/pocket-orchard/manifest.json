@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "run_id": "pocket-orchard",
+  "generated_at": "2026-10-24T02:13:18",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Pocket Orchard",
+    "category": "Idle-puzzle hybrid (fictional, portfolio demo)",
+    "pitch": "Merge fruit seeds into bigger trees and solve small crate puzzles to unlock new orchard plots in a gentle, storybook idle-puzzle game.",
+    "mechanics": [
+      "Merge matching fruit seeds into larger, more developed trees",
+      "Solve small crate puzzles to earn progress",
+      "Unlock new orchard plots by completing puzzles",
+      "Idle growth continues between sessions",
+      "Progress saves to the cloud across sessions"
+    ],
+    "art_style": "Storybook illustration with warm greens and reds, soft hand-painted textures, and a cozy orchard feel",
+    "tone": "Gentle and rewarding",
+    "palette": [
+      "#3B2A20",
+      "#4FAE5B",
+      "#FBF3E4",
+      "#E23B3B"
+    ],
+    "style_tokens": [
+      "storybook illustration",
+      "warm greens and reds",
+      "hand-painted foliage",
+      "cozy orchard",
+      "soft linen backgrounds"
+    ],
+    "facts": [
+      "Progress saves to the cloud",
+      "10-minute sessions work well",
+      "Core loop is merging fruit seeds into bigger trees",
+      "Core loop includes solving small crate puzzles to unlock orchard plots",
+      "Palette uses bark #3B2A20, leaf #4FAE5B, apple #E23B3B, and linen #FBF3E4",
+      "Product is fictional and invented for a portfolio demo"
+    ],
+    "not_true": [
+      "No real-money payouts",
+      "No countdown pressure",
+      "No real-money rewards of any kind",
+      "Does not reference real brands"
+    ],
+    "launch_goal": "Attract players who enjoy short daily sessions"
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m13",
+        "sim": 0.792
+      },
+      {
+        "id": "m09",
+        "sim": 0.677
+      },
+      {
+        "id": "m04",
+        "sim": 0.648
+      },
+      {
+        "id": "m05",
+        "sim": 0.614
+      },
+      {
+        "id": "m11",
+        "sim": 0.593
+      },
+      {
+        "id": "m08",
+        "sim": 0.589
+      }
+    ],
+    "rounds": 2,
+    "max_sim_first": 0.819,
+    "max_sim_final": 0.749,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Short-session commuters",
+      "audience_note": "Players who squeeze games into transit, lunch breaks, or waiting rooms. They want a satisfying loop that fits a small window and never punishes them for stepping away. Motivation: efficient, low-stress use of spare minutes.",
+      "angle": "A full, satisfying session fits in about 10 minutes, so it suits a coffee break.",
+      "hook_line": "Ten minutes. One orchard plot unlocked.",
+      "copy": {
+        "meta": {
+          "headline": "Ten minutes. One orchard plot unlocked.",
+          "text": "Merge fruit seeds into bigger trees and solve small crate puzzles. A gentle session fits your coffee break.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Ten minutes, one new plot",
+          "text": "Merge seeds into trees, solve crate puzzles, unlock plots. Fits a 10-minute break.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "A full session in ten minutes",
+          "text": "Merge seeds, solve crate puzzles, unlock orchard plots in 10 minutes.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Short-session commuters",
+      "audience_note": "Players who squeeze games into transit, lunch breaks, or waiting rooms. They want a satisfying loop that fits a small window and never punishes them for stepping away. Motivation: efficient, low-stress use of spare minutes.",
+      "angle": "Idle growth keeps working while the player is away, so returning always feels like a small gift waiting.",
+      "hook_line": "Your trees kept growing while you were gone.",
+      "copy": {
+        "meta": {
+          "headline": "Your trees kept growing without you",
+          "text": "Idle growth continues between sessions, so coming back feels like a small gift. Merge seeds into bigger trees.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Your trees kept growing",
+          "text": "Step away whenever. Idle growth keeps going, and a small reward waits when you return.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Trees grow while you're away",
+          "text": "Idle growth continues while you're away. Merge seeds into bigger trees.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Short-session commuters",
+      "audience_note": "Players who squeeze games into transit, lunch breaks, or waiting rooms. They want a satisfying loop that fits a small window and never punishes them for stepping away. Motivation: efficient, low-stress use of spare minutes.",
+      "angle": "Cloud saves mean a player can pick up on a different device without losing any progress.",
+      "hook_line": "Start on your commute, continue anywhere.",
+      "copy": {
+        "meta": {
+          "headline": "Start on your commute, play anywhere",
+          "text": "Progress saves to the cloud, so you can continue on another device. Merge fruit seeds into bigger trees.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Pick up on any device",
+          "text": "Merge seeds into bigger trees. Progress saves to the cloud, so you never start over.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Cloud saves across devices",
+          "text": "Merge seeds into trees. Cloud saves keep your progress.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Cozy storybook lovers",
+      "audience_note": "Players drawn to soft visuals, warm color, and calm pacing. They choose games as a way to unwind and enjoy a pleasant aesthetic. Motivation: comfort and atmosphere over competition.",
+      "angle": "Showcase the warm palette of bark brown, leaf green, apple red, and linen cream as a visual comfort.",
+      "hook_line": "Linen, leaf, and apple red. Pure calm.",
+      "copy": {
+        "meta": {
+          "headline": "Linen, leaf, and apple red. Pure calm.",
+          "text": "Merge fruit seeds into trees and solve crate puzzles in a warm, soft orchard. Ten minutes is plenty.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Linen, leaf, and apple red.",
+          "text": "Merge fruit seeds into trees and solve crate puzzles in a warm, soft orchard.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Linen, leaf, and apple red.",
+          "text": "Merge seeds into trees and solve crate puzzles in a soft, warm orchard.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Cozy storybook lovers",
+      "audience_note": "Players drawn to soft visuals, warm color, and calm pacing. They choose games as a way to unwind and enjoy a pleasant aesthetic. Motivation: comfort and atmosphere over competition.",
+      "angle": "Position the game as a gentle storybook world where nothing rushes you and every action is rewarded.",
+      "hook_line": "A storybook orchard where nothing is ever rushed.",
+      "copy": {
+        "meta": {
+          "headline": "A storybook orchard, never rushed.",
+          "text": "Growth continues while you're away. Merge seeds, solve crate puzzles, and unlock new plots at your own pace.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "No rush in this orchard.",
+          "text": "Merge seeds, solve crate puzzles, and unlock new plots at your own pace. No countdowns.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "A storybook orchard, no rush",
+          "text": "Merge seeds, solve crate puzzles, and unlock plots at your own pace.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Cozy storybook lovers",
+      "audience_note": "Players drawn to soft visuals, warm color, and calm pacing. They choose games as a way to unwind and enjoy a pleasant aesthetic. Motivation: comfort and atmosphere over competition.",
+      "angle": "Highlight the moment a tiny seed becomes a developed tree as a quiet, rewarding payoff.",
+      "hook_line": "Watch a tiny seed become a towering tree.",
+      "copy": {
+        "meta": {
+          "headline": "Watch a tiny seed become a big tree.",
+          "text": "Merge matching fruit seeds into bigger, more developed trees. A quiet payoff, even in 10 minutes.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "A tiny seed becomes a tree.",
+          "text": "Merge matching fruit seeds into bigger trees. A quiet payoff, even in 10 minutes.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Watch a seed become a tree.",
+          "text": "Merge matching seeds into bigger trees. A quiet payoff in 10 minutes.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Progress collectors",
+      "audience_note": "Players who love seeing a map or collection expand and enjoy unlocking new areas. They are motivated by visible growth and the sense of building something larger over time, not by competition or risk.",
+      "angle": "Each solved crate puzzle opens a new orchard plot, giving every small win a visible, tangible reward.",
+      "hook_line": "Solve one crate. Unlock a whole new plot.",
+      "copy": {
+        "meta": {
+          "headline": "Solve one crate. Unlock a new plot.",
+          "text": "Merge fruit seeds into bigger trees, then solve a small crate puzzle to open a new orchard plot. Watch it grow.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Solve a crate, unlock a plot",
+          "text": "Merge seeds into bigger trees. Solve small crate puzzles to open new orchard plots.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Solve crates, unlock plots",
+          "text": "Merge seeds into bigger trees. Solve crate puzzles to open new orchard plots.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Progress collectors",
+      "audience_note": "Players who love seeing a map or collection expand and enjoy unlocking new areas. They are motivated by visible growth and the sense of building something larger over time, not by competition or risk.",
+      "angle": "Because progress saves to the cloud, a collector can treat the orchard as one long-term project that every session adds to, rather than something that resets.",
+      "hook_line": "One orchard. Every session adds to it.",
+      "copy": {
+        "meta": {
+          "headline": "One orchard. Every session adds to it.",
+          "text": "Your progress saves to the cloud, so your orchard keeps growing. Merge seeds, solve crates, unlock plots.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "One orchard to keep growing",
+          "text": "Progress saves to the cloud. Merge seeds, solve crates, and add to your orchard each session.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "One orchard, every session",
+          "text": "Progress saves to the cloud. Every session adds to your growing orchard.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Progress collectors",
+      "audience_note": "Players who love seeing a map or collection expand and enjoy unlocking new areas. They are motivated by visible growth and the sense of building something larger over time, not by competition or risk.",
+      "angle": "Show the before-and-after of a single orchard, from a lone starting plot to a sprawling, many-plot patchwork, as a keepsake of effort.",
+      "hook_line": "From one bare plot to a full orchard.",
+      "copy": {
+        "meta": {
+          "headline": "From one bare plot to a full orchard.",
+          "text": "Start with one plot. Merge seeds, solve crate puzzles, and unlock more until your orchard fills the map.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "One plot to a full orchard",
+          "text": "Start with one plot. Merge seeds, solve crates, and unlock more plots to grow your orchard.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "From one plot to many",
+          "text": "Start with one plot. Merge seeds, solve crates, and unlock more plots as you go.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 5.7,
+      "usd": 0.0063
+    },
+    {
+      "step": "angles",
+      "seconds": 21.4,
+      "usd": 0.0476
+    },
+    {
+      "step": "copy",
+      "seconds": 65.0,
+      "usd": 0.1613
+    }
+  ],
+  "cost": {
+    "usd": 0.2152,
+    "calls": 6,
+    "tokens_in": 6242,
+    "tokens_out": 13944
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "run_id": "quillcards",
+  "generated_at": "2026-10-24T02:15:20",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "QuillCards",
+    "category": "Language-learning app (fictional), flashcards and short stories",
+    "pitch": "QuillCards turns two-minute stories into a spaced-repetition flashcard deck, so adults learning a second language can tap the words they don't know and review them later.",
+    "mechanics": [
+      "Learners read a two-minute story in the target language",
+      "Tapping an unknown word adds it to a spaced-repetition deck",
+      "Spaced-repetition review schedules the saved words over time",
+      "Audio of each word is recorded by native speakers",
+      "Six languages are available",
+      "A streak calendar tracks daily study"
+    ],
+    "art_style": "Friendly book-cover illustration with warm, hand-finished shapes and a storybook feel",
+    "tone": "Warm and a little witty",
+    "palette": [
+      "#1D2B64",
+      "#F25F7A",
+      "#FFF9EE",
+      "#A8E063"
+    ],
+    "style_tokens": [
+      "friendly book-cover illustration",
+      "ink blue and paper backgrounds",
+      "rose accent highlights",
+      "lime pop details",
+      "warm, witty copy"
+    ],
+    "facts": [
+      "QuillCards is a fictional language-learning app.",
+      "Learners read two-minute stories in the app.",
+      "Tapping unknown words adds them to a spaced-repetition deck.",
+      "The app offers six languages.",
+      "Audio is recorded by native speakers.",
+      "The app includes a streak calendar.",
+      "The target audience is adults learning a second language.",
+      "The visual style is friendly book-cover illustration."
+    ],
+    "not_true": [
+      "QuillCards does not promise fluency.",
+      "QuillCards is not certified exam prep.",
+      "QuillCards does not offer real-money rewards.",
+      "QuillCards is not a real product and does not reference real brands."
+    ],
+    "launch_goal": "Drive installs from adults learning a second language."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m21",
+        "sim": 0.756
+      },
+      {
+        "id": "m09",
+        "sim": 0.632
+      },
+      {
+        "id": "m05",
+        "sim": 0.628
+      },
+      {
+        "id": "m01",
+        "sim": 0.597
+      },
+      {
+        "id": "m16",
+        "sim": 0.59
+      },
+      {
+        "id": "m10",
+        "sim": 0.587
+      }
+    ],
+    "rounds": 2,
+    "max_sim_first": 0.811,
+    "max_sim_final": 0.745,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Family-connection learners",
+      "audience_note": "Adults learning a language to connect with a partner's family, relatives, or their own heritage. They care about sounding warm and understood at the table, not about test scores.",
+      "angle": "Native-speaker audio lets learners hear how a word is really said before they try it out loud with family.",
+      "hook_line": "Hear it the way her grandmother says it.",
+      "copy": {
+        "meta": {
+          "headline": "Hear it the way her grandmother says it.",
+          "text": "Every saved word comes with audio recorded by native speakers. Listen first, then try it out loud at the table.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Hear it before you say it",
+          "text": "Read a two-minute story, save the words you don't know, and hear native speakers say them.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Hear words the way they sound",
+          "text": "Save words from short stories and hear native speakers say them before you try.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Family-connection learners",
+      "audience_note": "Adults learning a language to connect with a partner's family, relatives, or their own heritage. They care about sounding warm and understood at the table, not about test scores.",
+      "angle": "Spaced-repetition review brings saved words back over the days leading up to a family visit, so the words learners picked up come around again before the gathering.",
+      "hook_line": "Saved on Tuesday. Back in time for Sunday dinner.",
+      "copy": {
+        "meta": {
+          "headline": "Saved Tuesday. Back by Sunday dinner.",
+          "text": "Tap the words you don't know in a two-minute story. Spaced review brings them back in the days before you visit family.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Saved Tuesday. Back by Sunday.",
+          "text": "Tap new words in a short story. Review brings them back in the days before the family gathers.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Back in time for Sunday dinner",
+          "text": "Tap unknown words in short stories. Spaced review brings them back before your visit.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Family-connection learners",
+      "audience_note": "Adults learning a language to connect with a partner's family, relatives, or their own heritage. They care about sounding warm and understood at the table, not about test scores.",
+      "angle": "Small, steady reading sessions are a gentle way to prepare for the next family gathering, with no promise of fluency.",
+      "hook_line": "Dinner with the in-laws is coming. Read a little.",
+      "copy": {
+        "meta": {
+          "headline": "In-laws for dinner? Read a little.",
+          "text": "Read one two-minute story, tap the words you don't know, and walk into the next family dinner a little more ready.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Dinner soon? Read a little.",
+          "text": "Two minutes of reading a day is a gentle way to get ready for the next family gathering.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Read a little before dinner",
+          "text": "Two-minute stories in six languages. A gentle way to prepare for your next family visit.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Habit-builders",
+      "audience_note": "Adults who love a good routine and want visible proof of showing up. They are motivated by consistency and by watching a calendar fill in.",
+      "angle": "The streak calendar turns daily study into a satisfying row of marked days.",
+      "hook_line": "A calendar that cheers when you show up.",
+      "copy": {
+        "meta": {
+          "headline": "A calendar that cheers when you show up.",
+          "text": "Read a two-minute story, tap the words you don't know, and watch your streak calendar fill in.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "A calendar that cheers you on",
+          "text": "Two-minute stories in six languages. Tap new words, and watch your streak calendar fill in.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "A calendar that cheers you on",
+          "text": "Read a two-minute story. Tap new words. Watch your streak calendar fill in.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Habit-builders",
+      "audience_note": "Adults who love a good routine and want visible proof of showing up. They are motivated by consistency and by watching a calendar fill in.",
+      "angle": "Spaced-repetition review schedules saved words over time, so the habit has a built-in to-do list.",
+      "hook_line": "Your future self left you a few words.",
+      "copy": {
+        "meta": {
+          "headline": "Your future self left you a few words.",
+          "text": "Tap a word you don't know in a two-minute story. Spaced-repetition review brings it back later, right on schedule.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Future you left a few words",
+          "text": "Tap unknown words in a short story. We schedule the review, so you don't have to.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Future you left a few words",
+          "text": "Tap words you don't know. Review them later, on a schedule.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Habit-builders",
+      "audience_note": "Adults who love a good routine and want visible proof of showing up. They are motivated by consistency and by watching a calendar fill in.",
+      "angle": "Each day's reading plus review is a small, finishable task, which is easy to keep up.",
+      "hook_line": "Small enough to finish. Steady enough to stick.",
+      "copy": {
+        "meta": {
+          "headline": "Small enough to finish. Easy to keep.",
+          "text": "One two-minute story and a short review. A small daily task that's easy to finish and easy to keep up.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Small enough to finish daily",
+          "text": "One two-minute story, a short review, and a marked day. Done before your coffee cools.",
+          "cta": "Install Now"
+        },
+        "google_uac": {
+          "headline": "Small enough to finish daily",
+          "text": "One two-minute story and a short review. Small enough to finish.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Language-curious wanderers",
+      "audience_note": "Adults who like sampling languages out of pure curiosity, with no deadline or exam. They enjoy variety and the pleasure of peeking into a new tongue.",
+      "angle": "With six languages available, curious readers can pick whichever one is tugging at them.",
+      "hook_line": "Six languages. One very tempting bookshelf.",
+      "copy": {
+        "meta": {
+          "headline": "Six languages, one tempting shelf",
+          "text": "Pick whichever language is tugging at you. Read a two-minute story, tap words you don't know, and review them later.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Six languages, one shelf",
+          "text": "Six languages are waiting. Read a two-minute story, tap new words, review them later.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Six languages, one bookshelf",
+          "text": "Pick any of six languages. Read a short story, tap words, review later.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Language-curious wanderers",
+      "audience_note": "Adults who like sampling languages out of pure curiosity, with no deadline or exam. They enjoy variety and the pleasure of peeking into a new tongue.",
+      "angle": "A short story is a low-commitment way to taste a new language and see what it feels like.",
+      "hook_line": "Try a language the way you'd try a book.",
+      "copy": {
+        "meta": {
+          "headline": "Try a language like you'd try a book",
+          "text": "No deadline, no exam. Read a two-minute story, tap the words that stump you, and see how the language feels.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Taste a language like a book",
+          "text": "No exam, no deadline. Just a two-minute story and a few taps on words you don't know.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Sample a language in a story",
+          "text": "Read a two-minute story in a new language. Tap unknown words to save them.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Language-curious wanderers",
+      "audience_note": "Adults who like sampling languages out of pure curiosity, with no deadline or exam. They enjoy variety and the pleasure of peeking into a new tongue.",
+      "angle": "The friendly book-cover illustration style makes each story feel like a small discovery rather than homework.",
+      "hook_line": "Judge a language by its cover. We dare you.",
+      "copy": {
+        "meta": {
+          "headline": "Judge a language by its cover",
+          "text": "Friendly book-cover art makes each two-minute story feel like a find, not homework. Tap words to save them for review.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Judge a language by its cover",
+          "text": "Book-cover art, two-minute stories, and words you save with a tap. Not homework, promise.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Judge a language by its cover",
+          "text": "Pick a story by its cover. Tap new words to save them for later review.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 3.8,
+      "usd": 0.0047
+    },
+    {
+      "step": "angles",
+      "seconds": 25.3,
+      "usd": 0.0525
+    },
+    {
+      "step": "copy",
+      "seconds": 68.8,
+      "usd": 0.1675
+    }
+  ],
+  "cost": {
+    "usd": 0.2247,
+    "calls": 6,
+    "tokens_in": 6104,
+    "tokens_out": 14377
+  }
+}

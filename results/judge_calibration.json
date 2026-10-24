@@ -1,0 +1,153 @@
+{
+  "items": [
+    {
+      "id": "s1",
+      "kind": "strong",
+      "expected_low": [],
+      "scores": {
+        "hook_strength": 5.0,
+        "clarity": 8.0,
+        "policy_safety": 10.0,
+        "platform_fit": 7.5
+      },
+      "mean": 7.62,
+      "note": "Accurate and clear, but the Meta headline is vague and the strongest hook only appears on TikTok."
+    },
+    {
+      "id": "s2",
+      "kind": "strong",
+      "expected_low": [],
+      "scores": {
+        "hook_strength": 8.0,
+        "clarity": 7.5,
+        "policy_safety": 10.0,
+        "platform_fit": 8.5
+      },
+      "mean": 8.5,
+      "note": "Concrete commute hook tied to the true 3-minute levels, with three distinct, tight versions."
+    },
+    {
+      "id": "s3",
+      "kind": "strong",
+      "expected_low": [],
+      "scores": {
+        "hook_strength": 6.5,
+        "clarity": 7.0,
+        "policy_safety": 10.0,
+        "platform_fit": 7.5
+      },
+      "mean": 7.75,
+      "note": "Distinctive visual paper-art angle with true claims; the mechanic is only lightly explained on Meta."
+    },
+    {
+      "id": "s4",
+      "kind": "strong",
+      "expected_low": [],
+      "scores": {
+        "hook_strength": 8.0,
+        "clarity": 8.0,
+        "policy_safety": 9.5,
+        "platform_fit": 8.5
+      },
+      "mean": 8.5,
+      "note": "Strong offline hook with vivid use cases, accurate claims and distinct native versions; 'zero stress' is mild puffery."
+    },
+    {
+      "id": "s5",
+      "kind": "strong",
+      "expected_low": [],
+      "scores": {
+        "hook_strength": 6.0,
+        "clarity": 7.0,
+        "policy_safety": 10.0,
+        "platform_fit": 8.0
+      },
+      "mean": 7.75,
+      "note": "Clear daily-board ritual angle that is accurate and concise, though the hook is soft."
+    },
+    {
+      "id": "w1",
+      "kind": "weak",
+      "expected_low": [
+        "hook_strength",
+        "clarity"
+      ],
+      "scores": {
+        "hook_strength": 1.0,
+        "clarity": 2.0,
+        "policy_safety": 6.0,
+        "platform_fit": 2.0
+      },
+      "mean": 2.75,
+      "note": "Generic praise with an unsupported 'best' ranking claim and nothing specific about the product."
+    },
+    {
+      "id": "w2",
+      "kind": "weak",
+      "expected_low": [
+        "policy_safety"
+      ],
+      "scores": {
+        "hook_strength": 4.5,
+        "clarity": 3.0,
+        "policy_safety": 0.0,
+        "platform_fit": 3.0
+      },
+      "mean": 2.62,
+      "note": "False real-money prize claims, guarantees and excess punctuation make it a severe policy violation."
+    },
+    {
+      "id": "w3",
+      "kind": "weak",
+      "expected_low": [
+        "policy_safety"
+      ],
+      "scores": {
+        "hook_strength": 5.0,
+        "clarity": 2.0,
+        "policy_safety": 0.0,
+        "platform_fit": 3.0
+      },
+      "mean": 2.5,
+      "note": "Clickbait made-up stats plus false leaderboard and multiplayer claims, and it never says what the game is."
+    },
+    {
+      "id": "w4",
+      "kind": "weak",
+      "expected_low": [
+        "platform_fit"
+      ],
+      "scores": {
+        "hook_strength": 3.0,
+        "clarity": 7.0,
+        "policy_safety": 8.5,
+        "platform_fit": 1.5
+      },
+      "mean": 5.0,
+      "note": "Explains the mechanic, but the headlines are bloated and all three versions are near-copies, with a vague 'many levels every day' overreach."
+    },
+    {
+      "id": "w5",
+      "kind": "weak",
+      "expected_low": [
+        "clarity"
+      ],
+      "scores": {
+        "hook_strength": 1.5,
+        "clarity": 1.0,
+        "policy_safety": 9.0,
+        "platform_fit": 2.5
+      },
+      "mean": 3.5,
+      "note": "Jargon soup that tells a stranger nothing about the game."
+    }
+  ],
+  "weak_flaw_found": "5/5",
+  "strong_all_dims_ge6": "4/5",
+  "mean_strong": 8.02,
+  "mean_weak": 3.27,
+  "order_sensitivity_mean_abs_diff": 0.35,
+  "passes": 2,
+  "judge_model": "claude-opus-5-5",
+  "cost_usd": 0.2634
+}

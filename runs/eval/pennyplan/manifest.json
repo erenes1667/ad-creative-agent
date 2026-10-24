@@ -1,0 +1,391 @@
+{
+  "version": 1,
+  "run_id": "pennyplan",
+  "generated_at": "2026-10-24T02:14:36",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "PennyPlan",
+    "category": "Personal finance: budgeting app (fictional demo product)",
+    "pitch": "PennyPlan helps young couples split each paycheck into named jars and see what they can still spend today, with manual entry and shared jars.",
+    "mechanics": [
+      "Split each paycheck into named jars",
+      "See how much is left to spend today",
+      "Enter transactions and jar amounts manually",
+      "Share jars between two people in a couple",
+      "Export data as CSV",
+      "No bank account linking in v1"
+    ],
+    "art_style": "Calm fintech with flat illustrations of jars",
+    "tone": "Clear and reassuring",
+    "palette": [
+      "#12263A",
+      "#2BB3A3",
+      "#F7FAFC",
+      "#F2C14E"
+    ],
+    "style_tokens": [
+      "flat jar illustrations",
+      "generous whitespace",
+      "navy and teal calm palette",
+      "gold accent for highlights",
+      "rounded, friendly shapes"
+    ],
+    "facts": [
+      "Users split each paycheck into named jars.",
+      "The app shows what is left to spend today.",
+      "Users can enter data manually.",
+      "Couples can share jars.",
+      "Data can be exported as CSV.",
+      "Version 1 does not link to bank accounts."
+    ],
+    "not_true": [
+      "PennyPlan does not give investment advice.",
+      "PennyPlan does not guarantee savings.",
+      "PennyPlan does not offer credit products.",
+      "PennyPlan does not link to bank accounts in v1.",
+      "PennyPlan does not offer real-money rewards.",
+      "PennyPlan does not move or hold real money."
+    ],
+    "launch_goal": "Drive installs from young couples."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m19",
+        "sim": 0.723
+      },
+      {
+        "id": "m05",
+        "sim": 0.595
+      },
+      {
+        "id": "m07",
+        "sim": 0.556
+      },
+      {
+        "id": "m13",
+        "sim": 0.544
+      },
+      {
+        "id": "m18",
+        "sim": 0.528
+      },
+      {
+        "id": "m14",
+        "sim": 0.527
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.702,
+    "max_sim_final": 0.702,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Privacy-first budgeters",
+      "audience_note": "People who want a clear picture of their money but are uneasy about handing bank logins to an app. They value control over what gets recorded.",
+      "angle": "Lead with the fact that v1 needs no bank connection, so users decide what goes in.",
+      "hook_line": "No bank login. Just the numbers you choose.",
+      "copy": {
+        "meta": {
+          "headline": "No bank login. Just your numbers.",
+          "text": "PennyPlan v1 has no bank linking. Split each paycheck into named jars and see what is left to spend today.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "No bank login needed",
+          "text": "You choose what goes in. Split each paycheck into jars and see what is left to spend today.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "No bank login. Your numbers.",
+          "text": "Split each paycheck into named jars. See what is left to spend today. No bank linking.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Privacy-first budgeters",
+      "audience_note": "People who want a clear picture of their money but are uneasy about handing bank logins to an app. They value control over what gets recorded.",
+      "angle": "Present manual entry as a mindful pause that keeps spending visible.",
+      "hook_line": "Type it in. Notice where it goes.",
+      "copy": {
+        "meta": {
+          "headline": "Type it in. Notice where it goes.",
+          "text": "Enter each purchase by hand and see what is left to spend today. Your jars, your entries, no bank link in v1.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Type it in. Notice it.",
+          "text": "Enter spending by hand and see what is left to spend today. Simple, and you stay in control.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Type it in. Notice it.",
+          "text": "Enter spending by hand. See what is left to spend today from each paycheck jar.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Privacy-first budgeters",
+      "audience_note": "People who want a clear picture of their money but are uneasy about handing bank logins to an app. They value control over what gets recorded.",
+      "angle": "Show that named jars organize a paycheck without linking any account.",
+      "hook_line": "Name your jars. Keep your bank to yourself.",
+      "copy": {
+        "meta": {
+          "headline": "Name your jars. Keep your bank private.",
+          "text": "Split each paycheck into named jars, alone or shared with your partner. No bank account linking in v1.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Name your jars, no bank link",
+          "text": "Split each paycheck into named jars and share them with your partner. No bank linking in v1.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Named jars, no bank link",
+          "text": "Split each paycheck into named jars. Share them with your partner. No bank linking in v1.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Spreadsheet escapees",
+      "audience_note": "Self-taught budgeters who have outgrown a messy sheet but still want ownership of their data and the option to take it with them.",
+      "angle": "Position jars as a tidier structure than a sprawling budget spreadsheet, with data still portable.",
+      "hook_line": "Retire the budget spreadsheet. Keep the data.",
+      "copy": {
+        "meta": {
+          "headline": "Retire the sheet. Keep the data.",
+          "text": "Retire the budget spreadsheet. Keep the data. Split paychecks into named jars and export to CSV anytime.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Retire the sheet, keep data",
+          "text": "Retire the budget spreadsheet. Keep the data. Named jars for each paycheck, CSV export anytime.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Retire the sheet, keep data",
+          "text": "Split each paycheck into named jars. Export your data as CSV whenever you want.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Spreadsheet escapees",
+      "audience_note": "Self-taught budgeters who have outgrown a messy sheet but still want ownership of their data and the option to take it with them.",
+      "angle": "Emphasize that everything can be exported as CSV whenever they want it.",
+      "hook_line": "Your budget data, exportable as CSV.",
+      "copy": {
+        "meta": {
+          "headline": "Your budget data, exportable as CSV.",
+          "text": "Enter your numbers by hand, split pay into jars, and export it all as CSV whenever you like.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Your data, exportable as CSV",
+          "text": "Enter data by hand, split pay into jars, and export it all as CSV whenever you like.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Your data, exportable as CSV",
+          "text": "Enter data by hand, split pay into named jars, and export as CSV any time.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Spreadsheet escapees",
+      "audience_note": "Self-taught budgeters who have outgrown a messy sheet but still want ownership of their data and the option to take it with them.",
+      "angle": "Highlight the simple core mechanic of splitting each paycheck into named jars.",
+      "hook_line": "Every paycheck, split into named jars.",
+      "copy": {
+        "meta": {
+          "headline": "Every paycheck, split into named jars.",
+          "text": "See what is left to spend today, and share jars with your partner. Export to CSV whenever you want.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Split pay into named jars",
+          "text": "See what is left to spend today. Share jars with your partner if you like.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Split pay into named jars",
+          "text": "See what is left to spend today. Share jars with your partner.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Paycheck-to-paycheck planners",
+      "audience_note": "People on tight or uneven budgets who mainly want to know whether they can afford something today, and want less stress between paydays.",
+      "angle": "Answer the everyday question with the app's what-is-left-to-spend-today view.",
+      "hook_line": "How much can I spend today? Now you know.",
+      "copy": {
+        "meta": {
+          "headline": "How much can I spend today?",
+          "text": "PennyPlan splits your paycheck into named jars and shows what is left to spend today. Enter amounts by hand.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "How much can I spend today?",
+          "text": "Split your paycheck into jars. See what is left to spend today. Enter it all by hand.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "How much can I spend today?",
+          "text": "Split each paycheck into jars and see what is left to spend today.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Paycheck-to-paycheck planners",
+      "audience_note": "People on tight or uneven budgets who mainly want to know whether they can afford something today, and want less stress between paydays.",
+      "angle": "Frame payday as the moment to give the paycheck a plan by splitting it into jars.",
+      "hook_line": "Payday plan: split it into jars first.",
+      "copy": {
+        "meta": {
+          "headline": "Payday plan: split it into jars first.",
+          "text": "Give each paycheck a plan. Name your jars, split the pay, and share jars with your partner.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Payday? Split it into jars.",
+          "text": "Name your jars, split your paycheck, and share jars with your partner.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Payday? Split it into jars.",
+          "text": "Name your jars, split each paycheck, and share jars as a couple.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Paycheck-to-paycheck planners",
+      "audience_note": "People on tight or uneven budgets who mainly want to know whether they can afford something today, and want less stress between paydays.",
+      "angle": "Reduce guesswork late in the pay cycle by showing a clear daily figure.",
+      "hook_line": "Stop guessing what's left before next payday.",
+      "copy": {
+        "meta": {
+          "headline": "Stop guessing what is left.",
+          "text": "See a clear number for today, so the days before payday involve less guessing. Enter spending by hand.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Stop guessing what is left.",
+          "text": "See a clear number for today. Less guessing before payday. Enter spending by hand.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Stop guessing what is left.",
+          "text": "See a clear number for today and guess less before payday.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 3.5,
+      "usd": 0.0042
+    },
+    {
+      "step": "angles",
+      "seconds": 14.3,
+      "usd": 0.0283
+    },
+    {
+      "step": "copy",
+      "seconds": 55.0,
+      "usd": 0.1383
+    }
+  ],
+  "cost": {
+    "usd": 0.1708,
+    "calls": 5,
+    "tokens_in": 4071,
+    "tokens_out": 11130
+  }
+}

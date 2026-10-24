@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "run_id": "trailnote",
+  "generated_at": "2026-10-24T02:14:49",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "TrailNote",
+    "category": "Offline hiking map and route recorder (fictional demo app)",
+    "pitch": "TrailNote lets hikers download regional maps, record their routes, and attach voice notes at waypoints, all without needing a signal.",
+    "mechanics": [
+      "Download regional maps for offline use",
+      "Record a route while hiking",
+      "Add voice notes at waypoints along a route",
+      "Import and export routes in GPX format",
+      "Battery saver mode to extend use on long hikes"
+    ],
+    "art_style": "Topographic line art with muted earth tones, flat layered shapes, and restrained texture",
+    "tone": "Practical and outdoorsy: plain, confident, and unfussy",
+    "palette": [
+      "#1F3D2B",
+      "#6B8F4E",
+      "#F3EBD8",
+      "#E4572E"
+    ],
+    "style_tokens": [
+      "topographic contour lines",
+      "muted earth tones",
+      "parchment map texture",
+      "trail-orange route marker",
+      "flat layered terrain shapes"
+    ],
+    "facts": [
+      "Works without a cell signal",
+      "Lets users download regional maps for offline use",
+      "Records routes",
+      "Supports voice notes attached to waypoints",
+      "Supports GPX import and export",
+      "Includes a battery saver mode"
+    ],
+    "not_true": [
+      "Does not provide an emergency rescue service",
+      "Does not guarantee weather conditions or forecasts",
+      "Does not offer real-money rewards",
+      "Does not guarantee route safety or navigation accuracy",
+      "Is a fictional product created for a portfolio demo, not a real app"
+    ],
+    "launch_goal": "Convert users into paid upgrade trials"
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m20",
+        "sim": 0.747
+      },
+      {
+        "id": "m02",
+        "sim": 0.568
+      },
+      {
+        "id": "m06",
+        "sim": 0.557
+      },
+      {
+        "id": "m11",
+        "sim": 0.552
+      },
+      {
+        "id": "m15",
+        "sim": 0.539
+      },
+      {
+        "id": "m08",
+        "sim": 0.533
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.768,
+    "max_sim_final": 0.768,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Trail storytellers",
+      "audience_note": "Hikers who want to remember and retell their trips. They care more about capturing moments, spots, and details than about distance or speed.",
+      "angle": "Voice notes pinned to waypoints let hikers record a thought at the exact spot it happened.",
+      "hook_line": "Leave a voice note right where you stood",
+      "copy": {
+        "meta": {
+          "headline": "Leave a voice note right where you stood",
+          "text": "Pin a voice note to any waypoint on your route. TrailNote works offline, so the moment is saved even with no signal.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Voice notes at every waypoint",
+          "text": "Record a voice note at the spot it happened. Works with no cell signal.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Pin voice notes to waypoints",
+          "text": "Record a voice note where you stood. Works offline with no signal.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Trail storytellers",
+      "audience_note": "Hikers who want to remember and retell their trips. They care more about capturing moments, spots, and details than about distance or speed.",
+      "angle": "Recording the route and adding voice notes along the way builds a ready-made trip log to revisit at home.",
+      "hook_line": "Your trip log, recorded while you hike",
+      "copy": {
+        "meta": {
+          "headline": "Your trip log, recorded while you hike",
+          "text": "Record your route and add voice notes along the way. Get home with a trip log ready to revisit. Works offline.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Your trip log, as you hike",
+          "text": "Record your route, add voice notes on the way, and revisit the whole trip at home.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Your trip log, as you hike",
+          "text": "Record your route and add voice notes. Relive the trip at home. Works offline.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Trail storytellers",
+      "audience_note": "Hikers who want to remember and retell their trips. They care more about capturing moments, spots, and details than about distance or speed.",
+      "angle": "Talking is easier than typing on the trail, especially with gloves or when stopping is a hassle.",
+      "hook_line": "Cold hands? Skip the typing. Just talk.",
+      "copy": {
+        "meta": {
+          "headline": "Cold hands? Skip the typing. Just talk.",
+          "text": "Add a voice note at a waypoint instead of typing it out. Works with no cell signal, so you can keep walking.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Gloves on? Just talk.",
+          "text": "Talking beats typing on a cold trail. Add voice notes at waypoints. Works offline.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Cold hands? Just talk.",
+          "text": "Talk instead of typing. Add voice notes at waypoints. Works offline.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "GPX route collectors",
+      "audience_note": "Planners and tinkerers who swap routes with friends, keep their own archive, and want control over their data across different tools.",
+      "angle": "Import a GPX file from a friend or another source and take that route with you on the trail.",
+      "hook_line": "Got a GPX file? Bring it along.",
+      "copy": {
+        "meta": {
+          "headline": "Got a GPX file? Bring it along.",
+          "text": "Import a GPX route from a friend or another app, download the map, and hike it with no signal needed.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Got a GPX file? Bring it.",
+          "text": "Import a GPX route from a friend, download the map, and hike it with no signal.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Got a GPX file? Bring it.",
+          "text": "Import a GPX route, grab the map, and hike it with no signal.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "GPX route collectors",
+      "audience_note": "Planners and tinkerers who swap routes with friends, keep their own archive, and want control over their data across different tools.",
+      "angle": "Export a recorded hike as GPX so the route is theirs to keep, share, or reuse.",
+      "hook_line": "Hike it once. Keep the file for good.",
+      "copy": {
+        "meta": {
+          "headline": "Hike it once. Keep the file for good.",
+          "text": "Record your route offline, add voice notes at waypoints, then export it as GPX to keep, share, or reuse.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Hike it once. Keep the file.",
+          "text": "Record your hike, add voice notes, then export it as GPX to keep, share, or reuse.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Hike it once. Keep the file.",
+          "text": "Record your hike, then export it as GPX to keep, share, or reuse.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "GPX route collectors",
+      "audience_note": "Planners and tinkerers who swap routes with friends, keep their own archive, and want control over their data across different tools.",
+      "angle": "GPX import and export means routes aren't locked inside one app.",
+      "hook_line": "Your routes, not locked in. Export anytime.",
+      "copy": {
+        "meta": {
+          "headline": "Routes not locked in. Export anytime.",
+          "text": "Import and export GPX so your routes work across tools. Keep your own archive and share with friends.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Your routes, not locked in.",
+          "text": "Import and export GPX so your routes work across tools. Keep your own archive.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Your routes, not locked in.",
+          "text": "Import and export GPX so your routes work across tools. Works offline.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Long-day and multi-day hikers",
+      "audience_note": "Hikers planning big days or several days out, who worry about their phone lasting and want a practical setup that is ready before they leave home.",
+      "angle": "Battery saver mode is built to stretch phone use across a long hike.",
+      "hook_line": "Battery saver mode for the long way round",
+      "copy": {
+        "meta": {
+          "headline": "Battery saver for the long way round",
+          "text": "TrailNote has a battery saver mode to help your phone last on big days. Maps and routes work with no signal.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Battery saver for long hikes",
+          "text": "Battery saver mode helps your phone last on long hikes. Offline maps and route recording too.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Battery saver for long hikes",
+          "text": "Battery saver mode helps your phone last on long hikes. Works with no signal.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Long-day and multi-day hikers",
+      "audience_note": "Hikers planning big days or several days out, who worry about their phone lasting and want a practical setup that is ready before they leave home.",
+      "angle": "A simple prep routine: download the regional map at home, then switch on battery saver on the trail.",
+      "hook_line": "Download at home. Save battery on the trail.",
+      "copy": {
+        "meta": {
+          "headline": "Map at home. Save battery on trail.",
+          "text": "Download your regional map at home. Switch on battery saver on the trail. Record your route, add voice notes.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Download maps before you go",
+          "text": "Download the regional map at home. Turn on battery saver on the trail. No signal needed.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Download maps, hike offline",
+          "text": "Download the regional map at home. Turn on battery saver on the trail.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Long-day and multi-day hikers",
+      "audience_note": "Hikers planning big days or several days out, who worry about their phone lasting and want a practical setup that is ready before they leave home.",
+      "angle": "A route recorder that keeps going on long hikes, with battery saver to help it last.",
+      "hook_line": "Record the whole hike, not just the start",
+      "copy": {
+        "meta": {
+          "headline": "Record the whole hike, even offline",
+          "text": "TrailNote records your route on long hikes, and battery saver mode helps it last. Add voice notes at waypoints.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Record the whole hike",
+          "text": "Record your route on long hikes. Battery saver mode helps your phone last. Works offline.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Record the whole hike",
+          "text": "Record your route on long hikes. Battery saver mode helps your phone last.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 4.0,
+      "usd": 0.0046
+    },
+    {
+      "step": "angles",
+      "seconds": 11.8,
+      "usd": 0.0229
+    },
+    {
+      "step": "copy",
+      "seconds": 60.3,
+      "usd": 0.1504
+    }
+  ],
+  "cost": {
+    "usd": 0.178,
+    "calls": 5,
+    "tokens_in": 4005,
+    "tokens_out": 11678
+  }
+}

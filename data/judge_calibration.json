@@ -1,0 +1,245 @@
+{
+ "product": "Lantern Drift (fictional)",
+ "facts": [
+  "free to play",
+  "works offline",
+  "no timers",
+  "no multiplayer",
+  "no real-money prizes",
+  "3-minute levels",
+  "new daily board"
+ ],
+ "items": [
+  {
+   "id": "s1",
+   "kind": "strong",
+   "low": [],
+   "copy": {
+    "meta": {
+     "headline": "One board, one lantern lit",
+     "text": "Rotate paper tiles to link the light. Free to play, no timers.",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "No timers. Just think.",
+     "text": "Link the light, release the lanterns. Free, calm, offline.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Calm paper-tile puzzles",
+     "text": "Rotate tiles, link light, free lanterns. Free to play. Works offline.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "s2",
+   "kind": "strong",
+   "low": [],
+   "copy": {
+    "meta": {
+     "headline": "Finish a level before your stop",
+     "text": "Each 3-minute puzzle fits a short ride. Rotate tiles, light the lanterns.",
+     "cta": "Install Now"
+    },
+    "tiktok": {
+     "headline": "Your stop is 3 minutes away",
+     "text": "A calm light puzzle sized for the commute. Free to play.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "3-minute light puzzles",
+     "text": "Quick, cozy tile puzzles you can finish on a short ride.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "s3",
+   "kind": "strong",
+   "low": [],
+   "copy": {
+    "meta": {
+     "headline": "Puzzles that look like paper art",
+     "text": "Layered paper-cut boards, soft light, and a new daily puzzle. Free to play.",
+     "cta": "Learn More"
+    },
+    "tiktok": {
+     "headline": "Every board is paper art",
+     "text": "Rotate tiles and watch paper lanterns rise. Free, no timers.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Paper-cut puzzle game",
+     "text": "Link the light on layered paper boards. A new puzzle every day.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "s4",
+   "kind": "strong",
+   "low": [],
+   "copy": {
+    "meta": {
+     "headline": "Plays fine with no signal",
+     "text": "Tunnels, planes, cabins. Rotate tiles and light lanterns offline.",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "Offline puzzle, zero stress",
+     "text": "No timers, no signal needed. Link the light and relax.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Offline light puzzles",
+     "text": "Works without internet. Rotate paper tiles, free the lanterns.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "s5",
+   "kind": "strong",
+   "low": [],
+   "copy": {
+    "meta": {
+     "headline": "A small daily ritual",
+     "text": "One new board every morning. Rotate tiles, link the light, done in minutes.",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "One board a day",
+     "text": "A calm 3-minute puzzle ritual. Free to play.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "A new puzzle every day",
+     "text": "Short, calm light puzzles with a fresh daily board. Free.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "w1",
+   "kind": "weak",
+   "low": [
+    "hook_strength",
+    "clarity"
+   ],
+   "copy": {
+    "meta": {
+     "headline": "Play the best puzzle game",
+     "text": "A fun game for everyone. Download it and play today.",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "Fun puzzle game",
+     "text": "Play this puzzle game. It is fun.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Puzzle game",
+     "text": "A game with puzzles that you can play for fun.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "w2",
+   "kind": "weak",
+   "low": [
+    "policy_safety"
+   ],
+   "copy": {
+    "meta": {
+     "headline": "Win real cash with lanterns",
+     "text": "Light every lantern and earn real money prizes. Guaranteed payouts!!",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "Earn cash playing",
+     "text": "Real money for every board you clear. Guaranteed.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Win real prizes",
+     "text": "Cash rewards for puzzle masters. 100% guaranteed wins.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "w3",
+   "kind": "weak",
+   "low": [
+    "policy_safety"
+   ],
+   "copy": {
+    "meta": {
+     "headline": "99% of players fail level 3",
+     "text": "Only genius players pass. Are you in the 1%? Beat your friends on the global leaderboard.",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "Only 1% can solve this",
+     "text": "Beat friends in live multiplayer battles. Most people fail.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Beat everyone online",
+     "text": "Live multiplayer duels with players worldwide.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "w4",
+   "kind": "weak",
+   "low": [
+    "platform_fit"
+   ],
+   "copy": {
+    "meta": {
+     "headline": "Light the lanterns and relax with a calm daily puzzle experience designed for everyone",
+     "text": "Rotate paper tiles to link light paths across layered boards and release floating lanterns in a calming chain reaction that unfolds as you play through each of our many beautifully handmade levels every day of the week.",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "Light the lanterns and relax with a calm daily puzzle experience",
+     "text": "Rotate paper tiles to link light paths across layered boards and release floating lanterns in a calming chain reaction every single day.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Light the lanterns and relax with a calm daily puzzle",
+     "text": "Rotate paper tiles to link light paths across layered boards and release floating lanterns in a calming chain reaction every single day.",
+     "cta": "Install"
+    }
+   }
+  },
+  {
+   "id": "w5",
+   "kind": "weak",
+   "low": [
+    "clarity"
+   ],
+   "copy": {
+    "meta": {
+     "headline": "Synergize your light vectors",
+     "text": "Leverage tile-based rotational paradigms to unlock luminous ecosystem outcomes.",
+     "cta": "Play Now"
+    },
+    "tiktok": {
+     "headline": "Vector your lantern flow",
+     "text": "Optimize the luminous graph for maximal node resonance.",
+     "cta": "Play Now"
+    },
+    "google_uac": {
+     "headline": "Luminous node puzzles",
+     "text": "Rotational paradigm for lantern graph optimization.",
+     "cta": "Install"
+    }
+   }
+  }
+ ]
+}

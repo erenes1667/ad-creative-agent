@@ -1,0 +1,633 @@
+{
+  "version": 1,
+  "run_id": "tidebreak-20261024-021544",
+  "generated_at": "2026-10-24T02:18:25",
+  "fictional": true,
+  "mode": "full",
+  "image_backend": {
+    "name": "svg-fallback",
+    "detail": "no working OpenAI key, no local diffusion server"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5",
+    "art": "claude-sonnet-5-5",
+    "critic": "claude-sonnet-5-5"
+  },
+  "brief": {
+    "name": "Tidebreak",
+    "category": "Mobile match-3 puzzle game (fictional)",
+    "pitch": "Swap glowing sea glass to clear a bright tide pool and rescue baby sea turtles hidden beneath the tiles in a playful, wholesome match-3 game.",
+    "mechanics": [
+      "Swap adjacent glowing sea glass pieces to make matches and clear the tide pool",
+      "Baby sea turtles appear under the tiles and are rescued as the board is cleared",
+      "400 hand-built levels at launch",
+      "Offline play supported"
+    ],
+    "art_style": "Bright watercolor ocean with rounded shapes",
+    "tone": "Playful and wholesome",
+    "palette": [
+      "#0B3C49",
+      "#3FD0C9",
+      "#F6E7C1",
+      "#FF7A3D"
+    ],
+    "style_tokens": [
+      "bright watercolor ocean",
+      "rounded shapes",
+      "glowing sea glass",
+      "soft tide pool light",
+      "friendly baby sea turtles"
+    ],
+    "facts": [
+      "Tidebreak has 400 hand-built levels at launch",
+      "Tidebreak is free to play with optional ads",
+      "Tidebreak supports offline play",
+      "Players swap glowing sea glass to clear a tide pool",
+      "Baby sea turtles appear under the tiles and can be rescued"
+    ],
+    "not_true": [
+      "Tidebreak does not offer real-money rewards",
+      "Tidebreak does not have multiplayer",
+      "Tidebreak does not include violence"
+    ],
+    "launch_goal": "Win back lapsed match-3 players with a free, offline-friendly, wholesome puzzle game that feels fresh and charming."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m23",
+        "sim": 0.693
+      },
+      {
+        "id": "m08",
+        "sim": 0.682
+      },
+      {
+        "id": "m07",
+        "sim": 0.681
+      },
+      {
+        "id": "m09",
+        "sim": 0.604
+      },
+      {
+        "id": "m04",
+        "sim": 0.6
+      },
+      {
+        "id": "m01",
+        "sim": 0.587
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.72,
+    "max_sim_final": 0.72,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Offline-first commuters and travelers",
+      "audience_note": "People who play in dead zones such as subways, flights, road trips and campsites. They want a game that works without a signal and won't stall mid-level.",
+      "angle": "Show a phone in airplane mode while the tide pool keeps clearing, to prove Tidebreak works on flights.",
+      "hook_line": "Airplane mode on. Tide pool still open.",
+      "copy": {
+        "meta": {
+          "headline": "Tidebreak works in airplane mode",
+          "text": "Airplane mode on. Tide pool still open. Swap glowing sea glass and rescue baby sea turtles, no signal needed.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Plays in airplane mode",
+          "text": "Airplane mode on. Tide pool still open. Rescue baby sea turtles with no signal.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Tidebreak works offline",
+          "text": "Airplane mode on. Tide pool still open. Swap sea glass and rescue baby turtles.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Bright watercolor ocean illustration with soft rounded shapes. A cozy airplane window seat scene: a smartphone rests on a tray table, its screen showing a glowing tide pool puzzle board filled with rounded sea glass pieces in teal #3FD0C9 and warm coral orange #FF7A3D. Outside the oval window, clouds melt into gentle watercolor ocean waves in deep teal #0B3C49. A friendly baby sea turtle peeks over the edge of the tray table, smiling. Soft tide pool light spills from the screen and lights the sand-cream #F6E7C1 cabin interior. Wet-wash paper texture, calm and relaxed mood. Keep the upper third of the frame as open, softly washed space. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "orb_glow",
+        "layout": "top",
+        "overlay_text": "Airplane mode on",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a1h1.png",
+      "critic": {
+        "text_read": "Airplane mode on Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' pill looks like a button, which is a normal CTA in an ad image. It is not clearly a fake UI element, but it is not clickable in the creative itself. 'Airplane mode on' reads like a device status message and could be mistaken for a system notification. It is acceptable only because it supports the offline-play claim, which is true. The image shows no gameplay, so it does not misrepresent mechanics. No real-money, prize, or unsourced stat claims, and nothing implies multiplayer or violence. The faint small circle at the right edge of the text panel is a minor artifact.",
+        "summary": "The text is clear and high-contrast with a strong orange CTA, and the offline message is supported by the headline. The concentric-orbit visual looks like a space or solar system and not a watercolor ocean, with no sea glass, tide pool, or turtles, so brand fit and message support are only moderate.",
+        "text_matches_intended": true,
+        "intended_text": "Airplane mode on Play Now"
+      },
+      "score": 7.1,
+      "gate_failures": []
+    },
+    {
+      "id": "a1h2",
+      "audience": "Offline-first commuters and travelers",
+      "audience_note": "People who play in dead zones such as subways, flights, road trips and campsites. They want a game that works without a signal and won't stall mid-level.",
+      "angle": "Film a subway ride that loses signal in a tunnel while the player keeps swapping sea glass without interruption.",
+      "hook_line": "Lost signal in the tunnel? Keep matching.",
+      "copy": {
+        "meta": {
+          "headline": "Lost signal? Keep matching.",
+          "text": "Lost signal in the tunnel? Keep matching. Tidebreak plays offline, so your level never stalls.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Lost signal? Keep matching.",
+          "text": "Tunnel killed your signal? Swap sea glass and rescue baby turtles anyway. Offline play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Keep matching, no signal",
+          "text": "Lost signal in the tunnel? Keep matching. Tidebreak plays offline.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Bright watercolor ocean illustration with rounded shapes. A subway carriage interior painted in loose washes of deep teal #0B3C49, with a dark tunnel streaming past the windows. A commuter's hands hold a phone whose screen shows glowing sea glass pieces in teal and coral orange #FF7A3D cascading and swapping on a rounded tide pool board. A tiny friendly baby sea turtle sits on the commuter's bag strap, looking at the screen. Soft tide pool light from the phone casts a warm sand-cream #F6E7C1 glow across the seats. Gentle blue-green watercolor bleeds and rounded droplets of light drift downward. Leave the lower third of the frame calm and uncluttered. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "cascade",
+        "layout": "bottom",
+        "overlay_text": "Tunnel? Keep matching",
+        "cta_label": "Install Now"
+      },
+      "image": "images/a1h2.png",
+      "critic": {
+        "text_read": "Tunnel? Keep matching Install Now",
+        "legibility": 8,
+        "brand_fit": 5,
+        "policy_safety": 6,
+        "message_match": 4,
+        "policy_notes": "The image headline reads 'Tunnel? Keep matching', but the ad headline that will run is 'Lost signal? Keep matching.' The two differ and could show as duplicate or conflicting copy. 'Tunnel?' also does not obviously map to 'Lost signal?'. Offline play is a true feature, but the image never states it, so the implied offline benefit is not supported visually. The 'Install Now' button is a flat CTA inside a static image, which could be mistaken for a functional button, though this is a common pattern and a minor risk. The image shows no actual gameplay: no sea glass, tide pools, or turtles. The abstract balloon or lollipop shapes could imply a mechanic the game does not have (such as a popping or matching-balloons game). No real-money, multiplayer, or violence implications, and no unsourced stats.",
+        "summary": "The text is clear and the CTA is prominent, but the image copy conflicts with the running headline. The visuals are flat, balloon-like ovals on dark teal rather than watercolor ocean scenery, and they show no sea glass, tide pools, or turtles, so brand fit and message match are weak.",
+        "text_matches_intended": true,
+        "intended_text": "Tunnel? Keep matching Install Now"
+      },
+      "score": 5.95,
+      "gate_failures": []
+    },
+    {
+      "id": "a1h3",
+      "audience": "Offline-first commuters and travelers",
+      "audience_note": "People who play in dead zones such as subways, flights, road trips and campsites. They want a game that works without a signal and won't stall mid-level.",
+      "angle": "Pitch Tidebreak as the game to download before a trip, with 400 hand-built levels that need no Wi-Fi.",
+      "hook_line": "Download before your trip. 400 levels, no Wi-Fi.",
+      "copy": {
+        "meta": {
+          "headline": "Download before your trip",
+          "text": "Download before your trip. 400 hand-built levels, no Wi-Fi needed. Rescue baby sea turtles along the way.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "400 levels, no Wi-Fi needed",
+          "text": "Download before your trip. 400 hand-built levels and baby sea turtles to rescue.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "400 levels, no Wi-Fi",
+          "text": "Download before your trip. 400 hand-built levels, free to play, no Wi-Fi needed.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Bright watercolor ocean illustration with rounded shapes, styled as a packed-bag travel moment. An open suitcase and a phone sit on a sandy-cream #F6E7C1 surface. The phone screen shows a large rounded grid of glowing sea glass tiles in teal #3FD0C9, deep blue #0B3C49 and coral orange #FF7A3D, set in a tide pool. Three friendly baby sea turtles climb over the suitcase edge, one carrying a tiny rounded sea glass gem. Soft tide pool light shimmers across the scene, with watercolor wave washes along the borders. Joyful, anticipatory mood. Keep the top third as airy, softly painted negative space. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "tile_grid",
+        "layout": "top",
+        "overlay_text": "Download before you go",
+        "cta_label": "Install Now"
+      },
+      "image": "images/a1h3.png",
+      "critic": {
+        "text_read": "Download before you go Install Now",
+        "legibility": 8,
+        "brand_fit": 4,
+        "policy_safety": 6,
+        "message_match": 3,
+        "policy_notes": "The image headline reads 'Download before you go', but the ad copy that will run is 'Download before your trip', so the two conflict. 'Before you go' is also an exit-intent phrase and can read as a fake pop-up. The 'Install Now' button is rendered inside the image, which makes it a non-functional fake UI element. The tile grid with clock-hand icons shows no sea glass, tide pool, or sea turtles, so it misrepresents the actual gameplay. Nothing implies real-money rewards, multiplayer, or violence. The offline-play fact is not shown, which would have supported a trip message.",
+        "summary": "The text is highly legible with a clear orange CTA, but the flat teal and cream clock-tile grid lacks the watercolor ocean look and the sea glass and turtle mechanics, the in-image headline conflicts with the 'before your trip' copy, and the baked-in button is fake UI.",
+        "text_matches_intended": true,
+        "intended_text": "Download before you go Install Now"
+      },
+      "score": 5.55,
+      "gate_failures": []
+    },
+    {
+      "id": "a2h1",
+      "audience": "Free-to-play value seekers",
+      "audience_note": "Players wary of games that push spending or lock content early. They want a lot to play at no cost and control over the ads they see.",
+      "angle": "Lead with the size of the free game: 400 hand-built levels at launch, at no cost.",
+      "hook_line": "400 hand-built levels. Free to play.",
+      "copy": {
+        "meta": {
+          "headline": "400 hand-built levels. Free to play.",
+          "text": "Swap glowing sea glass, clear the tide pool, and rescue baby sea turtles hiding under the tiles. Play offline too.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "400 hand-built levels. Free.",
+          "text": "Match glowing sea glass and rescue baby sea turtles. Free to play, with offline mode.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "400 hand-built levels. Free.",
+          "text": "Swap sea glass, clear the tide pool, and rescue baby sea turtles. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Bright watercolor ocean scene with rounded shapes: a large grid of glowing sea glass tiles in teal #3FD0C9 and sand cream #F6E7C1, each tile softly rounded with a small hand-painted swirl, arranged like a puzzle board that fills the lower two thirds of the frame. A friendly baby sea turtle with a big gentle smile rests on the corner of the grid, with a few tiles glowing warm orange #FF7A3D beside it. Soft tide pool light ripples across the tiles, with deep ocean blue #0B3C49 washes in the background. Calm, uncluttered watercolor space across the top for headline text. Cheerful, generous, inviting mood with soft paper texture and gentle blooms of pigment. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "tile_grid",
+        "layout": "top",
+        "overlay_text": "400 levels totally free",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a2h1.png",
+      "critic": {
+        "text_read": "400 levels totally free Play Now",
+        "legibility": 8,
+        "brand_fit": 5,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' pill is a fake UI button. It is rendered as a clickable button inside a static image, which many ad platforms flag. The image shows a grid of tiles with clock-hand-like markers, and nothing in it depicts swapping glowing sea glass, a tide pool or rescuing turtles. That makes the gameplay look different from the real mechanics, so it is mildly misleading. 'totally free' slightly overstates the product, since the true fact is free to play with optional ads. The image says '400 levels' without 'hand-built', which is consistent with the headline but less specific. No real-money, multiplayer or violence implications.",
+        "summary": "The text is clear and the CTA stands out, but the flat geometric tile puzzle has no watercolor ocean feel, shows none of the sea glass or turtle mechanics, and uses a fake button and the 'totally free' wording, so it fits the brand and the headline only loosely.",
+        "text_matches_intended": true,
+        "intended_text": "400 levels totally free Play Now"
+      },
+      "score": 6.25,
+      "gate_failures": []
+    },
+    {
+      "id": "a2h2",
+      "audience": "Free-to-play value seekers",
+      "audience_note": "Players wary of games that push spending or lock content early. They want a lot to play at no cost and control over the ads they see.",
+      "angle": "Emphasize that ads are optional, so players decide whether to watch any.",
+      "hook_line": "Free puzzle game. Ads are strictly optional.",
+      "copy": {
+        "meta": {
+          "headline": "Free puzzle game. Ads are optional.",
+          "text": "You pick whether to watch an ad. Swap glowing sea glass, clear the tide pool, and rescue baby sea turtles.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Free game. Ads are optional.",
+          "text": "You choose if you watch ads. Swap sea glass and rescue baby sea turtles.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Free game. Ads are optional.",
+          "text": "You decide if you watch ads. Swap sea glass and rescue baby sea turtles.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Bright watercolor ocean with rounded shapes: a single large glowing sea glass orb in teal #3FD0C9 floating at the center of a tide pool, radiating soft tide pool light in cream #F6E7C1. A friendly baby sea turtle looks at the orb with a relaxed, curious expression, one flipper resting beside a small rounded orange #FF7A3D sea glass button that it can choose to touch or ignore. Deep teal-navy #0B3C49 watercolor water surrounds the pool, with gentle ripples and a few round bubbles. Open, quiet watercolor space across the bottom for headline text. Relaxed, no-pressure, trustworthy mood with soft paper grain and wet-edge pigment blooms. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "orb_glow",
+        "layout": "bottom",
+        "overlay_text": "Ads are strictly optional",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a2h2.png",
+      "critic": {
+        "text_read": "Ads are strictly optional Play Now",
+        "legibility": 9,
+        "brand_fit": 5,
+        "policy_safety": 8,
+        "message_match": 6,
+        "policy_notes": "No real-money, prize, or multiplayer implications and no violence. The 'Play Now' pill is a static CTA inside the creative. It is a button-like element, but it is a standard ad CTA and not a fake system UI or notification. The image shows no gameplay, so nothing misrepresents the mechanics. 'Ads are strictly optional' is consistent with the true fact 'free to play with optional ads'. The word 'strictly' is slightly emphatic but not shouting, since the text is sentence case. The image does not say the game is free, which the headline covers, so there is no contradiction.",
+        "summary": "The text is highly legible, with white rounded type on a dark panel and a clear orange CTA, and it is policy-safe. However, the concentric dashed orbit rings with dots read as a space or atom motif rather than a bright watercolor ocean. It has no sea glass, tide pool, or turtles, and the palette is dominated by dark teal. The result is a weak brand and art-style fit and only a partial match to the 'free puzzle game' headline.",
+        "text_matches_intended": true,
+        "intended_text": "Ads are strictly optional Play Now"
+      },
+      "score": 7.2,
+      "gate_failures": []
+    },
+    {
+      "id": "a2h3",
+      "audience": "Free-to-play value seekers",
+      "audience_note": "Players wary of games that push spending or lock content early. They want a lot to play at no cost and control over the ads they see.",
+      "angle": "Contrast a long scroll of levels with the price tag: all that content, free to start.",
+      "hook_line": "Scroll through 400 levels. Pay nothing to start.",
+      "copy": {
+        "meta": {
+          "headline": "400 levels. Pay nothing to start.",
+          "text": "That is a lot of tide pools to clear. Swap glowing sea glass and rescue baby sea turtles. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "400 levels. Free to start.",
+          "text": "Clear tide pools one level at a time and rescue baby sea turtles. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "400 levels. Free to start.",
+          "text": "Clear tide pools level by level and rescue baby sea turtles. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Bright watercolor ocean with rounded shapes: a long, winding cascade of glowing sea glass level tiles tumbling down the frame like a gentle waterfall, tiles in teal #3FD0C9, cream #F6E7C1 and a few warm orange #FF7A3D accents, all softly rounded. Three friendly baby sea turtles peek out from the sides of the cascade, one riding a tile as it slides down, with happy, calm faces. Soft tide pool light glimmers across the tiles, and the background is a deep ocean blue #0B3C49 watercolor wash with bubbles and foam. Clear, calm watercolor space across the top for headline text. Joyful, abundant, welcoming mood with visible paper texture and soft pigment blooms. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "cascade",
+        "layout": "top",
+        "overlay_text": "Pay nothing to start",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a2h3.png",
+      "critic": {
+        "text_read": "Pay nothing to start Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 8,
+        "message_match": 5,
+        "policy_notes": "The headline 'Pay nothing to start' is consistent with the free-to-play fact, but it omits the optional ads, so it is slightly incomplete. The 'Play Now' pill looks like a real button in a static image. That is a standard ad CTA, though it could read as fake UI if it is rendered as part of the creative. The image shows no gameplay, so there is no misleading mechanic. There is no real-money, prize, or violence implication, and no unsourced stats. The image does not show the '400 levels' claim from the running headline, but nothing contradicts it.",
+        "summary": "The image is highly legible, with a bold white headline on a dark teal panel and a clear orange CTA, and it is policy-safe. However, it is only a loose fit for the 'bright watercolor ocean' brief: the flat vector balloon or lollipop shapes feel like rain or trees, not sea glass, tide pools, or turtles. It also shows nothing of the '400 levels' claim.",
+        "text_matches_intended": true,
+        "intended_text": "Pay nothing to start Play Now"
+      },
+      "score": 7.3,
+      "gate_failures": []
+    },
+    {
+      "id": "a3h1",
+      "audience": "Satisfying-visuals scrollers",
+      "audience_note": "People who watch oddly satisfying and cozy-aesthetic videos. They play for the sensory payoff of glowing colors, clean clears and small surprises.",
+      "angle": "Use a close-up, ASMR-style shot of glowing sea glass pieces swapping and clearing.",
+      "hook_line": "Watch the sea glass glow, swap, and clear.",
+      "copy": {
+        "meta": {
+          "headline": "Watch sea glass glow, swap, and clear",
+          "text": "Swap glowing sea glass to clear the tide pool. Rescue baby turtles. 400 hand-built levels, free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Sea glass glows, swaps, clears",
+          "text": "Swap glowing sea glass, clear the tide pool, rescue baby turtles. Free to play, works offline.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Swap glowing sea glass",
+          "text": "Swap sea glass, clear the tide pool, and rescue baby turtles. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Extreme close-up of glowing sea glass pieces in rounded, pebble-like shapes swapping places on a bright watercolor tide pool board, with soft translucent washes of teal (#3FD0C9) and warm orange (#FF7A3D) glass catching gentle tide pool light. Some pieces dissolve into soft shimmering bubbles as they clear. Sandy cream (#F6E7C1) paper-textured background with deep ocean blue (#0B3C49) shadows, shallow depth of field, tactile and calming ASMR mood, soft bloom around each glowing piece, a tiny friendly baby sea turtle peeking from the blurred corner. Leave clean open space at the top of the frame for text. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "orb_glow",
+        "layout": "top",
+        "overlay_text": "Watch it glow and clear",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a3h1.png",
+      "critic": {
+        "text_read": "Watch it glow and clear Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 4,
+        "policy_notes": "The image shows no swap-and-clear gameplay, only concentric dashed rings, a glowing orb and floating dots, so it does not accurately depict the real mechanics (swapping sea glass, tiles, turtles). That is a mild misleading-gameplay risk. The 'Play Now' pill looks like a UI button but works as a normal CTA and is not a fake notification. There are no prize, real-money, stat or shouting issues, and nothing implies multiplayer or violence. The image headline 'Watch it glow and clear' differs from the running copy 'Watch sea glass glow, swap, and clear', which creates redundancy and inconsistency.",
+        "summary": "The text is clear and the CTA is strong, but the abstract glowing-rings visual looks more like a space or orbit scene than a bright watercolor ocean. It shows no sea glass, tiles, swapping or turtles, so it only weakly supports the headline and gives a vague picture of the game.",
+        "text_matches_intended": true,
+        "intended_text": "Watch it glow and clear Play Now"
+      },
+      "score": 6.55,
+      "gate_failures": []
+    },
+    {
+      "id": "a3h2",
+      "audience": "Satisfying-visuals scrollers",
+      "audience_note": "People who watch oddly satisfying and cozy-aesthetic videos. They play for the sensory payoff of glowing colors, clean clears and small surprises.",
+      "angle": "Build a reveal loop around the tide pool's tiles disappearing to uncover a hidden baby turtle.",
+      "hook_line": "Clear the tiles. Find what's hiding underneath.",
+      "copy": {
+        "meta": {
+          "headline": "Clear the tiles. Find what's hiding.",
+          "text": "A baby sea turtle is hiding under the tiles. Clear the board to rescue it. 400 hand-built levels, free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Clear tiles, find a turtle",
+          "text": "Baby sea turtles hide under the tiles. Clear the board to rescue them. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Rescue hidden baby turtles",
+          "text": "Clear the tiles to find baby sea turtles hiding underneath. Free to play, offline too.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Bright watercolor tide pool seen from above, a grid of rounded sea glass tiles in teal, cream, and orange partly fading away to reveal an adorable baby sea turtle with a round shell and big friendly eyes nestled underneath. Cleared tiles break into soft watercolor splashes and small sparkles. Soft tide pool light, gentle ripples, rounded shapes throughout, palette of deep ocean blue (#0B3C49), aqua (#3FD0C9), sand cream (#F6E7C1), and coral orange (#FF7A3D). Warm, joyful reveal feeling. Keep the lower portion of the image calm and uncluttered for text. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "tile_grid",
+        "layout": "bottom",
+        "overlay_text": "Clear tiles, find the turtle",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a3h2.png",
+      "critic": {
+        "text_read": "Clear tiles, find the turtle Play Now",
+        "legibility": 8,
+        "brand_fit": 5,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' pill looks like a UI button, but it is a standard ad CTA and low risk. The grid of tiles with clock-hand marks does not match the described gameplay of swapping glowing sea glass in a tide pool, so it could be read as misleading about the mechanics. No turtle or sea glass is visible, and the headline promises a turtle. The tiles resemble a clock or rotation puzzle, which the product does not have. No real-money, prize, or stat claims. No shouting.",
+        "summary": "The text is legible and the CTA is clear, but the image shows a clock-tile puzzle with no turtle, sea glass, or watercolor ocean feel, so it is off-brand and misrepresents the swap-to-clear gameplay.",
+        "text_matches_intended": true,
+        "intended_text": "Clear tiles, find the turtle Play Now"
+      },
+      "score": 6.25,
+      "gate_failures": []
+    },
+    {
+      "id": "a3h3",
+      "audience": "Satisfying-visuals scrollers",
+      "audience_note": "People who watch oddly satisfying and cozy-aesthetic videos. They play for the sensory payoff of glowing colors, clean clears and small surprises.",
+      "angle": "Show a dull gray feed giving way to the bright, colorful tide pool board as a mood lift.",
+      "hook_line": "Your feed, but make it a bright tide pool.",
+      "copy": {
+        "meta": {
+          "headline": "Make your feed a bright tide pool",
+          "text": "Trade the gray scroll for glowing sea glass and a bright tide pool. Rescue baby turtles. Free to play, offline too.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Brighten up with a tide pool",
+          "text": "Trade gray for glowing sea glass. Clear the tide pool and rescue baby turtles. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "A bright tide pool to clear",
+          "text": "Swap glowing sea glass, clear the tide pool, and rescue baby turtles. Play offline.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Split composition showing a muted gray, flat watercolor wash on one side transitioning diagonally into a vivid bright watercolor tide pool on the other, filled with glowing rounded sea glass pieces in aqua (#3FD0C9) and orange (#FF7A3D), cream sand (#F6E7C1) and deep blue (#0B3C49) accents. Colorful paint bursts radiate outward where the gray gives way, with a friendly baby sea turtle smiling in the bright area, soft tide pool light and rounded shapes everywhere. Uplifting mood-lift feeling, painterly paper texture. Leave open space at the top for text. Style tokens: bright watercolor ocean; rounded shapes; glowing sea glass; soft tide pool light; friendly baby sea turtles.",
+        "motif": "burst",
+        "layout": "top",
+        "overlay_text": "Brighten your feed",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a3h3.png",
+      "critic": {
+        "text_read": "Brighten your feed Play Now",
+        "legibility": 8,
+        "brand_fit": 5,
+        "policy_safety": 7,
+        "message_match": 5,
+        "policy_notes": "The image has no real-money, prize, violence, multiplayer or stat claims. Risks: (1) The orange 'Play Now' pill is part of the flat image, so it looks like a clickable UI button but isn't one. This is a mild fake-UI concern. (2) The scattered rounded tiles and sunburst show no actual gameplay, such as sea glass swapping, tide pools or turtles, so the image neither misrepresents nor demonstrates the mechanics. (3) The on-image headline 'Brighten your feed' differs from the running headline 'Make your feed a bright tide pool', so the ad has two competing headlines.",
+        "summary": "The text is clean and readable, and the palette is on brand, but the flat vector sunburst looks nothing like a watercolor ocean. It has no tide pool, sea glass or turtle imagery, so it only loosely supports the 'bright tide pool' headline. The 'Play Now' button also looks like fake UI, and the two headlines compete.",
+        "text_matches_intended": true,
+        "intended_text": "Brighten your feed Play Now"
+      },
+      "score": 6.45,
+      "gate_failures": []
+    }
+  ],
+  "top": [
+    {
+      "id": "a2h3",
+      "rank": 1,
+      "score": 7.3,
+      "reason": "Score 7.3. Strongest on legibility (9). The image is highly legible, with a bold white headline on a dark teal panel and a clear orange CTA, and it is policy-safe. However, it is only a loose fit for the 'bright watercolor ocean' brief: the flat vector balloon or lollipop shapes feel like rain or trees, not sea glass, tide pools, or turtles. It also shows nothing of the '400 levels' claim. Audience: Free-to-play value seekers."
+    },
+    {
+      "id": "a2h2",
+      "rank": 2,
+      "score": 7.2,
+      "reason": "Score 7.2. Strongest on legibility (9). The text is highly legible, with white rounded type on a dark panel and a clear orange CTA, and it is policy-safe. However, the concentric dashed orbit rings with dots read as a space or atom motif rather than a bright watercolor ocean. It has no sea glass, tide pool, or turtles, and the palette is dominated by dark teal. The result is a weak brand and art-style fit and only a partial match to the 'free puzzle game' headline. Audience: Free-to-play value seekers."
+    },
+    {
+      "id": "a1h1",
+      "rank": 3,
+      "score": 7.1,
+      "reason": "Score 7.1. Strongest on legibility (9). The text is clear and high-contrast with a strong orange CTA, and the offline message is supported by the headline. The concentric-orbit visual looks like a space or solar system and not a watercolor ocean, with no sea glass, tide pool, or turtles, so brand fit and message support are only moderate. Audience: Offline-first commuters and travelers."
+    },
+    {
+      "id": "a3h1",
+      "rank": 4,
+      "score": 6.55,
+      "reason": "Score 6.55. Strongest on legibility (8). The text is clear and the CTA is strong, but the abstract glowing-rings visual looks more like a space or orbit scene than a bright watercolor ocean. It shows no sea glass, tiles, swapping or turtles, so it only weakly supports the headline and gives a vague picture of the game. Audience: Satisfying-visuals scrollers."
+    },
+    {
+      "id": "a3h3",
+      "rank": 5,
+      "score": 6.45,
+      "reason": "Score 6.45. Strongest on legibility (8). The text is clean and readable, and the palette is on brand, but the flat vector sunburst looks nothing like a watercolor ocean. It has no tide pool, sea glass or turtle imagery, so it only loosely supports the 'bright tide pool' headline. The 'Play Now' button also looks like fake UI, and the two headlines compete. Audience: Satisfying-visuals scrollers."
+    },
+    {
+      "id": "a1h2",
+      "rank": 6,
+      "score": 5.95,
+      "reason": "Score 5.95. Strongest on legibility (8). The text is clear and the CTA is prominent, but the image copy conflicts with the running headline. The visuals are flat, balloon-like ovals on dark teal rather than watercolor ocean scenery, and they show no sea glass, tide pools, or turtles, so brand fit and message match are weak. Audience: Offline-first commuters and travelers."
+    }
+  ],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 5.9,
+      "usd": 0.0049
+    },
+    {
+      "step": "angles",
+      "seconds": 12.0,
+      "usd": 0.0228
+    },
+    {
+      "step": "copy",
+      "seconds": 58.5,
+      "usd": 0.1551
+    },
+    {
+      "step": "art",
+      "seconds": 32.2,
+      "usd": 0.0648
+    },
+    {
+      "step": "images",
+      "seconds": 8.8,
+      "usd": 0.0
+    },
+    {
+      "step": "critic",
+      "seconds": 37.9,
+      "usd": 0.0899
+    },
+    {
+      "step": "rank",
+      "seconds": 0.0,
+      "usd": 0.0
+    }
+  ],
+  "cost": {
+    "usd": 0.3376,
+    "calls": 17,
+    "tokens_in": 18361,
+    "tokens_out": 19492
+  }
+}

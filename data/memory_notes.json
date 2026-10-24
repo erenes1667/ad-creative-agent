@@ -1,0 +1,170 @@
+[
+ {
+  "id": "m01",
+  "game": "Lantern Drift",
+  "audience": "bedtime wind-down players",
+  "angle": "Pitch the 3-minute level as a calm wind-down before sleep",
+  "hook": "One more board, then lights out"
+ },
+ {
+  "id": "m02",
+  "game": "Lantern Drift",
+  "audience": "commuters",
+  "angle": "Show a full level fits one train stop",
+  "hook": "Finish a level before your stop"
+ },
+ {
+  "id": "m03",
+  "game": "Lantern Drift",
+  "audience": "art lovers",
+  "angle": "Lead with the paper-cut look, not the puzzle",
+  "hook": "Every board looks like a paper card"
+ },
+ {
+  "id": "m04",
+  "game": "Lantern Drift",
+  "audience": "puzzle veterans",
+  "angle": "Claim a gentle but clever challenge with no timers",
+  "hook": "No timers. Just think."
+ },
+ {
+  "id": "m05",
+  "game": "Lantern Drift",
+  "audience": "gift-minded players",
+  "angle": "Frame the daily board as a small daily ritual",
+  "hook": "One new board every morning"
+ },
+ {
+  "id": "m06",
+  "game": "Lantern Drift",
+  "audience": "offline players",
+  "angle": "Works on planes and in tunnels with no signal",
+  "hook": "Plays fine with no signal"
+ },
+ {
+  "id": "m07",
+  "game": "Tidebreak",
+  "audience": "parents with kids nearby",
+  "angle": "Rescuing baby turtles as a wholesome hook",
+  "hook": "Help the turtles get home"
+ },
+ {
+  "id": "m08",
+  "game": "Tidebreak",
+  "audience": "lapsed match-3 players",
+  "angle": "Return to match-3 with a fresh setting",
+  "hook": "Match-3, but make it the ocean"
+ },
+ {
+  "id": "m09",
+  "game": "Gridlock Gardens",
+  "audience": "brain-teaser fans",
+  "angle": "Hand-built puzzles with no random luck",
+  "hook": "Every puzzle has one clean answer"
+ },
+ {
+  "id": "m10",
+  "game": "Gridlock Gardens",
+  "audience": "office workers",
+  "angle": "Quick brain break between meetings",
+  "hook": "A two-minute break for your brain"
+ },
+ {
+  "id": "m11",
+  "game": "Echo Vault",
+  "audience": "music players",
+  "angle": "Use your ear to crack vaults",
+  "hook": "Can you hear the pattern"
+ },
+ {
+  "id": "m12",
+  "game": "Echo Vault",
+  "audience": "headphone fans",
+  "angle": "Play with headphones for the full effect",
+  "hook": "Put your headphones on"
+ },
+ {
+  "id": "m13",
+  "game": "Pocket Orchard",
+  "audience": "idle game fans",
+  "angle": "Merge seeds into bigger trees for steady progress",
+  "hook": "Watch your orchard grow while you sip tea"
+ },
+ {
+  "id": "m14",
+  "game": "Skyhook Sprint",
+  "audience": "one-handed players",
+  "angle": "Fully playable with one thumb",
+  "hook": "Play with one thumb"
+ },
+ {
+  "id": "m15",
+  "game": "Skyhook Sprint",
+  "audience": "speedrun fans",
+  "angle": "Ghost replays let you race your best self",
+  "hook": "Race your own ghost"
+ },
+ {
+  "id": "m16",
+  "game": "Blockyard Builders",
+  "audience": "clip sharers",
+  "angle": "Wobbly physics make funny clips to share",
+  "hook": "Send this fail to a friend"
+ },
+ {
+  "id": "m17",
+  "game": "Moth and Matchbox",
+  "audience": "narrative fans",
+  "angle": "Quiet noir story with a tiny hero",
+  "hook": "A small moth in a big dark house"
+ },
+ {
+  "id": "m18",
+  "game": "FitLoop",
+  "audience": "busy professionals",
+  "angle": "Three tiny habits, not a big program",
+  "hook": "Three habits. One ring."
+ },
+ {
+  "id": "m19",
+  "game": "PennyPlan",
+  "audience": "young couples",
+  "angle": "Share jars with a partner",
+  "hook": "Split the money talk into jars"
+ },
+ {
+  "id": "m20",
+  "game": "TrailNote",
+  "audience": "hikers in low-signal areas",
+  "angle": "Maps that work with no signal",
+  "hook": "Your map still works up here"
+ },
+ {
+  "id": "m21",
+  "game": "QuillCards",
+  "audience": "adult language learners",
+  "angle": "Learn words from short stories, not lists",
+  "hook": "Learn words in stories, not lists"
+ },
+ {
+  "id": "m22",
+  "game": "Lantern Drift",
+  "audience": "competitive players",
+  "angle": "Pitch a leaderboard race (retired: game has no multiplayer)",
+  "hook": "Beat your friends to the top"
+ },
+ {
+  "id": "m23",
+  "game": "Tidebreak",
+  "audience": "collectors",
+  "angle": "Collect every sea creature in the tide pool book",
+  "hook": "Gotta find them all in the tide pool"
+ },
+ {
+  "id": "m24",
+  "game": "Echo Vault",
+  "audience": "night-time players",
+  "angle": "Play in the dark for the neon glow",
+  "hook": "Lights off. Vault on."
+ }
+]

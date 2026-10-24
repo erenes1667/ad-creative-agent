@@ -1,0 +1,14 @@
+{
+  "n": 20,
+  "rater": "Claude, at the owner's request, blind to judge scores. Not a human.",
+  "hook_strength": {
+    "spearman": 0.733,
+    "rater_mean": 5.85,
+    "judge_mean": 5.9
+  },
+  "platform_fit": {
+    "spearman": -0.141,
+    "rater_mean": 6.6,
+    "judge_mean": 5.25
+  }
+}

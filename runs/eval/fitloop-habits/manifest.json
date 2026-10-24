@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "run_id": "fitloop-habits",
+  "generated_at": "2026-10-24T02:14:44",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "FitLoop",
+    "category": "Habit tracking app (fictional)",
+    "pitch": "FitLoop helps you finish three small daily habits by filling a ring one check-off at a time, with gentle encouragement and no pressure.",
+    "mechanics": [
+      "Check off three small daily habits",
+      "A ring fills as habits are completed",
+      "Reminders to prompt daily check-ins",
+      "Weekly recap of progress",
+      "Home screen widget for quick check-offs",
+      "Works offline"
+    ],
+    "art_style": "Clean, minimal, soft gradients, big rounded numbers",
+    "tone": "Encouraging, never pushy",
+    "palette": [
+      "#0F172A",
+      "#34D399",
+      "#E2E8F0",
+      "#FDBA74"
+    ],
+    "style_tokens": [
+      "soft gradients",
+      "big rounded numerals",
+      "generous whitespace",
+      "filling progress ring",
+      "mint accent on midnight"
+    ],
+    "facts": [
+      "Users check off three small daily habits",
+      "Progress is shown as a ring that fills",
+      "Reminders are available",
+      "A weekly recap is included",
+      "A widget is available",
+      "The app works offline"
+    ],
+    "not_true": [
+      "Not a game",
+      "Does not provide medical advice",
+      "Does not make weight-loss promises",
+      "Has no social feeds",
+      "Does not offer real-money rewards"
+    ],
+    "launch_goal": "Free-trial starts"
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m18",
+        "sim": 0.661
+      },
+      {
+        "id": "m02",
+        "sim": 0.616
+      },
+      {
+        "id": "m20",
+        "sim": 0.604
+      },
+      {
+        "id": "m05",
+        "sim": 0.596
+      },
+      {
+        "id": "m08",
+        "sim": 0.575
+      },
+      {
+        "id": "m13",
+        "sim": 0.563
+      }
+    ],
+    "rounds": 2,
+    "max_sim_first": 0.79,
+    "max_sim_final": 0.726,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Streak-guilt dropouts",
+      "audience_note": "People who have quit habit apps because the pressure and guilt of missing a day felt worse than the habit was worth. They want a tracker that feels kind.",
+      "angle": "Position FitLoop's gentle encouragement as the opposite of nagging habit apps.",
+      "hook_line": "A habit app that never scolds you",
+      "copy": {
+        "meta": {
+          "headline": "A habit app that never scolds you",
+          "text": "Check off three small habits a day and watch a ring fill. Missed one? No guilt here, just a gentle nudge to try again.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "A habit app that never scolds",
+          "text": "Three small habits a day. One ring to fill. Kind encouragement, never a scolding.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "A habit app that never scolds",
+          "text": "Check off three small habits and fill your ring. Gentle, never pushy.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Streak-guilt dropouts",
+      "audience_note": "People who have quit habit apps because the pressure and guilt of missing a day felt worse than the habit was worth. They want a tracker that feels kind.",
+      "angle": "Show that a quiet, low-pressure reminder can feel like a friendly nudge rather than an alarm.",
+      "hook_line": "Reminders that sound like a friend",
+      "copy": {
+        "meta": {
+          "headline": "Reminders that sound like a friend",
+          "text": "A quiet nudge to check in, not an alarm. Tick off three small habits when it suits you, even from your home screen.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Reminders like a friend",
+          "text": "A soft nudge, not an alarm. Check off three small habits and fill your ring.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Reminders like a friend",
+          "text": "Friendly reminders to check off three small habits. Fill your ring at your pace.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Streak-guilt dropouts",
+      "audience_note": "People who have quit habit apps because the pressure and guilt of missing a day felt worse than the habit was worth. They want a tracker that feels kind.",
+      "angle": "Use the weekly recap to celebrate what got done instead of what was missed.",
+      "hook_line": "Your week, seen through what you did",
+      "copy": {
+        "meta": {
+          "headline": "Your week, seen through what you did",
+          "text": "Each week, FitLoop shows what you finished, not what you missed. Three small habits, one ring, one kind recap.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Your week, by what you did",
+          "text": "A weekly recap that counts what you did. Three small habits, one ring to fill.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Your week, by what you did",
+          "text": "A weekly recap of what you finished. Three small habits, one ring.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Progress-picture lovers",
+      "audience_note": "People who are motivated by seeing visible progress and enjoy the small satisfaction of closing something out. They want a clear, pleasing visual of their day.",
+      "angle": "Focus on the satisfying visual of the ring filling with each check-off.",
+      "hook_line": "Watch your day fill in, one tap at a time",
+      "copy": {
+        "meta": {
+          "headline": "Watch your day fill in, tap by tap",
+          "text": "FitLoop turns three small daily habits into a ring that fills with each check-off. A clear, calm picture of your day.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Watch your day fill in",
+          "text": "Three small habits. One ring that fills with every check-off. Gentle, no pressure.",
+          "cta": "Install Now"
+        },
+        "google_uac": {
+          "headline": "Watch your day fill in",
+          "text": "Check off three small habits and watch your ring fill. Gentle, no pressure.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Progress-picture lovers",
+      "audience_note": "People who are motivated by seeing visible progress and enjoy the small satisfaction of closing something out. They want a clear, pleasing visual of their day.",
+      "angle": "Highlight the home screen widget as a one-tap way to see and add progress without opening the app.",
+      "hook_line": "Check off a habit without opening anything",
+      "copy": {
+        "meta": {
+          "headline": "Check off a habit from your home screen",
+          "text": "The FitLoop widget lets you check off a habit in one tap and see your ring fill, no need to open the app.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Check off from your widget",
+          "text": "One tap on the home screen checks off a habit and fills your ring. No app opening needed.",
+          "cta": "Install Now"
+        },
+        "google_uac": {
+          "headline": "Check off from your widget",
+          "text": "Add a home screen widget and check off habits in one tap. Watch your ring fill.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Progress-picture lovers",
+      "audience_note": "People who are motivated by seeing visible progress and enjoy the small satisfaction of closing something out. They want a clear, pleasing visual of their day.",
+      "angle": "Present the weekly recap as a tidy look back at the week's progress.",
+      "hook_line": "Sunday's recap: seven days at a glance",
+      "copy": {
+        "meta": {
+          "headline": "Seven days at a glance, every week",
+          "text": "FitLoop's weekly recap gives you a tidy look back at your progress, so you can see how your habits added up.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Your week at a glance",
+          "text": "A weekly recap shows seven days of progress in one tidy view. Fill your ring daily.",
+          "cta": "Install Now"
+        },
+        "google_uac": {
+          "headline": "Your week at a glance",
+          "text": "See your whole week of habits in a tidy recap. Check off three small habits a day.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Caregivers with scattered days",
+      "audience_note": "Parents and caregivers whose time is constantly interrupted and who want a few small things that are just for themselves. They need something that fits into the gaps.",
+      "angle": "Show that the ring fills one check-off at a time, so a day that happens in pieces still adds up to a full ring.",
+      "hook_line": "A day in pieces still fills a ring",
+      "copy": {
+        "meta": {
+          "headline": "A day in pieces still fills a ring",
+          "text": "Check off three small habits whenever you get a minute. The ring fills one tap at a time, with no pressure.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Pieces of a day fill the ring",
+          "text": "Three small habits, one tap each. The ring fills as you go, at your own pace.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Pieces of a day fill the ring",
+          "text": "Check off three small habits. The ring fills one tap at a time, no pressure.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Caregivers with scattered days",
+      "audience_note": "Parents and caregivers whose time is constantly interrupted and who want a few small things that are just for themselves. They need something that fits into the gaps.",
+      "angle": "Show the widget as a quick check-off between interruptions.",
+      "hook_line": "One tap between snack time and bedtime",
+      "copy": {
+        "meta": {
+          "headline": "One tap between snack time and bedtime",
+          "text": "Add the widget to your home screen and check off a habit in one tap, even when the day keeps getting interrupted.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "One tap between interruptions",
+          "text": "A home screen widget for quick check-offs. Works offline too.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Check off habits in one tap",
+          "text": "Use the home screen widget to check off a small habit between interruptions.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Caregivers with scattered days",
+      "audience_note": "Parents and caregivers whose time is constantly interrupted and who want a few small things that are just for themselves. They need something that fits into the gaps.",
+      "angle": "Use reminders to catch the habits that slip when the day gets chaotic, with no judgment.",
+      "hook_line": "Forgot again? A soft nudge is here",
+      "copy": {
+        "meta": {
+          "headline": "Forgot again? A soft nudge is here",
+          "text": "Reminders catch the habits that slip when the day gets chaotic. No judgment, just a gentle prompt to check in.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "A soft nudge, no judgment",
+          "text": "Reminders for the habits that slip on chaotic days. Gentle, never pushy.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "A soft nudge, no judgment",
+          "text": "Gentle reminders for the habits that slip when the day gets chaotic.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 3.4,
+      "usd": 0.0042
+    },
+    {
+      "step": "angles",
+      "seconds": 20.6,
+      "usd": 0.0461
+    },
+    {
+      "step": "copy",
+      "seconds": 59.9,
+      "usd": 0.146
+    }
+  ],
+  "cost": {
+    "usd": 0.1964,
+    "calls": 6,
+    "tokens_in": 5362,
+    "tokens_out": 12576
+  }
+}

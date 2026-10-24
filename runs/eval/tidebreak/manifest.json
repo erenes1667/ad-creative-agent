@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "run_id": "tidebreak",
+  "generated_at": "2026-10-24T02:11:36",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Tidebreak",
+    "category": "Mobile match-3 puzzle game (fictional)",
+    "pitch": "Swap glowing sea glass to clear a bright tide pool and rescue baby sea turtles hidden beneath the tiles in this wholesome, free-to-play match-3 puzzler.",
+    "mechanics": [
+      "Swap adjacent sea glass tiles to create matches and clear the tide pool",
+      "Rescue baby sea turtles that appear under the tiles and free them by clearing the tiles above them",
+      "400 hand-built levels at launch",
+      "Optional ads",
+      "Full offline play"
+    ],
+    "art_style": "Bright watercolor ocean with rounded, soft shapes",
+    "tone": "Playful and wholesome",
+    "palette": [
+      "#0B3C49",
+      "#3FD0C9",
+      "#F6E7C1",
+      "#FF7A3D"
+    ],
+    "style_tokens": [
+      "bright watercolor ocean",
+      "rounded soft shapes",
+      "glowing sea glass",
+      "sunlit tide pool",
+      "baby sea turtles"
+    ],
+    "facts": [
+      "Tidebreak is a match-3 game for mobile.",
+      "Players swap glowing sea glass to clear a tide pool.",
+      "Baby sea turtles appear under the tiles and can be rescued.",
+      "The game launches with 400 hand-built levels.",
+      "The game is free to play with optional ads.",
+      "The game can be played offline.",
+      "The art style is bright watercolor ocean with rounded shapes.",
+      "The tone is playful and wholesome."
+    ],
+    "not_true": [
+      "Tidebreak does not offer real-money rewards.",
+      "Tidebreak does not have multiplayer.",
+      "Tidebreak does not contain violence."
+    ],
+    "launch_goal": "Bring lapsed match-3 players back to the genre with a fresh, wholesome puzzle experience."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m23",
+        "sim": 0.69
+      },
+      {
+        "id": "m08",
+        "sim": 0.68
+      },
+      {
+        "id": "m07",
+        "sim": 0.679
+      },
+      {
+        "id": "m04",
+        "sim": 0.612
+      },
+      {
+        "id": "m09",
+        "sim": 0.612
+      },
+      {
+        "id": "m01",
+        "sim": 0.584
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.766,
+    "max_sim_final": 0.766,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Offline commuters and travelers",
+      "audience_note": "Players who want a reliable game for flights, subway rides, and spotty-signal stretches, and who care most about a game that works anywhere.",
+      "angle": "Position full offline play as the perfect companion for airplane mode.",
+      "hook_line": "Airplane mode? Tidebreak plays offline.",
+      "copy": {
+        "meta": {
+          "headline": "Airplane mode? Tidebreak plays offline.",
+          "text": "Swap glowing sea glass, clear the tide pool, and rescue baby sea turtles. No Wi-Fi needed. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Airplane mode? Plays offline.",
+          "text": "Swap sea glass, rescue baby sea turtles. Full offline play. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Offline match-3 for flights",
+          "text": "Swap glowing sea glass and rescue baby sea turtles. Plays fully offline. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Offline commuters and travelers",
+      "audience_note": "Players who want a reliable game for flights, subway rides, and spotty-signal stretches, and who care most about a game that works anywhere.",
+      "angle": "Show a player in a signal-free tunnel still rescuing baby sea turtles.",
+      "hook_line": "No signal. Still rescuing turtles.",
+      "copy": {
+        "meta": {
+          "headline": "No signal. Still rescuing turtles.",
+          "text": "Tunnel, subway, or dead zone, the tide pool stays open. Rescue baby sea turtles offline. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "No signal. Still rescuing.",
+          "text": "Tunnel? Dead zone? Keep swapping sea glass and freeing baby turtles. Plays offline.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Rescue turtles, no signal",
+          "text": "Swap sea glass and free baby sea turtles in tunnels and dead zones. Plays offline.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Offline commuters and travelers",
+      "audience_note": "Players who want a reliable game for flights, subway rides, and spotty-signal stretches, and who care most about a game that works anywhere.",
+      "angle": "Pitch the 400 launch levels as enough to fill a long trip, with no connection needed.",
+      "hook_line": "400 levels packed for your long trip.",
+      "copy": {
+        "meta": {
+          "headline": "400 levels packed for your long trip.",
+          "text": "400 hand-built levels at launch, all playable offline. Swap sea glass and rescue baby turtles. Free to play.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "400 levels for a long trip",
+          "text": "400 hand-built levels, no connection needed. Rescue baby sea turtles on the go.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "400 levels, no Wi-Fi needed",
+          "text": "Play 400 hand-built levels offline. Swap sea glass and rescue baby turtles. Free to play.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Cozy visual aesthetes",
+      "audience_note": "Players who pick games for their look and mood, drawn to soft art, bright colors, and a pretty screen to relax into.",
+      "angle": "Lead with the bright watercolor ocean art as the main reason to download.",
+      "hook_line": "A match-3 that looks like a watercolor.",
+      "copy": {
+        "meta": {
+          "headline": "A match-3 that looks like a watercolor.",
+          "text": "Tidebreak is a free match-3 with bright watercolor ocean art. Swap sea glass and rescue baby sea turtles.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Match-3 in watercolor",
+          "text": "Bright watercolor ocean, glowing sea glass, and baby sea turtles to rescue. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "A watercolor match-3 ocean",
+          "text": "Swap sea glass in a bright watercolor tide pool and rescue baby sea turtles.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Cozy visual aesthetes",
+      "audience_note": "Players who pick games for their look and mood, drawn to soft art, bright colors, and a pretty screen to relax into.",
+      "angle": "Highlight the rounded, friendly shapes and playful tone as a soothing visual treat.",
+      "hook_line": "Soft, rounded, bright: an ocean you can swap.",
+      "copy": {
+        "meta": {
+          "headline": "Soft, rounded, bright ocean to swap",
+          "text": "Round, friendly shapes and a playful ocean to relax into. Swap sea glass, free baby sea turtles. Free to play.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Soft, rounded, bright ocean",
+          "text": "Friendly rounded shapes, a playful ocean, and baby sea turtles to rescue. Free to play.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Soft, rounded ocean puzzler",
+          "text": "A playful match-3 with soft shapes and bright color. Rescue baby sea turtles.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Cozy visual aesthetes",
+      "audience_note": "Players who pick games for their look and mood, drawn to soft art, bright colors, and a pretty screen to relax into.",
+      "angle": "Focus on the satisfying look of glowing sea glass clearing a tide pool.",
+      "hook_line": "Swap glowing sea glass. Watch the tide pool brighten.",
+      "copy": {
+        "meta": {
+          "headline": "Swap glowing sea glass, clear the pool",
+          "text": "Glowing sea glass lights up a watercolor tide pool as you match. Baby sea turtles wait underneath. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Swap glass, brighten the pool",
+          "text": "Match glowing sea glass, clear the tide pool, and free baby sea turtles. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Watch the tide pool brighten",
+          "text": "Swap glowing sea glass, clear the tide pool, and rescue baby sea turtles.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Free-to-play value seekers",
+      "audience_note": "Players wary of games that push them around, who want plenty to play, a free start, and control over when they see ads.",
+      "angle": "Make the free start the headline, with ads clearly optional.",
+      "hook_line": "Free to play. Ads are optional.",
+      "copy": {
+        "meta": {
+          "headline": "Free to play. Ads are optional.",
+          "text": "Swap glowing sea glass, clear the tide pool, and rescue baby sea turtles. Free to start. Watch ads only if you want to.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Free to play, ads optional",
+          "text": "Swap sea glass and rescue baby sea turtles. Free to play, and ads are optional.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Free to play, ads optional",
+          "text": "Match sea glass, rescue baby sea turtles. Free to play, ads optional.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Free-to-play value seekers",
+      "audience_note": "Players wary of games that push them around, who want plenty to play, a free start, and control over when they see ads.",
+      "angle": "Stress the volume of hand-built content available from day one at no cost.",
+      "hook_line": "400 hand-built levels, free to start.",
+      "copy": {
+        "meta": {
+          "headline": "400 hand-built levels, free to start",
+          "text": "Start with 400 hand-built match-3 levels, free. Clear the tide pool and rescue baby sea turtles along the way.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "400 hand-built levels, free",
+          "text": "400 hand-built match-3 levels to play, free to start. Rescue baby sea turtles as you go.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "400 hand-built levels, free",
+          "text": "400 hand-built levels to play, free to start. Rescue baby sea turtles.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Free-to-play value seekers",
+      "audience_note": "Players wary of games that push them around, who want plenty to play, a free start, and control over when they see ads.",
+      "angle": "Use light humor to say the player decides about ads, while the turtle rescue goes on.",
+      "hook_line": "You choose the ads. The turtles don't mind.",
+      "copy": {
+        "meta": {
+          "headline": "You choose the ads. Turtles don't mind.",
+          "text": "Ads are optional, so the choice is yours. Swap sea glass, clear the tide pool, and rescue baby sea turtles.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "You choose ads. Turtles wait.",
+          "text": "Ads are optional here. Swap sea glass, clear the tide pool, and rescue baby sea turtles.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "You choose ads. Turtles wait.",
+          "text": "Ads are optional. Swap sea glass and rescue baby sea turtles.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 5.2,
+      "usd": 0.0054
+    },
+    {
+      "step": "angles",
+      "seconds": 14.4,
+      "usd": 0.0284
+    },
+    {
+      "step": "copy",
+      "seconds": 70.7,
+      "usd": 0.1787
+    }
+  ],
+  "cost": {
+    "usd": 0.2125,
+    "calls": 5,
+    "tokens_in": 4318,
+    "tokens_out": 14023
+  }
+}

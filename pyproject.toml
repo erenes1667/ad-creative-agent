@@ -1,0 +1,15 @@
+[project]
+name = "ad-creative-agent"
+version = "0.1.0"
+description = "Agentic pipeline: launch brief to scored ad concepts with images (fictional game, synthetic data)"
+requires-python = ">=3.11"
+dependencies = ["anthropic>=2.3", "fastembed>=0.9", "pillow>=12"]
+
+[project.optional-dependencies]
+dev = ["pytest>=9"]
+
+[tool.setuptools]
+packages = ["adcreative"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

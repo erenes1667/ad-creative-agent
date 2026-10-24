@@ -1,0 +1,50 @@
+[
+ {
+  "id": "lantern-drift",
+  "raw": "Launch brief for Lantern Drift (FICTIONAL mobile puzzle game, iOS and Android, global soft launch). Pitch: rotate paper tiles so a thread of light connects every lantern on the board, then watch the lanterns float up. Mechanics: tap a tile to rotate it, link light paths, chain reactions release lanterns, 3-minute levels, a new daily board. Art style: warm paper-cut dusk, layered paper, soft grain, no realistic humans. Palette: indigo #1B1F4B, amber #FFB547, paper #FFF1D6, coral #E8556D. Tone: calm, cozy, a little clever. True facts: free to play, works offline, no timers on levels, no multiplayer. Not in the game: real-money prizes, chat, a combat mode. Goal: installs from casual puzzle players on Meta, TikTok and Google UAC."
+ },
+ {
+  "id": "tidebreak",
+  "raw": "Brief for Tidebreak (FICTIONAL match-3 game, mobile). Swap glowing sea glass to clear a tide pool, rescue baby sea turtles that appear under the tiles. Art style: bright watercolor ocean, rounded shapes. Palette: deep teal #0B3C49, aqua #3FD0C9, sand #F6E7C1, sunset orange #FF7A3D. Tone: playful, wholesome. Facts: 400 hand-built levels at launch, free to play with optional ads, offline play. Not in game: real-money rewards, multiplayer, violence. Goal: lapsed match-3 players."
+ },
+ {
+  "id": "gridlock-gardens",
+  "raw": "Brief for Gridlock Gardens (FICTIONAL sliding-block puzzle). Slide stone blocks to open a path for a watering can robot to reach each flower bed. Mechanics: drag blocks, 60 handcrafted puzzles per world, hint system with 3 free hints a day. Art style: clean isometric low-poly gardens, pastel greens. Palette: forest #14452F, leaf #7BD389, cream #F5F1E3, tulip #FF5C8A. Tone: calm, smart. Not in game: timers, energy limits, real-money prizes. Goal: brain-teaser fans aged 25 to 45."
+ },
+ {
+  "id": "echo-vault",
+  "raw": "Brief for Echo Vault (FICTIONAL mobile logic-puzzle with sound). Players listen to short tone patterns and rebuild them on a pad to open a vault door. Mechanics: pattern memory, 5 vault themes, headphones recommended but optional. Art style: dark neon synth-wave vault interiors. Palette: black violet #12082B, neon cyan #19E3FF, magenta #FF2E9A, white #F4F4FF. Tone: cool, tense but fair. Facts: free to play, no ads in the first 20 vaults. Not in game: gambling, loot boxes. Goal: music and rhythm game players."
+ },
+ {
+  "id": "pocket-orchard",
+  "raw": "Brief for Pocket Orchard (FICTIONAL idle-puzzle hybrid). Merge fruit seeds into bigger trees, solve small crate puzzles to unlock orchard plots. Art style: storybook illustration, warm greens and reds. Palette: bark #3B2A20, leaf #4FAE5B, apple #E23B3B, linen #FBF3E4. Tone: gentle, rewarding. Facts: progress saves to the cloud, 10-minute sessions work fine. Not in game: real-money payouts, countdown pressure. Goal: players who like short daily sessions."
+ },
+ {
+  "id": "skyhook-sprint",
+  "raw": "Brief for Skyhook Sprint (FICTIONAL one-thumb arcade puzzler). Swing a grapple between floating islands and flip switches in the right order to build a bridge. Mechanics: hold to swing, release to jump, 80 levels, ghost replays of your best run. Art style: crisp flat vector sky, bold outlines. Palette: sky #1E6FD9, cloud #EAF4FF, sun #FFC93C, ink #101820. Tone: energetic, confident. Not in game: online leaderboards at launch, real-money prizes. Goal: commuters who play with one hand."
+ },
+ {
+  "id": "moth-and-matchbox",
+  "raw": "Brief for Moth and Matchbox (FICTIONAL narrative puzzle). Guide a small moth through dark rooms by lighting matches and solving shadow puzzles. Art style: hand-inked noir with a single warm light. Palette: charcoal #1A1A1D, ember #FF8F2B, ash #CFCFD4, ivory #FFF8EA. Tone: quiet, moody, curious. Facts: 5 chapters, about 4 hours of play, one-time purchase of a fixed price to be confirmed. Not in game: jump scares, ads. Goal: wishlists and installs from narrative game fans."
+ },
+ {
+  "id": "blockyard-builders",
+  "raw": "Brief for Blockyard Builders (FICTIONAL physics puzzle). Stack wobbly blocks to keep a tiny crane operator's lunch from falling. Mechanics: drag and drop, realistic-feeling physics, 120 levels, daily challenge. Art style: chunky toy-like 3D, saturated primaries. Palette: yellow #FFD21F, blue #2457D6, red #E5322D, white #FFFFFF. Tone: funny, slightly absurd. Not in game: multiplayer, real-money rewards. Goal: casual players who share clips with friends."
+ },
+ {
+  "id": "fitloop-habits",
+  "raw": "Brief for FitLoop (FICTIONAL habit-tracking app, not a game). Users check off three small daily habits and watch a ring fill. Features: reminders, weekly recap, widget, works offline. Visual style: clean, soft gradients, big rounded numbers. Palette: midnight #0F172A, mint #34D399, mist #E2E8F0, peach #FDBA74. Tone: encouraging, never pushy. Not in the product: medical advice, weight-loss promises, social feeds. Goal: free-trial starts."
+ },
+ {
+  "id": "pennyplan",
+  "raw": "Brief for PennyPlan (FICTIONAL budgeting app). Users split each paycheck into named jars and see what is left to spend today. Features: manual entry, jar sharing for couples, CSV export, no bank linking in v1. Visual style: calm fintech, flat illustrations of jars. Palette: navy #12263A, teal #2BB3A3, snow #F7FAFC, gold #F2C14E. Tone: clear, reassuring. Not in the product: investment advice, guaranteed savings, credit products. Goal: installs from young couples."
+ },
+ {
+  "id": "trailnote",
+  "raw": "Brief for TrailNote (FICTIONAL offline hiking-map app). Download regional maps, record a route, add voice notes at waypoints. Features: works without signal, GPX import and export, battery saver mode. Visual style: topographic lines, muted earth tones. Palette: pine #1F3D2B, moss #6B8F4E, parchment #F3EBD8, trail orange #E4572E. Tone: practical, outdoorsy. Not in the product: emergency rescue service, weather guarantees. Goal: paid upgrade trials."
+ },
+ {
+  "id": "quillcards",
+  "raw": "Brief for QuillCards (FICTIONAL language-flashcard app with a short story mode). Learners read two-minute stories and tap unknown words into a spaced-repetition deck. Features: 6 languages, audio by native speakers, streak calendar. Visual style: friendly book-cover illustration. Palette: ink blue #1D2B64, paper #FFF9EE, rose #F25F7A, lime #A8E063. Tone: warm, a little witty. Not in the product: fluency promises, certified exam prep. Goal: installs from adults learning a second language."
+ }
+]

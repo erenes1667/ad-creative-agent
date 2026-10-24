@@ -1,0 +1,639 @@
+{
+  "version": 1,
+  "run_id": "lantern-drift-20261024-020522",
+  "generated_at": "2026-10-24T02:08:14",
+  "fictional": true,
+  "mode": "full",
+  "image_backend": {
+    "name": "svg-fallback",
+    "detail": "no working OpenAI key, no local diffusion server"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5",
+    "art": "claude-sonnet-5-5",
+    "critic": "claude-sonnet-5-5"
+  },
+  "brief": {
+    "name": "Lantern Drift",
+    "category": "Casual puzzle game (mobile, iOS and Android)",
+    "pitch": "Rotate paper tiles so a thread of light connects every lantern on the board, then watch the lanterns float up into the dusk.",
+    "mechanics": [
+      "Tap a tile to rotate it",
+      "Link light paths across the board",
+      "Chain reactions release lanterns",
+      "3-minute levels",
+      "A new daily board"
+    ],
+    "art_style": "Warm paper-cut dusk with layered paper, soft grain, and no realistic humans",
+    "tone": "Calm, cozy, and a little clever",
+    "palette": [
+      "#1B1F4B",
+      "#FFB547",
+      "#FFF1D6",
+      "#E8556D"
+    ],
+    "style_tokens": [
+      "layered paper cut-outs",
+      "soft film grain",
+      "warm dusk glow",
+      "glowing amber light threads",
+      "floating paper lanterns"
+    ],
+    "facts": [
+      "Free to play",
+      "Works offline",
+      "No timers on levels",
+      "Single-player only",
+      "Available on iOS and Android",
+      "Levels run about 3 minutes",
+      "A new daily board is available"
+    ],
+    "not_true": [
+      "No real-money prizes or rewards",
+      "No chat",
+      "No multiplayer",
+      "No combat mode",
+      "No timers on levels",
+      "No realistic human characters"
+    ],
+    "launch_goal": "Drive installs from casual puzzle players through Meta, TikTok, and Google UAC during a global soft launch."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m01",
+        "sim": 0.681
+      },
+      {
+        "id": "m24",
+        "sim": 0.659
+      },
+      {
+        "id": "m09",
+        "sim": 0.642
+      },
+      {
+        "id": "m05",
+        "sim": 0.616
+      },
+      {
+        "id": "m04",
+        "sim": 0.613
+      },
+      {
+        "id": "m14",
+        "sim": 0.601
+      }
+    ],
+    "rounds": 2,
+    "max_sim_first": 0.81,
+    "max_sim_final": 0.749,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Commuters and waiting-room fillers",
+      "audience_note": "Players who want a reliable way to fill short gaps on trains, flights, and in queues, often with patchy or no connection. They care most about a game that is ready whenever they are.",
+      "angle": "Offer a cozy, calm mood as a contrast to the stress of a crowded commute or a long wait.",
+      "hook_line": "Trade commute stress for cozy calm.",
+      "copy": {
+        "meta": {
+          "headline": "Trade commute stress for cozy calm.",
+          "text": "Rotate paper tiles, link a thread of light, and watch lanterns drift up into the dusk. Levels take about 3 minutes.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Trade commute stress for calm",
+          "text": "Link a thread of light and send lanterns up into the dusk. Calm, cozy, about 3 minutes a level.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Cozy calm for your commute",
+          "text": "Link light across paper tiles and watch lanterns float up. About 3 minutes a level.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Layered paper cut-out scene of a warm dusk sky in deep indigo #1B1F4B fading to amber #FFB547 at the horizon, with a large glowing paper orb like a setting sun at the center. Concentric rings of cream #FFF1D6 paper form soft ridges around it. Floating paper lanterns in coral #E8556D and amber drift at different depths, and glowing amber light threads loop gently around the orb like calm ripples. Soft film grain, subtle paper edge shadows, and a tactile handmade feel. Quiet, cozy, and spacious, with an empty calm area of dark indigo sky in the upper third. No people, no text. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "orb_glow",
+        "layout": "top",
+        "overlay_text": "Cozy calm, anywhere",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a1h1.png",
+      "critic": {
+        "text_read": "Cozy calm, anywhere Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 7,
+        "policy_notes": "The image has no real-money, prize, or multiplayer implications, and no humans, stats, or shouting. The 'Play Now' pill is a flat graphic CTA inside the ad creative. It could read as a clickable button, which is a minor fake-UI risk, though it is a common ad convention. The concentric dashed rings with orbiting dots are abstract and show no specific mechanics, so nothing is misleading. The image also does not mention any true facts such as free to play, offline, or no timers.",
+        "summary": "The ad is clean and highly legible, with a clear CTA and a calm dusk mood that supports the cozy-calm headline. However, it reads as flat vector gradients rather than layered paper-cut with grain, and it has no lantern or commute cue, so brand fit and message match are only moderate.",
+        "text_matches_intended": true,
+        "intended_text": "Cozy calm, anywhere Play Now"
+      },
+      "score": 7.25,
+      "gate_failures": []
+    },
+    {
+      "id": "a1h2",
+      "audience": "Commuters and waiting-room fillers",
+      "audience_note": "Players who want a reliable way to fill short gaps on trains, flights, and in queues, often with patchy or no connection. They care most about a game that is ready whenever they are.",
+      "angle": "Show that tap-to-rotate is so simple you can start playing within seconds of sitting down.",
+      "hook_line": "Tap a tile. You're already playing.",
+      "copy": {
+        "meta": {
+          "headline": "Tap a tile. You're already playing.",
+          "text": "Tap to rotate a tile and link the light path. Chain reactions send lanterns floating up. Levels take about 3 minutes.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Tap a tile. You're playing.",
+          "text": "Tap to rotate tiles, link the light, and watch lanterns float up. One tap and you're in.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Tap a tile and start playing",
+          "text": "Rotate tiles with a tap and link the light. Lanterns float up when you do.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Close, slightly angled view of a grid of chunky layered paper-cut tiles in cream #FFF1D6, amber #FFB547, coral #E8556D, and indigo #1B1F4B. Each tile carries a simple cut-out pattern of paper lines. One tile in the middle is mid-rotation, tilted at a playful angle, with glowing amber light threads connecting its pattern to neighboring tiles. A few small floating paper lanterns hover above the grid in a warm dusk glow. Soft film grain, visible paper fibers, gentle drop shadows between layers, and an indigo dusk background. Leave generous empty space at the bottom of the frame. No people, no hands, no text. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "tile_grid",
+        "layout": "bottom",
+        "overlay_text": "Tap a tile and play",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a1h2.png",
+      "critic": {
+        "text_read": "Tap a tile and play Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' pill is drawn inside the ad image, so it looks like a clickable UI element but is not one. That is a fake-button risk, and the policy risk is moderate. The grid of tiles with clock-like hands implies a tile-tapping puzzle. That may not match the real Lantern Drift mechanics, and the clock faces could suggest time pressure, even though levels have no timers. No prize, multiplayer or human content is implied. No false claims are made in the text. The image text 'Tap a tile and play' largely repeats the headline 'Tap a tile. You're already playing.'",
+        "summary": "The ad is clean and readable with strong contrast on the CTA and headline, but the in-image 'Play Now' button is a fake UI element, the clock-like tile grid may misrepresent gameplay or imply timers, and the flat vector look with brown tiles departs from the layered paper-cut dusk style and its amber/cream/coral palette, so the ad only partly fits the brand and the headline.",
+        "text_matches_intended": true,
+        "intended_text": "Tap a tile and play Play Now"
+      },
+      "score": 6.5,
+      "gate_failures": []
+    },
+    {
+      "id": "a1h3",
+      "audience": "Commuters and waiting-room fillers",
+      "audience_note": "Players who want a reliable way to fill short gaps on trains, flights, and in queues, often with patchy or no connection. They care most about a game that is ready whenever they are.",
+      "angle": "Pair free-to-play with offline play to make it an easy, no-commitment download for travel.",
+      "hook_line": "Free to play. No wifi needed.",
+      "copy": {
+        "meta": {
+          "headline": "Free to play. No wifi needed.",
+          "text": "Lantern Drift is free and works offline, so it's ready on the train, the flight, or in the queue. iOS and Android.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Free to play. No wifi needed.",
+          "text": "Works offline on trains, flights, and in queues. Link the light, float the lanterns. Free.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Free to play. Works offline.",
+          "text": "Free to play and works offline. Link light paths and send lanterns up.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Layered paper-cut landscape at dusk: rolling hills in stacked indigo #1B1F4B, coral #E8556D, and cream #FFF1D6 paper layers, with a winding path made of small square paper tiles crossing the hills. A glowing amber light thread runs along the path and links the tiles like a quiet journey. Floating paper lanterns rise above the hills in warm amber light, and a small paper-cut train silhouette sits far back in a lower layer to suggest travel. Soft film grain, warm dusk glow, crisp paper edges with soft shadows. The upper area is open indigo sky with a few cream paper stars. No people, no text. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "path_board",
+        "layout": "top",
+        "overlay_text": "Free and offline play",
+        "cta_label": "Install Now"
+      },
+      "image": "images/a1h3.png",
+      "critic": {
+        "text_read": "Free and offline play Install Now",
+        "legibility": 9,
+        "brand_fit": 5,
+        "policy_safety": 6,
+        "message_match": 7,
+        "policy_notes": "The 'Install Now' pill is a flat in-image button, which could be read as fake UI, though it is a common CTA style and a minor risk. The rising line chart with nodes looks like a stats or progress graph. It could imply earnings, score growth, or performance data, and it shows no actual gameplay. That may mislead about what the game is, and it can hint at rewards or progression that are not part of the product. The chart's last point dips, which is a minor point. Nothing here implies real-money prizes, multiplayer, or chat. 'Free and offline play' is consistent with the true facts. No humans appear.",
+        "summary": "The text is crisp and the CTA is clear, and the 'free and offline' message fits the headline, but the generic data-chart visual has no lantern or paper-cut dusk feel, omits the cream #FFF1D6 as a main tone, and may suggest stats or earnings instead of the game.",
+        "text_matches_intended": true,
+        "intended_text": "Free and offline play Install Now"
+      },
+      "score": 6.65,
+      "gate_failures": []
+    },
+    {
+      "id": "a2h1",
+      "audience": "Visual-comfort seekers",
+      "audience_note": "Players drawn to gentle, handcrafted aesthetics who play for the pleasing look and feel of a screen. They want the payoff of watching something beautiful happen as a reward for solving it.",
+      "angle": "Sell the soothing rhythm of tapping a tile, turning it, and watching light connect, as a gentle loop.",
+      "hook_line": "Tap, turn, glow. Repeat softly.",
+      "copy": {
+        "meta": {
+          "headline": "Tap, turn, glow. Repeat softly.",
+          "text": "Rotate paper tiles until a thread of light links every lantern. Free to play, and it works offline.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Tap, turn, glow. Repeat.",
+          "text": "Turn paper tiles. Link the light. A calm puzzle that works offline and is free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Tap, turn, glow. Repeat.",
+          "text": "Rotate paper tiles to link the light. Free to play, works offline.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "A close-up grid of layered paper-cut tiles in deep indigo #1B1F4B and cream #FFF1D6, each tile slightly rotated at a different angle. A few tiles are aligned, and glowing amber #FFB547 light threads run through them to connect the pattern. Small coral #E8556D paper accents sit on the edges. A few small floating paper lanterns drift at the edges of the frame. Warm dusk glow, soft film grain, and gentle shadows between the paper layers give depth. The composition is calm and uncluttered, with a quiet empty band of dusk sky across the lower third. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "tile_grid",
+        "layout": "top",
+        "overlay_text": "Tap turn glow",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a2h1.png",
+      "critic": {
+        "text_read": "Tap turn glow Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 7,
+        "policy_notes": "The 'Play Now' pill looks like a real button, but it works as a standard ad CTA and is a minor concern at most. The grid of rotating clock-hand tiles seems to illustrate the tap-to-turn mechanic with no prizes, chat, multiplayer, or combat implied, though it may not match the real gameplay of Lantern Drift. The on-image text 'Tap turn glow' omits the commas and the 'Repeat softly' line from the headline, and it reads slightly awkwardly as a command. The cropped grid at the bottom edge could pass as a live game screen, so the image should reflect actual in-game visuals. Nothing mentions timers, so there is no contradiction with the no-timer fact. There are no unsourced stats and no shouting.",
+        "summary": "A clean, high-contrast ad with a clear CTA and a tap-and-turn tile grid that supports the headline, but the style drifts from the paper-cut dusk look (flat vector, brown tiles, no lanterns or grain, and the amber #FFB547 is missing), the card overlaps the grid awkwardly, and the shown mechanic may not match real gameplay.",
+        "text_matches_intended": true,
+        "intended_text": "Tap turn glow Play Now"
+      },
+      "score": 6.65,
+      "gate_failures": []
+    },
+    {
+      "id": "a2h2",
+      "audience": "Visual-comfort seekers",
+      "audience_note": "Players drawn to gentle, handcrafted aesthetics who play for the pleasing look and feel of a screen. They want the payoff of watching something beautiful happen as a reward for solving it.",
+      "angle": "Highlight the chain-reaction payoff, where one finished connection releases every lantern.",
+      "hook_line": "Connect one thread. Release every lantern.",
+      "copy": {
+        "meta": {
+          "headline": "Connect one thread. Free every lantern.",
+          "text": "Finish one light path and a chain reaction sets the lanterns free. Cozy puzzles, about 3 minutes a level.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "One thread, every lantern.",
+          "text": "Link the light and a chain reaction lets the lanterns go. About 3 minutes a level.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "One thread, every lantern.",
+          "text": "A chain reaction sets the lanterns free. Levels run about 3 minutes.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "A vertical cascade of layered paper cut-outs. One amber #FFB547 light thread, newly connected, runs down through the middle of the frame. Paper lanterns in coral #E8556D, amber, and cream #FFF1D6 break loose below it and float up in a rippling chain. Stacked indigo #1B1F4B paper hills sit in the background under a warm dusk gradient. Soft film grain, glowing thread highlights, and handmade paper edges. The mood is relieved and gentle, with open indigo space in the upper third. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "cascade",
+        "layout": "bottom",
+        "overlay_text": "Free every lantern",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a2h2.png",
+      "critic": {
+        "text_read": "Free every lantern Play Now",
+        "legibility": 8,
+        "brand_fit": 8,
+        "policy_safety": 7,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' pill is drawn as a clickable button inside the creative. This is a mild fake-UI risk, though it reads as a standard CTA and not a fake system notification. The image shows no thread or connecting mechanic, and the headline promises 'Connect one thread'. Since only floating lanterns appear, the core gameplay is not shown, which is a minor mismatch and not a deceptive claim. 'Free' correctly refers to free-to-play, but 'Free every lantern' in the image could be misread as a giveaway or reward. There are no prize, money, chat, multiplayer, combat, or human implications, and no unsourced stats.",
+        "summary": "A clean, readable dusk-navy paper-cut creative that fits the palette and style well, but it lacks the thread mechanic from the headline, its in-image 'Free every lantern' line is ambiguous, and its baked-in CTA button is a small fake-UI risk.",
+        "text_matches_intended": true,
+        "intended_text": "Free every lantern Play Now"
+      },
+      "score": 7.35,
+      "gate_failures": []
+    },
+    {
+      "id": "a2h3",
+      "audience": "Visual-comfort seekers",
+      "audience_note": "Players drawn to gentle, handcrafted aesthetics who play for the pleasing look and feel of a screen. They want the payoff of watching something beautiful happen as a reward for solving it.",
+      "angle": "Sell the finale: lanterns rising into a dusk sky as the visual reward.",
+      "hook_line": "Watch the dusk fill with lanterns.",
+      "copy": {
+        "meta": {
+          "headline": "Watch the dusk fill with lanterns.",
+          "text": "Solve the board, then watch the lanterns float up into the dusk. A new daily board is ready, free to play.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Watch lanterns rise at dusk.",
+          "text": "Solve the board and watch the lanterns float into the dusk. A new daily board awaits.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Watch lanterns rise at dusk.",
+          "text": "Solve the board, then watch lanterns float into the dusk. Free to play.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "A wide dusk scene built from layered paper. Deep indigo #1B1F4B ridges in the foreground rise toward a glowing amber #FFB547 and cream #FFF1D6 horizon. Dozens of paper lanterns in amber, coral #E8556D, and cream rise in a soft spiral toward the sky, joined by faint glowing amber light threads. A large soft orb of warm light at the center bathes the paper layers in dusk glow. Soft film grain throughout, tranquil and rewarding, with a clear dark-sky area near the top. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "orb_glow",
+        "layout": "top",
+        "overlay_text": "Dusk fills with lanterns",
+        "cta_label": "Install Now"
+      },
+      "image": "images/a2h3.png",
+      "critic": {
+        "text_read": "Dusk fills with lanterns Install Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 8,
+        "policy_notes": "The 'Install Now' pill is part of the flattened creative, so it could be mistaken for a working button. This is a common CTA pattern but a minor fake-UI risk if it is not clearly an ad CTA. The concentric dashed rings and scattered dots could read as a gameplay mechanic or board that may not match the real game. They are abstract enough that this is low risk. No prize, money, multiplayer, chat, combat, timer or human implications. The image headline ('Dusk fills with lanterns') differs slightly from the running copy ('Watch the dusk fill with lanterns'), so the two will appear together with redundant wording.",
+        "summary": "Clear, high-contrast headline and CTA on a dusk palette with a warm glowing focal point, but the look is flat vector with gradients and dashed rings rather than layered paper-cut with grain, the lanterns are abstract dots, and the CTA is baked into the image.",
+        "text_matches_intended": true,
+        "intended_text": "Dusk fills with lanterns Install Now"
+      },
+      "score": 7.4,
+      "gate_failures": []
+    },
+    {
+      "id": "a3h1",
+      "audience": "Solo-peace seekers",
+      "audience_note": "Players tired of competitive, social, and noisy games who want a private space with no rivals or messages. They are motivated by being left alone with something quietly absorbing.",
+      "angle": "Contrast with social games by stating plainly that there is no chat and no rivals.",
+      "hook_line": "No chat. No rivals. Just lanterns.",
+      "copy": {
+        "meta": {
+          "headline": "No chat. No rivals. Just lanterns.",
+          "text": "Rotate paper tiles, connect every lantern with a thread of light, and watch them float into the dusk. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "No chat. No rivals.",
+          "text": "Rotate tiles, link the light, and let the lanterns drift up at dusk. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "No chat. No rivals.",
+          "text": "Rotate tiles, link the light, and watch lanterns float up. Free and single-player.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "Layered paper cut-out scene at warm dusk: a single large glowing paper lantern in amber #FFB547 floats at the center of a deep indigo #1B1F4B sky, ringed by soft concentric paper layers in coral #E8556D and cream #FFF1D6. Fine glowing amber light threads drift gently from the lantern, and a few small lanterns float far away in the distance. Soft film grain, subtle paper fiber texture, and gentle drop shadows between the layers give depth. The mood is calm, solitary, and peaceful. Keep the upper third as clean, quiet negative space in dark indigo paper. No people, no speech bubbles, no interface elements. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "orb_glow",
+        "layout": "top",
+        "overlay_text": "No chat No rivals",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a3h1.png",
+      "critic": {
+        "text_read": "No chat No rivals Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' pill is drawn inside the ad and looks like a clickable button. This is a mild fake-UI risk, though it is a common CTA treatment. The claims 'No chat' and 'No rivals' are consistent with the single-player facts and do not imply multiplayer, prizes, or combat. No stats, no shouting, no real-money cues. The abstract orbit and dot graphic does not show any mechanic that could mislead. The image text has no periods and does not include 'Just lanterns', so it differs slightly from the running headline, and the text would be duplicated next to the headline.",
+        "summary": "The text is clear and high-contrast, and the claims are accurate and safe. But the glowing orbital graphic reads as flat vector art rather than layered paper-cut, there are no recognizable lanterns to support 'Just lanterns', and the in-image button looks like fake UI and duplicates the headline.",
+        "text_matches_intended": true,
+        "intended_text": "No chat No rivals Play Now"
+      },
+      "score": 6.85,
+      "gate_failures": []
+    },
+    {
+      "id": "a3h2",
+      "audience": "Solo-peace seekers",
+      "audience_note": "Players tired of competitive, social, and noisy games who want a private space with no rivals or messages. They are motivated by being left alone with something quietly absorbing.",
+      "angle": "Frame the single-player design as a puzzle world that belongs only to the player.",
+      "hook_line": "A puzzle game that's entirely yours.",
+      "copy": {
+        "meta": {
+          "headline": "A puzzle game that's entirely yours.",
+          "text": "Single-player only, so every quiet 3-minute level is yours alone. Rotate tiles, light the lanterns, and take your time.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "A puzzle world that's yours",
+          "text": "Single-player puzzles, about 3 minutes each. No timers, no rush. Just you and the lanterns.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "A puzzle that's all yours",
+          "text": "Single-player light puzzles with no timers. A calm game that belongs to you.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "A small private puzzle world built from layered paper cut-outs: a neat grid of cream #FFF1D6 and amber #FFB547 paper tiles, some with simple cut-out lantern shapes, rests on a coral #E8556D paper hillside under a deep indigo #1B1F4B dusk sky. Glowing amber light threads connect a few tiles in a gentle pattern. Floating paper lanterns hover above the grid. Warm dusk glow, soft film grain, and visible paper edges with soft shadows. The composition is cozy and self-contained, as if the world belongs to one viewer. Keep the lower third as calm, uncluttered paper-layer space. No people, no characters, no UI. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "tile_grid",
+        "layout": "bottom",
+        "overlay_text": "Entirely yours",
+        "cta_label": "Install Now"
+      },
+      "image": "images/a3h2.png",
+      "critic": {
+        "text_read": "Entirely yours Install Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The 'Install Now' pill is a styled CTA inside a creative, so it could read as a fake UI button, though it is a common ad pattern and mildly risky. The clock-like grid tiles suggest a puzzle, but the clocks and cream/brown tile states could imply timer or clock mechanics. The product has no timers on levels, so this is a possible misleading-mechanic signal. The grid is generic and does not clearly show the real gameplay, which is a lantern drift concept. No prizes, chat, multiplayer, or humans are implied. The lower grid rows are obscured by the translucent panel, which looks unfinished.",
+        "summary": "The ad has a clear, high-contrast headline and a bold coral CTA on a dark navy panel. However, the clock-face tile grid is off-theme for 'Lantern Drift', hints at timers the game doesn't have, and lacks the layered paper-cut dusk look with amber and grain. The translucent panel also muddies the lower grid.",
+        "text_matches_intended": true,
+        "intended_text": "Entirely yours Install Now"
+      },
+      "score": 6.5,
+      "gate_failures": []
+    },
+    {
+      "id": "a3h3",
+      "audience": "Solo-peace seekers",
+      "audience_note": "Players tired of competitive, social, and noisy games who want a private space with no rivals or messages. They are motivated by being left alone with something quietly absorbing.",
+      "angle": "Emphasize a free, solo, low-noise experience as an escape from busy apps.",
+      "hook_line": "Free, solo, and wonderfully quiet.",
+      "copy": {
+        "meta": {
+          "headline": "Free, solo, and wonderfully quiet.",
+          "text": "Works offline, free to play, and no timers. Rotate paper tiles and send lanterns up into the dusk.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Free, solo, and quiet",
+          "text": "Free to play, works offline, and no timers. A quiet escape in about 3 minutes.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Free, solo, and quiet",
+          "text": "Free to play, works offline, no timers. Quiet lantern puzzles on iOS and Android.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      },
+      "art": {
+        "image_prompt": "A quiet winding path made of layered paper cut-outs curves through rolling indigo #1B1F4B and coral #E8556D hills toward a soft glowing horizon of amber #FFB547 and cream #FFF1D6. Stepping-stone tiles along the path are lit by glowing amber light threads. Floating paper lanterns drift lazily in the dusk sky, and the layers fade in warm haze. Soft film grain, tactile paper texture, and gentle shadows between the layers. The mood is serene, spacious, and low-noise. Keep the top third as open, smooth sky for text. No people, no animals, no interface elements. Style tokens: layered paper cut-outs; soft film grain; warm dusk glow; glowing amber light threads; floating paper lanterns.",
+        "motif": "path_board",
+        "layout": "top",
+        "overlay_text": "Free solo and quiet",
+        "cta_label": "Play Now"
+      },
+      "image": "images/a3h3.png",
+      "critic": {
+        "text_read": "Free solo and quiet Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' button is rendered inside the image, so it looks like a clickable UI element but is not functional. This is a mild fake-UI risk. The zigzag line chart with nodes looks like a stock or performance graph. That could imply gains, scores, or rewards, and it does not clearly show any Lantern Drift gameplay, so it risks misleading viewers about the mechanics. 'Free solo' is a climbing term and may read as extreme-sport content. The image text 'Free solo and quiet' differs from the running headline 'Free, solo, and wonderfully quiet.', which causes a slight copy mismatch and duplicated messaging. Nothing implies real-money prizes, multiplayer, chat, or combat. There are no humans and no unsourced stats.",
+        "summary": "The ad is clean and highly legible with a clear CTA, but the flat vector chart-like graphic misses the layered paper-cut dusk style and any lantern or drift cues. The in-image button and the headline wording mismatch ('Free solo and quiet' vs. 'Free, solo, and wonderfully quiet.') weaken policy safety and message match.",
+        "text_matches_intended": true,
+        "intended_text": "Free solo and quiet Play Now"
+      },
+      "score": 6.75,
+      "gate_failures": []
+    }
+  ],
+  "top": [
+    {
+      "id": "a2h3",
+      "rank": 1,
+      "score": 7.4,
+      "reason": "Score 7.4. Strongest on legibility (9). Clear, high-contrast headline and CTA on a dusk palette with a warm glowing focal point, but the look is flat vector with gradients and dashed rings rather than layered paper-cut with grain, the lanterns are abstract dots, and the CTA is baked into the image. Audience: Visual-comfort seekers."
+    },
+    {
+      "id": "a2h2",
+      "rank": 2,
+      "score": 7.35,
+      "reason": "Score 7.35. Strongest on legibility (8). A clean, readable dusk-navy paper-cut creative that fits the palette and style well, but it lacks the thread mechanic from the headline, its in-image 'Free every lantern' line is ambiguous, and its baked-in CTA button is a small fake-UI risk. Audience: Visual-comfort seekers."
+    },
+    {
+      "id": "a1h1",
+      "rank": 3,
+      "score": 7.25,
+      "reason": "Score 7.25. Strongest on legibility (9). The ad is clean and highly legible, with a clear CTA and a calm dusk mood that supports the cozy-calm headline. However, it reads as flat vector gradients rather than layered paper-cut with grain, and it has no lantern or commute cue, so brand fit and message match are only moderate. Audience: Commuters and waiting-room fillers."
+    },
+    {
+      "id": "a3h1",
+      "rank": 4,
+      "score": 6.85,
+      "reason": "Score 6.85. Strongest on legibility (8). The text is clear and high-contrast, and the claims are accurate and safe. But the glowing orbital graphic reads as flat vector art rather than layered paper-cut, there are no recognizable lanterns to support 'Just lanterns', and the in-image button looks like fake UI and duplicates the headline. Audience: Solo-peace seekers."
+    },
+    {
+      "id": "a3h3",
+      "rank": 5,
+      "score": 6.75,
+      "reason": "Score 6.75. Strongest on legibility (9). The ad is clean and highly legible with a clear CTA, but the flat vector chart-like graphic misses the layered paper-cut dusk style and any lantern or drift cues. The in-image button and the headline wording mismatch ('Free solo and quiet' vs. 'Free, solo, and wonderfully quiet.') weaken policy safety and message match. Audience: Solo-peace seekers."
+    },
+    {
+      "id": "a1h3",
+      "rank": 6,
+      "score": 6.65,
+      "reason": "Score 6.65. Strongest on legibility (9). The text is crisp and the CTA is clear, and the 'free and offline' message fits the headline, but the generic data-chart visual has no lantern or paper-cut dusk feel, omits the cream #FFF1D6 as a main tone, and may suggest stats or earnings instead of the game. Audience: Commuters and waiting-room fillers."
+    }
+  ],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 3.6,
+      "usd": 0.0039
+    },
+    {
+      "step": "angles",
+      "seconds": 30.6,
+      "usd": 0.0629
+    },
+    {
+      "step": "copy",
+      "seconds": 53.5,
+      "usd": 0.1366
+    },
+    {
+      "step": "art",
+      "seconds": 31.0,
+      "usd": 0.0647
+    },
+    {
+      "step": "images",
+      "seconds": 8.1,
+      "usd": 0.0
+    },
+    {
+      "step": "critic",
+      "seconds": 38.7,
+      "usd": 0.0902
+    },
+    {
+      "step": "rank",
+      "seconds": 0.0,
+      "usd": 0.0
+    }
+  ],
+  "cost": {
+    "usd": 0.3584,
+    "calls": 18,
+    "tokens_in": 19639,
+    "tokens_out": 20487
+  }
+}

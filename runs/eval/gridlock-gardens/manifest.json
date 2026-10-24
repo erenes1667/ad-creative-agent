@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "run_id": "gridlock-gardens",
+  "generated_at": "2026-10-24T02:11:32",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Gridlock Gardens",
+    "category": "Sliding-block puzzle game (fictional)",
+    "pitch": "Slide stone blocks to clear a path for a watering can robot as it reaches every flower bed in a calm, isometric garden.",
+    "mechanics": [
+      "Drag stone blocks to slide them into position",
+      "Clear a route so the watering can robot can reach each flower bed",
+      "60 handcrafted puzzles per world",
+      "Hint system with 3 free hints per day"
+    ],
+    "art_style": "Clean isometric low-poly gardens in pastel greens",
+    "tone": "Calm and smart",
+    "palette": [
+      "#14452F",
+      "#7BD389",
+      "#F5F1E3",
+      "#FF5C8A"
+    ],
+    "style_tokens": [
+      "clean isometric low-poly",
+      "pastel green gardens",
+      "soft flat shading",
+      "stone block textures",
+      "tulip pink accents"
+    ],
+    "facts": [
+      "Players slide stone blocks to open a path for a watering can robot.",
+      "The goal is to guide the robot to every flower bed.",
+      "Each world contains 60 handcrafted puzzles.",
+      "Players receive 3 free hints per day.",
+      "The art style is clean isometric low-poly with pastel greens.",
+      "The target audience is brain-teaser fans aged 25 to 45."
+    ],
+    "not_true": [
+      "The game has no timers.",
+      "The game has no energy limits.",
+      "The game offers no real-money prizes.",
+      "Gridlock Gardens is a fictional product made for a portfolio demo, not a real release."
+    ],
+    "launch_goal": "Reach brain-teaser fans aged 25 to 45 with a calm, smart puzzle experience."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m09",
+        "sim": 0.656
+      },
+      {
+        "id": "m13",
+        "sim": 0.62
+      },
+      {
+        "id": "m04",
+        "sim": 0.619
+      },
+      {
+        "id": "m14",
+        "sim": 0.61
+      },
+      {
+        "id": "m23",
+        "sim": 0.584
+      },
+      {
+        "id": "m01",
+        "sim": 0.581
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.769,
+    "max_sim_final": 0.769,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Spatial planners",
+      "audience_note": "Players who love untangling a tricky layout and the satisfaction of seeing a plan come together. They want a puzzle that rewards thinking a few moves ahead.",
+      "angle": "Frame the board as a jam of stone blocks where finding the one stone to move opens the whole route.",
+      "hook_line": "One stone blocks everything. Can you find it?",
+      "copy": {
+        "meta": {
+          "headline": "One stone blocks it all. Find it.",
+          "text": "Slide stone blocks to clear a path for a watering can robot. Find the one move that opens the whole garden.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "One stone blocks the path.",
+          "text": "Slide stone blocks to clear a path for the watering can robot. Find the stone that frees it.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "One stone blocks the path.",
+          "text": "Find the one stone to slide and open a route for the watering can robot.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Spatial planners",
+      "audience_note": "Players who love untangling a tricky layout and the satisfaction of seeing a plan come together. They want a puzzle that rewards thinking a few moves ahead.",
+      "angle": "Reaching every flower bed means planning the robot's whole route, not just the first move.",
+      "hook_line": "Reach every flower bed. Plan before you slide.",
+      "copy": {
+        "meta": {
+          "headline": "Reach every flower bed. Plan first.",
+          "text": "A calm puzzle for spatial planners. Think a few moves ahead so the robot reaches every flower bed.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Plan before you slide",
+          "text": "Think a few moves ahead. Guide the robot to every flower bed. 60 handcrafted puzzles per world.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Plan before you slide",
+          "text": "Think a few moves ahead and guide the robot to every flower bed.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Spatial planners",
+      "audience_note": "Players who love untangling a tricky layout and the satisfaction of seeing a plan come together. They want a puzzle that rewards thinking a few moves ahead.",
+      "angle": "Show the hands-on pleasure of dragging stone blocks into place and watching a path open for the robot.",
+      "hook_line": "Drag. Slide. Watch the path open up.",
+      "copy": {
+        "meta": {
+          "headline": "Drag. Slide. Watch the path open up.",
+          "text": "Drag stone blocks into place in a calm isometric garden and watch the robot's path open. 60 puzzles per world.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Drag. Slide. Watch it open.",
+          "text": "Drag stone blocks into place and watch the watering can robot find its way. Calm and smart.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Drag. Slide. Watch it open.",
+          "text": "Drag stone blocks into place and watch the robot's path open up.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Cozy visual seekers",
+      "audience_note": "Players who choose games for their look and mood. They want something pretty to spend time in, and a puzzle is a bonus on top of a relaxing aesthetic.",
+      "angle": "Lead with the clean isometric low-poly art and pastel greens as a soothing visual experience.",
+      "hook_line": "A puzzle game that looks like a deep breath.",
+      "copy": {
+        "meta": {
+          "headline": "Puzzles that look like a deep breath",
+          "text": "Clean isometric low-poly art in pastel greens. Slide stone blocks, guide the watering can robot, and unwind.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Looks like a deep breath",
+          "text": "Pastel greens and clean isometric art. Slide stone blocks and guide a tiny robot.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "A puzzle that looks calm",
+          "text": "Slide stone blocks in pastel isometric gardens. Guide the robot to every flower bed.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Cozy visual seekers",
+      "audience_note": "Players who choose games for their look and mood. They want something pretty to spend time in, and a puzzle is a bonus on top of a relaxing aesthetic.",
+      "angle": "Introduce the watering can robot as a charming little character on a mission to reach every flower bed.",
+      "hook_line": "Help a tiny watering can robot find every flower.",
+      "copy": {
+        "meta": {
+          "headline": "Help a tiny robot find every flower",
+          "text": "Slide stone blocks to clear a path for a little watering can robot. Reach every flower bed in a calm garden.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Help a tiny robot find flowers",
+          "text": "Slide stone blocks to clear the way for a watering can robot. Reach every flower bed.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Guide a watering can robot",
+          "text": "Slide stone blocks to clear a path. Help the little robot reach every flower bed.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Cozy visual seekers",
+      "audience_note": "Players who choose games for their look and mood. They want something pretty to spend time in, and a puzzle is a bonus on top of a relaxing aesthetic.",
+      "angle": "Present each level as a small, tidy isometric garden diorama to admire as well as solve.",
+      "hook_line": "Tiny isometric gardens. Pastel greens. Clever puzzles.",
+      "copy": {
+        "meta": {
+          "headline": "Tiny isometric gardens to solve",
+          "text": "Tiny isometric gardens. Pastel greens. Clever puzzles. 60 handcrafted puzzles per world, with 3 free hints a day.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Tiny gardens. Clever puzzles.",
+          "text": "Pastel isometric garden dioramas to admire and solve. 60 handcrafted puzzles per world.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Tiny isometric garden puzzles",
+          "text": "Admire each pastel garden, then solve it. 60 handcrafted puzzles per world.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Easily-stuck puzzle fans",
+      "audience_note": "Brain-teaser fans who enjoy a challenge but get frustrated when a board stops them cold. They want a safety net so they can keep going instead of quitting.",
+      "angle": "Highlight the daily free hints as a gentle nudge for when a board has you beat.",
+      "hook_line": "Stuck? You get 3 free hints every day.",
+      "copy": {
+        "meta": {
+          "headline": "Stuck? You get 3 free hints every day.",
+          "text": "Slide stone blocks to clear a path for a watering can robot. Stuck on a board? Use one of 3 free daily hints.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "3 free hints every day",
+          "text": "Slide stone blocks, guide the robot to every flower bed. Stuck? 3 free hints daily.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "3 free hints every day",
+          "text": "Slide stone blocks to guide a watering can robot. 3 free hints every day.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Easily-stuck puzzle fans",
+      "audience_note": "Brain-teaser fans who enjoy a challenge but get frustrated when a board stops them cold. They want a safety net so they can keep going instead of quitting.",
+      "angle": "Turn a tough board into something to return to: the hints refresh daily, so tomorrow brings another chance.",
+      "hook_line": "Tough board? Tomorrow brings three more hints.",
+      "copy": {
+        "meta": {
+          "headline": "Tough board? Get 3 hints tomorrow.",
+          "text": "A tough board can wait. Your 3 free hints refresh daily, so tomorrow you can slide the blocks again with a nudge.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Hints refresh every day",
+          "text": "Leave a hard board for later. Your 3 free hints refresh daily, so you can come back.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Tomorrow brings 3 more hints",
+          "text": "Hard board? Come back tomorrow. 3 free hints every day.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Easily-stuck puzzle fans",
+      "audience_note": "Brain-teaser fans who enjoy a challenge but get frustrated when a board stops them cold. They want a safety net so they can keep going instead of quitting.",
+      "angle": "Emphasize the large amount of handcrafted content, so there is always another board to try when one is hard.",
+      "hook_line": "60 handcrafted puzzles in every single world.",
+      "copy": {
+        "meta": {
+          "headline": "60 handcrafted puzzles per world",
+          "text": "Every world holds 60 handcrafted puzzles. Slide stone blocks and guide the robot to each flower bed in a calm garden.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "60 puzzles in every world",
+          "text": "60 handcrafted puzzles per world. Slide stone blocks and water every flower bed.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "60 puzzles in every world",
+          "text": "Slide stone blocks to reach every flower bed. 60 handcrafted puzzles per world.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 4.5,
+      "usd": 0.0047
+    },
+    {
+      "step": "angles",
+      "seconds": 18.2,
+      "usd": 0.0337
+    },
+    {
+      "step": "copy",
+      "seconds": 63.7,
+      "usd": 0.1535
+    }
+  ],
+  "cost": {
+    "usd": 0.1919,
+    "calls": 5,
+    "tokens_in": 4218,
+    "tokens_out": 12576
+  }
+}

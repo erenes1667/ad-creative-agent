@@ -1,0 +1,392 @@
+{
+  "version": 1,
+  "run_id": "moth-and-matchbox",
+  "generated_at": "2026-10-24T02:13:09",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Moth and Matchbox",
+    "category": "Narrative puzzle game (fictional demo)",
+    "pitch": "Guide a small moth through dark rooms by lighting matches and solving shadow puzzles in a quiet, hand-inked noir story.",
+    "mechanics": [
+      "Light matches to reveal and illuminate dark rooms",
+      "Solve shadow puzzles using the match's single warm light",
+      "Guide a small moth through each room toward the next chapter",
+      "Five chapters structured as a narrative progression"
+    ],
+    "art_style": "Hand-inked noir with a single warm light source",
+    "tone": "Quiet, moody, curious",
+    "palette": [
+      "#1A1A1D",
+      "#FF8F2B",
+      "#FFF8EA",
+      "#CFCFD4"
+    ],
+    "style_tokens": [
+      "hand-inked linework",
+      "single warm light source",
+      "deep charcoal shadows",
+      "ember glow",
+      "ivory highlights",
+      "ash-grey negative space"
+    ],
+    "facts": [
+      "The game is a fictional narrative puzzle project created for a portfolio demo.",
+      "The game has five chapters.",
+      "Estimated playtime is about 4 hours.",
+      "The game is sold as a one-time purchase at a fixed price, which is yet to be confirmed.",
+      "Core mechanics are lighting matches and solving shadow puzzles while guiding a small moth through dark rooms.",
+      "The art style is hand-inked noir with a single warm light.",
+      "The palette uses charcoal #1A1A1D, ember #FF8F2B, ash #CFCFD4, and ivory #FFF8EA.",
+      "The target audience is narrative game fans."
+    ],
+    "not_true": [
+      "The game has no jump scares.",
+      "The game contains no ads.",
+      "The price is not yet confirmed, so no final price should be stated.",
+      "The game has no real-money rewards.",
+      "The game is not a subscription service.",
+      "The game does not reference or depict real brands."
+    ],
+    "launch_goal": "Gather wishlists and installs from narrative game fans."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m17",
+        "sim": 0.77
+      },
+      {
+        "id": "m09",
+        "sim": 0.67
+      },
+      {
+        "id": "m24",
+        "sim": 0.637
+      },
+      {
+        "id": "m04",
+        "sim": 0.625
+      },
+      {
+        "id": "m11",
+        "sim": 0.622
+      },
+      {
+        "id": "m15",
+        "sim": 0.618
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.765,
+    "max_sim_final": 0.765,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Illustration and atmosphere lovers",
+      "audience_note": "Players who choose games for their look and mood. They want a hand-made visual world, and a single warm light against charcoal darkness appeals to them as much as the puzzles do.",
+      "angle": "Show the hand-inked noir style, with the ember glow as the only color.",
+      "hook_line": "Ink, ash, and one warm light.",
+      "copy": {
+        "meta": {
+          "headline": "Ink, ash, and one warm light.",
+          "text": "Light a match, guide a small moth, and solve shadow puzzles in a hand-inked noir story. Five chapters, about 4 hours.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Ink, ash, and one warm light.",
+          "text": "Light matches. Guide a small moth. Solve shadow puzzles in a hand-inked noir world.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Ink, ash, and one warm light.",
+          "text": "Light matches, solve shadow puzzles, and guide a small moth through hand-inked rooms.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Illustration and atmosphere lovers",
+      "audience_note": "Players who choose games for their look and mood. They want a hand-made visual world, and a single warm light against charcoal darkness appeals to them as much as the puzzles do.",
+      "angle": "Treat the game like a moving illustration where every room is a composed frame.",
+      "hook_line": "Every dark room, drawn by hand.",
+      "copy": {
+        "meta": {
+          "headline": "Every dark room, drawn by hand.",
+          "text": "Each room is a composed frame of ink and shadow. Light a match, solve the puzzle, and lead the moth on.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Every dark room, hand drawn.",
+          "text": "Each room is an inked frame. Light a match, read the shadows, guide the moth.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Every dark room, hand drawn.",
+          "text": "Step into hand-inked rooms. Light matches, solve shadow puzzles, guide a moth.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Illustration and atmosphere lovers",
+      "audience_note": "Players who choose games for their look and mood. They want a hand-made visual world, and a single warm light against charcoal darkness appeals to them as much as the puzzles do.",
+      "angle": "Use the palette of charcoal, ember, ash, and ivory as the visual hook.",
+      "hook_line": "Charcoal night. Ember glow. Ivory page.",
+      "copy": {
+        "meta": {
+          "headline": "Charcoal night. Ember glow. Ivory page.",
+          "text": "A noir puzzle story in four colors. Light matches, solve shadow puzzles, and guide a small moth through five chapters.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Charcoal, ember, ash, ivory.",
+          "text": "A noir puzzle story in four colors. Light a match and guide a small moth.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Charcoal, ember, ash, ivory.",
+          "text": "Hand-inked noir in four colors. Light matches and guide a small moth.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Finishable-story seekers",
+      "audience_note": "Players who want a complete, self-contained story without a huge time commitment. They are motivated by reaching an ending and like games they can finish in a few sittings.",
+      "angle": "Highlight the short, complete shape of five chapters in about four hours.",
+      "hook_line": "Five chapters. About four hours. One whole story.",
+      "copy": {
+        "meta": {
+          "headline": "Five chapters. One whole story.",
+          "text": "Light matches, solve shadow puzzles, guide a small moth. Five chapters, about four hours, one complete noir story.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Five chapters, about 4 hours",
+          "text": "Light a match. Guide a small moth. Finish a hand-inked noir story in about four hours.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "A noir story in five chapters",
+          "text": "Guide a small moth with matchlight through five chapters. About four hours to the end.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Finishable-story seekers",
+      "audience_note": "Players who want a complete, self-contained story without a huge time commitment. They are motivated by reaching an ending and like games they can finish in a few sittings.",
+      "angle": "Position it as a story you can actually finish, one chapter at a time.",
+      "hook_line": "A noir tale you'll actually finish.",
+      "copy": {
+        "meta": {
+          "headline": "A noir tale you'll actually finish",
+          "text": "Take it one chapter at a time. Light matches, solve shadow puzzles, and guide a small moth to the final page.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "A noir tale you'll finish",
+          "text": "Five chapters. Light matches, solve shadow puzzles, and reach the ending at your own pace.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "A noir tale you'll finish",
+          "text": "Light matches and solve shadow puzzles. Reach the end one chapter at a time.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Finishable-story seekers",
+      "audience_note": "Players who want a complete, self-contained story without a huge time commitment. They are motivated by reaching an ending and like games they can finish in a few sittings.",
+      "angle": "Emphasize the one-time purchase with no subscription, without stating any price.",
+      "hook_line": "Buy it once. Play the whole story.",
+      "copy": {
+        "meta": {
+          "headline": "Buy it once. Play the whole story.",
+          "text": "One purchase, five chapters of matchlight and shadow puzzles. Guide a small moth through a hand-inked noir.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Buy it once. Play it all.",
+          "text": "A one-time purchase for a five-chapter noir. Light matches, guide a small moth.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Buy it once. Play it all.",
+          "text": "One-time purchase. Five chapters of matchlight, shadow puzzles and one small moth.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Curious light-and-shadow tinkerers",
+      "audience_note": "Players driven by discovery and experimentation. They enjoy working out how a single light source changes a space, and they want to see what the next dark room is hiding.",
+      "angle": "Focus on the moment a match reveals a room that was hidden.",
+      "hook_line": "Strike a match. See what the dark hid.",
+      "copy": {
+        "meta": {
+          "headline": "Strike a match. See what the dark hid.",
+          "text": "Guide a small moth through dark rooms in a hand-inked noir story. Light a match and find what waits in the next room.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Strike a match. See the dark.",
+          "text": "Light matches, guide a small moth, and see what each dark room was hiding.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Strike a match. See the dark.",
+          "text": "Light matches in dark rooms and guide a small moth through a hand-inked noir story.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Curious light-and-shadow tinkerers",
+      "audience_note": "Players driven by discovery and experimentation. They enjoy working out how a single light source changes a space, and they want to see what the next dark room is hiding.",
+      "angle": "Make shadows the clues, since the match's one warm light shapes every puzzle.",
+      "hook_line": "Every shadow is a clue.",
+      "copy": {
+        "meta": {
+          "headline": "Every shadow is a clue.",
+          "text": "One warm match light shapes every shadow puzzle. Read the room, guide the moth, and move on to the next chapter.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Every shadow is a clue.",
+          "text": "One match, one warm light. Solve shadow puzzles and guide a small moth onward.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Every shadow is a clue.",
+          "text": "Solve shadow puzzles with one match light. Guide a moth through five chapters.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Curious light-and-shadow tinkerers",
+      "audience_note": "Players driven by discovery and experimentation. They enjoy working out how a single light source changes a space, and they want to see what the next dark room is hiding.",
+      "angle": "Invite players to experiment with how the light changes each room.",
+      "hook_line": "One flame. Endless ways to read a room.",
+      "copy": {
+        "meta": {
+          "headline": "One flame. Endless ways to read a room.",
+          "text": "Test the light, watch the shadows change, and work out each dark room your own way. Five chapters, about 4 hours.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "One flame. Read every room.",
+          "text": "Test how one match changes a dark room, then guide a small moth to the next chapter.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "One flame. Read every room.",
+          "text": "Test how one match changes each dark room. Guide a small moth through five chapters.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 4.7,
+      "usd": 0.0054
+    },
+    {
+      "step": "angles",
+      "seconds": 14.0,
+      "usd": 0.0268
+    },
+    {
+      "step": "copy",
+      "seconds": 60.5,
+      "usd": 0.147
+    }
+  ],
+  "cost": {
+    "usd": 0.1791,
+    "calls": 5,
+    "tokens_in": 4565,
+    "tokens_out": 11748
+  }
+}

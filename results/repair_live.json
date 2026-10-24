@@ -1,0 +1,63 @@
+{
+  "tiny_limits_headline_text": {
+    "meta": [
+      16,
+      40
+    ],
+    "tiktok": [
+      14,
+      30
+    ],
+    "google_uac": [
+      14,
+      30
+    ]
+  },
+  "before": {
+    "meta": {
+      "headline": "Trade commute stress for cozy calm.",
+      "text": "Rotate paper tiles, link a thread of light, and watch lanterns drift up into the dusk. Levels take about 3 minutes.",
+      "cta": "Play Now"
+    },
+    "tiktok": {
+      "headline": "Trade commute stress for calm",
+      "text": "Link a thread of light and send lanterns up into the dusk. Calm, cozy, about 3 minutes a level.",
+      "cta": "Play Now"
+    },
+    "google_uac": {
+      "headline": "Cozy calm for your commute",
+      "text": "Link light across paper tiles and watch lanterns float up. About 3 minutes a level.",
+      "cta": "Play"
+    }
+  },
+  "after": {
+    "meta": {
+      "headline": "Cozy calm escape",
+      "text": "Link light; lanterns drift up.",
+      "cta": "Play Now"
+    },
+    "tiktok": {
+      "headline": "Calm commute",
+      "text": "Link light, send lanterns up.",
+      "cta": "Play Now"
+    },
+    "google_uac": {
+      "headline": "Cozy commute",
+      "text": "Link light, lanterns float up.",
+      "cta": "Play"
+    }
+  },
+  "stats": {
+    "raw_violations": 6,
+    "repaired_by": "llm",
+    "final_violations": 0
+  },
+  "final_errors": {
+    "meta": [],
+    "tiktok": [],
+    "google_uac": []
+  },
+  "repair_calls": 1,
+  "cost_usd": 0.0069,
+  "source": "runs/lantern-drift-20261024-020522/manifest.json"
+}

@@ -1,0 +1,1221 @@
+{
+  "summary": {
+    "briefs": 12,
+    "total_cost_usd": 4.1661,
+    "mean_cost_per_brief_usd": 0.3472,
+    "judge_mean_over_briefs": 6.66,
+    "judge_avg_by_dim": {
+      "hook_strength": 5.66,
+      "clarity": 6.54,
+      "policy_safety": 9.25,
+      "platform_fit": 5.2
+    },
+    "raw_limit_violations_total": 0,
+    "final_limit_violations_total": 0,
+    "concepts_total": 108,
+    "concepts_with_raw_violation_total": 0,
+    "banned_claim_concepts_total": 0
+  },
+  "briefs": [
+    {
+      "id": "lantern-drift",
+      "name": "Lantern Drift",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.812,
+      "memory_max_sim_final": 0.76,
+      "memory_rounds": 2,
+      "judge_avg": {
+        "hook_strength": 5.67,
+        "clarity": 5.67,
+        "policy_safety": 9.56,
+        "platform_fit": 5.89
+      },
+      "judge_mean": 6.7,
+      "judge_min_concept": 5.25,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "Concrete one-tap, bumpy-ride hook with a clear mechanic and true facts; the versions differ enough to fit each platform."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 6,
+          "clarity": 5,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "A relatable commute mood, but 'cozy puzzles' never explains how the game plays."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 5,
+          "clarity": 5,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "Pleasant imagery, but the mechanic stays vague beyond 'link the light'."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 4,
+          "clarity": 4,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "A pretty but generic visual hook with no gameplay detail, and the TikTok and UAC copy are near duplicates."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 5,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "A clear tap-to-turn mechanic with a distinct paper look, though Meta and TikTok read almost the same."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 6,
+          "clarity": 4,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "A satisfying payoff hook that never says it is a tile puzzle, and the three versions are near copies."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "A sharp, accurate contrast hook, but the identical headline on all three platforms hurts native fit."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "A strong no-pressure angle with true claims, but TikTok and UAC reuse the same headline."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 5,
+          "clarity": 4,
+          "policy_safety": 6,
+          "platform_fit": 6,
+          "note": "'The quietest game on your phone' is an unprovable superlative, and the copy never explains the gameplay."
+        }
+      ],
+      "cost_pipeline_usd": 0.2091,
+      "cost_total_usd": 0.3507
+    },
+    {
+      "id": "tidebreak",
+      "name": "Tidebreak",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.766,
+      "memory_max_sim_final": 0.766,
+      "memory_rounds": 1,
+      "judge_avg": {
+        "hook_strength": 5.67,
+        "clarity": 6.44,
+        "policy_safety": 9.33,
+        "platform_fit": 5.33
+      },
+      "judge_mean": 6.69,
+      "judge_min_concept": 5.75,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 6,
+          "note": "The airplane-mode hook is concrete and true, but the Meta copy never says match-3 and the TikTok text closely mirrors Meta."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 7,
+          "clarity": 5,
+          "policy_safety": 9,
+          "platform_fit": 7,
+          "note": "The dead-zone hook is vivid and the three versions are distinct, but no version says it is a match-3 puzzle game."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 6,
+          "note": "The true 400-level travel angle is strong, but the genre is never named and 400 is repeated within the Meta copy."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "It clearly says match-3 and the visual hook is safe, though art style is a softer reason to care than a use case."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 3,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "The adjective-stack headline is generic, the core mechanic is barely explained, and the versions feel interchangeable."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 5,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The mechanic is described clearly, but the headline is descriptive rather than scroll-stopping and the versions overlap heavily."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 4,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "Leading with monetization is a weak hook, and all three versions are near-identical."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "The level count and match-3 are clear, but the three platform versions are essentially copies."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 6,
+          "clarity": 5,
+          "policy_safety": 9,
+          "platform_fit": 3,
+          "note": "The playful ads-choice hook never establishes the genre, and the TikTok and Google headlines are identical."
+        }
+      ],
+      "cost_pipeline_usd": 0.2125,
+      "cost_total_usd": 0.3601
+    },
+    {
+      "id": "gridlock-gardens",
+      "name": "Gridlock Gardens",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.769,
+      "memory_max_sim_final": 0.769,
+      "memory_rounds": 1,
+      "judge_avg": {
+        "hook_strength": 4.67,
+        "clarity": 5.89,
+        "policy_safety": 8.56,
+        "platform_fit": 4.56
+      },
+      "judge_mean": 5.92,
+      "judge_min_concept": 5.0,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 6,
+          "clarity": 6,
+          "policy_safety": 7,
+          "platform_fit": 4,
+          "note": "Intriguing single-stone hook, but 'the one move that opens the whole garden' invents a mechanic, flower beds go unmentioned, and the three versions are near copies."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 4,
+          "clarity": 5,
+          "policy_safety": 8,
+          "platform_fit": 5,
+          "note": "Generic planning hook, the Meta version never says you slide blocks, and 'calm' sits uneasily with a game that has timers."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 8,
+          "platform_fit": 4,
+          "note": "Rhythmic but vague hook, the robot's purpose is unclear, 'calm' risks implying no timers, and the platform versions barely differ."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 6,
+          "clarity": 6,
+          "policy_safety": 8,
+          "platform_fit": 5,
+          "note": "Evocative art-led hook, but the goal is thin outside UAC and 'unwind' implies a relaxed game that may not match the timers."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "Clear, likeable premise, but all three versions are essentially the same text with slight trims."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 4,
+          "clarity": 4,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "Fully factual but never explains the slide-block mechanic, and the Meta text redundantly echoes its headline."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 5,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "Clear and accurate, but leading with a hint allowance is a weak reason to care, and the versions are repetitive."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 3,
+          "clarity": 3,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "Leads with being stuck and waiting until tomorrow, and the TikTok and UAC versions barely say what the game is."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 3,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "A bare puzzle count is a flat hook, and the three platform versions are near-identical rearrangements."
+        }
+      ],
+      "cost_pipeline_usd": 0.1919,
+      "cost_total_usd": 0.345
+    },
+    {
+      "id": "echo-vault",
+      "name": "Echo Vault",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.746,
+      "memory_max_sim_final": 0.746,
+      "memory_rounds": 1,
+      "judge_avg": {
+        "hook_strength": 6.11,
+        "clarity": 6.67,
+        "policy_safety": 9.0,
+        "platform_fit": 4.78
+      },
+      "judge_mean": 6.64,
+      "judge_min_concept": 6.0,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 3,
+          "note": "The concrete, accurate ad-free hook is undercut by an identical headline and near-identical text on all three platforms."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 6,
+          "platform_fit": 5,
+          "note": "Leading with no loot boxes and no gambling builds the pitch on negative claims outside the stated true facts, and the hook says nothing about the game itself."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "Admirably transparent about ads, but repeatedly mentioning ads makes them the focus, and the TikTok and UAC versions are near-copies."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 5,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "Clear mechanic and safe, but the rhythmic hook is vague, and the TikTok and UAC copy is word-for-word identical."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The challenge hook is effective, but the copy is light on what the game is and is nearly identical across platforms."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 6,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "The provocative hook works, but 'no luck, no tricks' edges toward an unverifiable claim and the versions barely differ."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 6,
+          "clarity": 6,
+          "policy_safety": 7,
+          "platform_fit": 7,
+          "note": "Distinct per platform, but 'five vaults' misstates five themes as five vaults and the Meta version omits free to play."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 8,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "A vivid, on-brand heist hook with accurate optional-headphones detail, though it never plainly says it is a mobile game and Learn More is a weak CTA."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 4,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The hook is generic payoff language with no concrete reason to care, and the TikTok version drops free to play."
+        }
+      ],
+      "cost_pipeline_usd": 0.1993,
+      "cost_total_usd": 0.3632
+    },
+    {
+      "id": "pocket-orchard",
+      "name": "Pocket Orchard",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.819,
+      "memory_max_sim_final": 0.749,
+      "memory_rounds": 2,
+      "judge_avg": {
+        "hook_strength": 5.67,
+        "clarity": 6.89,
+        "policy_safety": 7.56,
+        "platform_fit": 4.78
+      },
+      "judge_mean": 6.22,
+      "judge_min_concept": 4.5,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 7,
+          "clarity": 8,
+          "policy_safety": 8,
+          "platform_fit": 6,
+          "note": "Concrete time-plus-reward hook, but promising one plot per ten minutes reads as an implied guarantee, and the three versions overlap heavily."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 6,
+          "clarity": 5,
+          "policy_safety": 2,
+          "platform_fit": 5,
+          "note": "Built on idle growth and a return reward, neither of which is a stated feature, so the core claim is invented."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 5,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 6,
+          "note": "Cloud save is true but a utility hook, mixed CTAs feel unpolished, and 'never start over' is a mild absolute."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "Palette hook is accurate but abstract, and the TikTok and Google versions are near copies with identical headlines."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 2,
+          "platform_fit": 5,
+          "note": "Asserts growth while away and no countdowns, both unsupported and the latter listed as not true."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "Clear merge payoff, but crate puzzles are omitted and all three versions are nearly the same text."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 7,
+          "clarity": 9,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "Concrete core-loop hook with the clearest explanation, though the TikTok and Google versions are almost identical."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 4,
+          "clarity": 6,
+          "policy_safety": 8,
+          "platform_fit": 5,
+          "note": "Generic hook, and 'keeps growing' hints at idle growth that is not a stated feature."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "Solid progression hook, but 'fills the map' slightly embellishes, and the versions are repetitive."
+        }
+      ],
+      "cost_pipeline_usd": 0.2152,
+      "cost_total_usd": 0.3575
+    },
+    {
+      "id": "skyhook-sprint",
+      "name": "Skyhook Sprint",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.902,
+      "memory_max_sim_final": 0.742,
+      "memory_rounds": 2,
+      "judge_avg": {
+        "hook_strength": 5.33,
+        "clarity": 6.78,
+        "policy_safety": 9.22,
+        "platform_fit": 6.33
+      },
+      "judge_mean": 6.92,
+      "judge_min_concept": 6.0,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 7,
+          "note": "The commute hook is relevant and the mechanics are clear, but it never names the game and 'floating islands' goes beyond the stated facts."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 8,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 7,
+          "note": "The strap image is a concrete, scroll-stopping hook, but the copy barely explains the bridge-building goal and never says it's a game."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 4,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 6,
+          "note": "Leading with a level count is a weak hook, and all three versions repeat '80 levels' with little variation."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 4,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "'Make every run cleaner' is vague, and the versions are near-duplicates."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 8,
+          "note": "The self-rival ghost hook is strong and safe, though the core bridge puzzle is mostly missing."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "The watch-then-beat framing works, but 'spot the slack' is jargon to a stranger."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 4,
+          "clarity": 7,
+          "policy_safety": 8,
+          "platform_fit": 5,
+          "note": "Art praise is a generic hook, 'grapple' is an unstated feature, and the versions are list-like and repetitive."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 3,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 6,
+          "note": "Listing the color palette gives a scroller no reason to care, and 'islands' is unverified."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 5,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "The bridge-snap payoff is decent, but the TikTok and UAC copy is nearly identical to Meta."
+        }
+      ],
+      "cost_pipeline_usd": 0.2309,
+      "cost_total_usd": 0.3752
+    },
+    {
+      "id": "moth-and-matchbox",
+      "name": "Moth and Matchbox",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.765,
+      "memory_max_sim_final": 0.765,
+      "memory_rounds": 1,
+      "judge_avg": {
+        "hook_strength": 5.67,
+        "clarity": 7.0,
+        "policy_safety": 9.22,
+        "platform_fit": 5.44
+      },
+      "judge_mean": 6.83,
+      "judge_min_concept": 5.75,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 5,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The headline is moody but gives no concrete reason to care, and it is identical on all three platforms."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The hand-drawn angle is pleasant but generic, and the Meta text says 'the puzzle' without saying what kind."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 3,
+          "clarity": 5,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "A list of color names is not a scroll-stopping hook and says little about play, and the TikTok and Google headlines are duplicated."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "Concrete scope facts make a clear, safe hook, and the headlines vary sensibly by platform."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 6,
+          "clarity": 6,
+          "policy_safety": 8,
+          "platform_fit": 6,
+          "note": "'You'll actually finish' is an implied promise, and the TikTok and Google versions drop the moth, which leaves the product vague."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 7,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 6,
+          "note": "The one-time purchase is a true, concrete hook with no price stated, but the TikTok and Google copy are near duplicates."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "The curiosity hook works, but the shortened 'See the dark' loses its meaning, puzzles are missing from Meta, and the TikTok and Google headlines match."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The copy explains the mechanic clearly, but the same headline is reused on every platform."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 6,
+          "platform_fit": 6,
+          "note": "'Endless ways' and 'your own way' imply open-ended solutions that the facts do not support."
+        }
+      ],
+      "cost_pipeline_usd": 0.1791,
+      "cost_total_usd": 0.3327
+    },
+    {
+      "id": "blockyard-builders",
+      "name": "Blockyard Builders",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.772,
+      "memory_max_sim_final": 0.772,
+      "memory_rounds": 1,
+      "judge_avg": {
+        "hook_strength": 5.78,
+        "clarity": 6.78,
+        "policy_safety": 10.0,
+        "platform_fit": 4.78
+      },
+      "judge_mean": 6.83,
+      "judge_min_concept": 6.5,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The daily-lunch hook is intriguing but vague, and the three versions are close rewordings of one text."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 4,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The 'daily dose' framing is generic, and the coffee angle adds little while the crane premise gets thin."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "'He's hungry again' gives no context to a stranger, and the headline repeats across TikTok and UAC."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 7,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "A concrete level count tied to the lunch premise is clear, though the platform versions barely differ."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The wobble-skill angle is solid but drops the charming lunch premise and reuses the same headline on two platforms."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "The question hook works, but the copy is choppy and the UAC version loses the lunch premise."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "The body line is pasted verbatim into all three platforms, so the versions are not distinct."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "The punchy rhythm captures the mechanic, but the headline is identical on all three platforms."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "The absurd tone fits, but the hook is abstract and the TikTok version drops the crane context."
+        }
+      ],
+      "cost_pipeline_usd": 0.1794,
+      "cost_total_usd": 0.3176
+    },
+    {
+      "id": "fitloop-habits",
+      "name": "FitLoop",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.79,
+      "memory_max_sim_final": 0.726,
+      "memory_rounds": 2,
+      "judge_avg": {
+        "hook_strength": 5.89,
+        "clarity": 7.22,
+        "policy_safety": 9.44,
+        "platform_fit": 6.33
+      },
+      "judge_mean": 7.22,
+      "judge_min_concept": 6.75,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 7,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 7,
+          "note": "Relatable no-guilt angle with clear mechanics, though the three versions lean on the same phrasing."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 8,
+          "platform_fit": 7,
+          "note": "Pleasant hook, but 'sound like a friend' hints at a voice feature and the habit app is only explained late in the text."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 5,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 6,
+          "note": "The recap angle is honest but the hook is abstract, and the versions are near-copies."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 5,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "Clear and safe, but the hook is vague and the TikTok and Google texts are almost identical."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "A concrete widget benefit explained plainly, though the hook is functional rather than gripping."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 4,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "Generic hook, and the TikTok line tacks on an unrelated ring mention."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "An intriguing but abstract hook, with repetitive copy and identical CTAs across platforms."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 7,
+          "note": "A vivid, specific hook with distinct versions, but the TikTok text never says it is a habit app."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "A relatable question hook, but it never names the ring or the core product, so a stranger may not grasp what it is."
+        }
+      ],
+      "cost_pipeline_usd": 0.1964,
+      "cost_total_usd": 0.3407
+    },
+    {
+      "id": "pennyplan",
+      "name": "PennyPlan",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.702,
+      "memory_max_sim_final": 0.702,
+      "memory_rounds": 1,
+      "judge_avg": {
+        "hook_strength": 5.78,
+        "clarity": 6.44,
+        "policy_safety": 9.78,
+        "platform_fit": 4.0
+      },
+      "judge_mean": 6.5,
+      "judge_min_concept": 5.75,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "The privacy angle is concrete and the features are accurate, but the three versions read as near-copies."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "The manual-entry hook is mild, the paycheck split is underexplained, and the TikTok and Google headlines are identical."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "The jars and couples-sharing message is clear, but the platform texts are nearly word-for-word copies."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The hook speaks directly to spreadsheet users, but the Meta text repeats the headline and the Meta and TikTok texts nearly match."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 4,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "Leading with CSV export is a weak hook, and the three versions are near-identical despite varied CTAs."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 5,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The headline is descriptive rather than gripping, the feature summary is clear, and the TikTok and Google versions are nearly the same."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 7,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The relatable question hook and clear explanation work well, but the headline is reused verbatim across all platforms."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The payday framing is fine but generic, it omits the left-to-spend feature, and the versions are very similar."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 7,
+          "clarity": 4,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "The pain-point hook is strong, but it never mentions jars or paychecks, the Google copy barely says what the app is, and the headline is identical across platforms."
+        }
+      ],
+      "cost_pipeline_usd": 0.1708,
+      "cost_total_usd": 0.316
+    },
+    {
+      "id": "trailnote",
+      "name": "TrailNote",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.768,
+      "memory_max_sim_final": 0.768,
+      "memory_rounds": 1,
+      "judge_avg": {
+        "hook_strength": 5.89,
+        "clarity": 7.11,
+        "policy_safety": 9.67,
+        "platform_fit": 4.78
+      },
+      "judge_mean": 6.86,
+      "judge_min_concept": 5.75,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 7,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The concrete, evocative voice-note hook works, but it never says this is a hiking or map app, and the TikTok and UAC versions are near-duplicates."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 5,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The trip-log angle is clear but mild, and TikTok and UAC share the same headline with barely different text."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 8,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 8,
+          "note": "The cold-hands pain point is a strong scroll-stopper with distinct, native variants, but the core product is underexplained."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 7,
+          "clarity": 8,
+          "policy_safety": 9,
+          "platform_fit": 3,
+          "note": "The GPX hook clearly targets a niche, but all three versions are essentially the same text trimmed down."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "Record-then-export is clear and safe, but the headlines are nearly identical across platforms."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 5,
+          "clarity": 5,
+          "policy_safety": 10,
+          "platform_fit": 3,
+          "note": "The lock-in angle is abstract, never says it is a hiking app, has near-copy variants, and uses an odd Learn More CTA on UAC."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 4,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "Leading with battery saver is a weak, generic hook, and the variants differ only slightly."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The prep-then-hike workflow is clear and concrete, though the Meta text reads like a feature list."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 5,
+          "clarity": 7,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "The hook is plain, and TikTok and UAC are near-identical with little platform tailoring."
+        }
+      ],
+      "cost_pipeline_usd": 0.178,
+      "cost_total_usd": 0.3251
+    },
+    {
+      "id": "quillcards",
+      "name": "QuillCards",
+      "concepts": 9,
+      "raw_limit_violations": 0,
+      "concepts_with_raw_violation": 0,
+      "final_limit_violations": 0,
+      "fixed_by": {
+        "llm": 0,
+        "trim": 0
+      },
+      "banned_claim_concepts": 0,
+      "memory_max_sim_first": 0.811,
+      "memory_max_sim_final": 0.745,
+      "memory_rounds": 2,
+      "judge_avg": {
+        "hook_strength": 5.78,
+        "clarity": 5.56,
+        "policy_safety": 9.67,
+        "platform_fit": 5.44
+      },
+      "judge_mean": 6.61,
+      "judge_min_concept": 5.0,
+      "judge_rows": [
+        {
+          "id": "a1h1",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "The emotional native-audio hook works, but the Meta version never says this is a language app with stories."
+        },
+        {
+          "id": "a1h2",
+          "hook_strength": 6,
+          "clarity": 5,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "The intriguing timeline hook leaves 'back' vague, language learning is never named, and TikTok nearly copies Meta."
+        },
+        {
+          "id": "a1h3",
+          "hook_strength": 7,
+          "clarity": 5,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The relatable in-laws hook works, but only Google signals a language app, and TikTok drops the tap-to-save mechanic."
+        },
+        {
+          "id": "a2h1",
+          "hook_strength": 5,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 4,
+          "note": "The streak hook is generic, 'cheers' implies an unconfirmed feature, and the three versions are near-identical."
+        },
+        {
+          "id": "a2h2",
+          "hook_strength": 5,
+          "clarity": 4,
+          "policy_safety": 10,
+          "platform_fit": 6,
+          "note": "The clever future-self line is vague, no version mentions languages, and the Google text is thin."
+        },
+        {
+          "id": "a2h3",
+          "hook_strength": 3,
+          "clarity": 3,
+          "policy_safety": 10,
+          "platform_fit": 4,
+          "note": "The bland habit hook gives no product identity, and the Meta and Google copy is self-repetitive."
+        },
+        {
+          "id": "a3h1",
+          "hook_strength": 6,
+          "clarity": 7,
+          "policy_safety": 10,
+          "platform_fit": 5,
+          "note": "The concrete six-language hook is clear, but the three versions are mostly reworded copies."
+        },
+        {
+          "id": "a3h2",
+          "hook_strength": 6,
+          "clarity": 8,
+          "policy_safety": 10,
+          "platform_fit": 7,
+          "note": "A clear, low-pressure framing with a distinct, plain Google version."
+        },
+        {
+          "id": "a3h3",
+          "hook_strength": 7,
+          "clarity": 6,
+          "policy_safety": 9,
+          "platform_fit": 5,
+          "note": "The witty cover twist is let down by identical headlines on all platforms, and 'promise' is mildly risky wording."
+        }
+      ],
+      "cost_pipeline_usd": 0.2247,
+      "cost_total_usd": 0.3823
+    }
+  ]
+}

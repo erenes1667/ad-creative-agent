@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "run_id": "echo-vault",
+  "generated_at": "2026-10-24T02:11:33",
+  "fictional": true,
+  "mode": "copy",
+  "image_backend": {
+    "name": "none",
+    "detail": "copy-only mode"
+  },
+  "models": {
+    "parse": "claude-haiku-5-5",
+    "angles": "claude-sonnet-5-5",
+    "copy": "claude-sonnet-5-5",
+    "repair": "claude-haiku-5-5"
+  },
+  "brief": {
+    "name": "Echo Vault",
+    "category": "Mobile logic puzzle with sound",
+    "pitch": "Listen to short tone patterns and rebuild them on a pad to open the vault door.",
+    "mechanics": [
+      "Players listen to short tone patterns, then rebuild them on a pad",
+      "Pattern memory is the core challenge",
+      "Five vault themes",
+      "Headphones recommended but optional"
+    ],
+    "art_style": "Dark neon synth-wave vault interiors",
+    "tone": "Cool, tense but fair",
+    "palette": [
+      "#12082B",
+      "#19E3FF",
+      "#F4F4FF",
+      "#FF2E9A"
+    ],
+    "style_tokens": [
+      "neon cyan glow",
+      "magenta light accents",
+      "dark violet vault interiors",
+      "synth-wave haze",
+      "crisp white highlights"
+    ],
+    "facts": [
+      "Free to play",
+      "No ads in the first 20 vaults",
+      "Mobile game",
+      "Built around listening to and recreating tone patterns",
+      "Five vault themes",
+      "Headphones recommended but optional",
+      "Dark neon synth-wave art style"
+    ],
+    "not_true": [
+      "Does not include gambling",
+      "Does not include loot boxes",
+      "Does not offer real-money rewards",
+      "Does not claim to be ad-free beyond the first 20 vaults",
+      "Headphones are not required to play"
+    ],
+    "launch_goal": "Reach music and rhythm game players and build an audience among them at launch."
+  },
+  "memory": {
+    "retrieved": [
+      {
+        "id": "m11",
+        "sim": 0.804
+      },
+      {
+        "id": "m09",
+        "sim": 0.698
+      },
+      {
+        "id": "m04",
+        "sim": 0.676
+      },
+      {
+        "id": "m24",
+        "sim": 0.621
+      },
+      {
+        "id": "m16",
+        "sim": 0.618
+      },
+      {
+        "id": "m08",
+        "sim": 0.604
+      }
+    ],
+    "rounds": 1,
+    "max_sim_first": 0.746,
+    "max_sim_final": 0.746,
+    "over_threshold_final": 0,
+    "threshold": 0.78
+  },
+  "concepts": [
+    {
+      "id": "a1h1",
+      "audience": "Ad-weary free-to-play players",
+      "audience_note": "Players who like free mobile games but are tired of interruptions and monetisation tricks. They want to start playing without friction or gimmicks.",
+      "angle": "Lead with the first 20 vaults being free of ads, so new players get a real run before any interruption.",
+      "hook_line": "20 vaults before a single ad.",
+      "copy": {
+        "meta": {
+          "headline": "20 vaults before a single ad.",
+          "text": "Listen to a tone pattern, rebuild it on the pad, and open the vault. No ads in the first 20 vaults. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "20 vaults before a single ad.",
+          "text": "Rebuild tone patterns on a pad to open the vault. No ads in the first 20 vaults. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "20 vaults before a single ad.",
+          "text": "Rebuild tone patterns to open the vault. No ads in the first 20 vaults.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h2",
+      "audience": "Ad-weary free-to-play players",
+      "audience_note": "Players who like free mobile games but are tired of interruptions and monetisation tricks. They want to start playing without friction or gimmicks.",
+      "angle": "Position the game as free to play with no loot boxes, gambling or real-money rewards, so progress comes only from skill.",
+      "hook_line": "Free to play. No loot boxes. Just skill.",
+      "copy": {
+        "meta": {
+          "headline": "Free to play. No loot boxes. Just skill.",
+          "text": "Listen to the pattern, rebuild it on the pad, open the vault. No loot boxes, no gambling. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "No loot boxes. Just skill.",
+          "text": "Hear the pattern. Rebuild it on the pad. No loot boxes, no gambling. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "No loot boxes. Just skill.",
+          "text": "Hear the pattern, rebuild it, open the vault. No loot boxes. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a1h3",
+      "audience": "Ad-weary free-to-play players",
+      "audience_note": "Players who like free mobile games but are tired of interruptions and monetisation tricks. They want to start playing without friction or gimmicks.",
+      "angle": "Be upfront that ads exist later but stay out of the way early, which builds trust.",
+      "hook_line": "Ads come later. Twenty vaults come first.",
+      "copy": {
+        "meta": {
+          "headline": "Ads come later. 20 vaults come first.",
+          "text": "Echo Vault has ads, but not in the first 20 vaults. Listen, rebuild the pattern, open the door. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "20 vaults first. Ads later.",
+          "text": "Ads show up later, not in the first 20 vaults. Rebuild the tone patterns and open the door.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "20 vaults first. Ads later.",
+          "text": "Ads come later, not in the first 20 vaults. Rebuild tone patterns and open the door.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h1",
+      "audience": "Memory-challenge seekers",
+      "audience_note": "Players who enjoy testing their own recall and attention. They like a clear skill to improve, and a game where a failure feels earned rather than random.",
+      "angle": "Make the core loop a personal test: hear a short tone pattern once, then hold it in your head.",
+      "hook_line": "Hear it. Hold it. Rebuild it.",
+      "copy": {
+        "meta": {
+          "headline": "Hear it. Hold it. Rebuild it.",
+          "text": "Listen to a short tone pattern, then rebuild it on the pad to open the vault. Free to play. No ads in the first 20 vaults.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Hear it. Hold it. Rebuild it.",
+          "text": "Hear a tone pattern, then rebuild it on the pad to open the vault. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Hear it. Hold it. Rebuild it.",
+          "text": "Hear a tone pattern, then rebuild it on the pad to open the vault. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h2",
+      "audience": "Memory-challenge seekers",
+      "audience_note": "Players who enjoy testing their own recall and attention. They like a clear skill to improve, and a game where a failure feels earned rather than random.",
+      "angle": "Challenge viewers to check how well they remember sound compared with what they see.",
+      "hook_line": "Think you remember it? Prove it.",
+      "copy": {
+        "meta": {
+          "headline": "Think you remember it? Prove it.",
+          "text": "Can you remember sound as well as what you see? Rebuild each tone pattern to open the vault. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Think you remember it?",
+          "text": "Can you remember sound as well as sight? Rebuild tone patterns to open the vault. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Think you remember it?",
+          "text": "Can you remember sound as well as sight? Rebuild tone patterns to open the vault.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a2h3",
+      "audience": "Memory-challenge seekers",
+      "audience_note": "Players who enjoy testing their own recall and attention. They like a clear skill to improve, and a game where a failure feels earned rather than random.",
+      "angle": "Lean on the tense-but-fair tone, where every miss traces back to your memory and nothing else.",
+      "hook_line": "Miss a tone? That one's on you.",
+      "copy": {
+        "meta": {
+          "headline": "Miss a tone? That one's on you.",
+          "text": "No luck, no tricks. Every miss comes down to your memory. Open the vault with sharper ears. Free to play.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Miss a tone? That's on you.",
+          "text": "Every miss comes down to your memory. Rebuild the tone pattern, open the vault. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Miss a tone? That's on you.",
+          "text": "Every miss comes down to your memory. Rebuild the tone pattern, open the vault.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h1",
+      "audience": "Heist-fantasy fans",
+      "audience_note": "Players drawn to the thrill of cracking a secure door in a stylish setting. They want atmosphere, rising tension and a payoff when the lock gives way.",
+      "angle": "Use the five vault themes to promise variety, with a different heist setting each time.",
+      "hook_line": "Five vaults. Five ways to break in.",
+      "copy": {
+        "meta": {
+          "headline": "Five vaults. Five ways to break in.",
+          "text": "Listen to the tone pattern, then rebuild it on the pad. Each of the five vault themes puts a new lock in front of you.",
+          "cta": "Play Now"
+        },
+        "tiktok": {
+          "headline": "Five vaults. Five ways in.",
+          "text": "Hear the tones. Rebuild the pattern. Crack five themed vaults. Free to play.",
+          "cta": "Play Now"
+        },
+        "google_uac": {
+          "headline": "Five vaults to crack open",
+          "text": "Rebuild tone patterns on a pad to open five themed vaults. Free to play.",
+          "cta": "Play"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h2",
+      "audience": "Heist-fantasy fans",
+      "audience_note": "Players drawn to the thrill of cracking a secure door in a stylish setting. They want atmosphere, rising tension and a payoff when the lock gives way.",
+      "angle": "Sell the dark synth-wave heist mood, where the tension comes from tones instead of weapons.",
+      "hook_line": "Synth-wave heist. No guns, just tones.",
+      "copy": {
+        "meta": {
+          "headline": "Synth-wave heist. No guns, just tones.",
+          "text": "Dark neon vaults, a synth-wave pulse and a pad of tones. Listen, rebuild the pattern, and the lock gives way.",
+          "cta": "Learn More"
+        },
+        "tiktok": {
+          "headline": "Synth-wave heist. Just tones.",
+          "text": "Dark neon vaults. Listen close, rebuild the pattern, open the door. Headphones optional.",
+          "cta": "Learn More"
+        },
+        "google_uac": {
+          "headline": "Synth-wave heist. Just tones.",
+          "text": "Dark neon vaults, no guns. Listen to the tones, rebuild them on the pad. Free to play.",
+          "cta": "Learn More"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    },
+    {
+      "id": "a3h3",
+      "audience": "Heist-fantasy fans",
+      "audience_note": "Players drawn to the thrill of cracking a secure door in a stylish setting. They want atmosphere, rising tension and a payoff when the lock gives way.",
+      "angle": "Build to the payoff moment, when a correct rebuild opens the door.",
+      "hook_line": "Get the pattern right. The door opens.",
+      "copy": {
+        "meta": {
+          "headline": "Get the pattern right. The door opens.",
+          "text": "Listen to the tones, rebuild them on the pad, and feel the vault door give. Tense, but fair. Free to play.",
+          "cta": "Install Now"
+        },
+        "tiktok": {
+          "headline": "Get it right. The door opens.",
+          "text": "Hear the pattern. Rebuild it on the pad. One right run and the vault door opens.",
+          "cta": "Download Now"
+        },
+        "google_uac": {
+          "headline": "Get it right. The door opens.",
+          "text": "Listen to the tones, rebuild the pattern on the pad, and open the vault. Free to play.",
+          "cta": "Install"
+        }
+      },
+      "checks": {
+        "limits_raw_violations": 0,
+        "limits_fixed_by": null,
+        "limit_final_violations": 0,
+        "banned": []
+      }
+    }
+  ],
+  "top": [],
+  "trace": [
+    {
+      "step": "parse",
+      "seconds": 3.5,
+      "usd": 0.0042
+    },
+    {
+      "step": "angles",
+      "seconds": 19.3,
+      "usd": 0.0355
+    },
+    {
+      "step": "copy",
+      "seconds": 64.3,
+      "usd": 0.1595
+    }
+  ],
+  "cost": {
+    "usd": 0.1993,
+    "calls": 5,
+    "tokens_in": 3886,
+    "tokens_out": 13073
+  }
+}

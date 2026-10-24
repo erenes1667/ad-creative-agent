@@ -1,0 +1,383 @@
+{
+  "cases": [
+    {
+      "case": "typo",
+      "image": "seeded/typo.png",
+      "intended": "Light the way home",
+      "drawn": "Lihgt the way home",
+      "critic": {
+        "text_read": "Lihgt the way home Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 4,
+        "policy_notes": "The image headline is misspelled ('Lihgt' instead of 'Light'), which is a quality and credibility problem and conflicts with the headline that will run with the ad ('Light the way home'). The 'Play Now' button is part of a flat image, so it reads as a fake interactive UI element and could be flagged as a non-functional button. No misleading gameplay, prize implications, unsourced stats, or humans appear. The concentric rings and orbiting dots are abstract and do not clearly show mechanics the game lacks.",
+        "summary": "The glowing concentric-ring visual is attractive and legible with a clear coral CTA, but the 'Lihgt' typo, the fake-button look of 'Play Now', and a flat gradient glow that only loosely matches the layered paper-cut style keep it from being ready to run.",
+        "text_matches_intended": false,
+        "intended_text": "Light the way home Play Now"
+      },
+      "gate_failures": [
+        "text in image differs from intended text (possible typo)"
+      ],
+      "category": "typo"
+    },
+    {
+      "case": "real_cash",
+      "image": "seeded/real_cash.png",
+      "intended": "Win real cash prizes",
+      "drawn": "Win real cash prizes",
+      "critic": {
+        "text_read": "Win real cash prizes Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 1,
+        "message_match": 2,
+        "policy_notes": "The text 'Win real cash prizes' directly implies real-money prizes, which the brief lists as NOT true ('No real-money prizes or rewards'). This is a false and misleading claim that could trigger real-money gaming and deceptive advertising policy violations. The 'Play Now' button is a drawn graphic in a static image. It looks like a UI element but works as an ordinary CTA and is a minor concern. The visuals show no gameplay, so no mechanics are misrepresented. The only serious issue is the cash-prize claim.",
+        "summary": "The image is clean, high-contrast, and mostly on-palette with a glowing lantern-like orb, but the 'Win real cash prizes' copy makes a false real-money claim that contradicts the product facts and the 'Light the way home' headline, so it should be rejected.",
+        "text_matches_intended": true,
+        "intended_text": "Win real cash prizes Play Now"
+      },
+      "gate_failures": [
+        "policy_safety 1 below 6.0"
+      ],
+      "category": "claim"
+    },
+    {
+      "case": "fake_multiplayer",
+      "image": "seeded/fake_multiplayer.png",
+      "intended": "Beat friends live online",
+      "drawn": "Beat friends live online",
+      "critic": {
+        "text_read": "Beat friends live online Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 2,
+        "message_match": 2,
+        "policy_notes": "The image text 'Beat friends live online' implies live multiplayer and competition with other players. The product is single-player only, with no multiplayer and no chat, so this is misleading about gameplay. The 'Play Now' button is part of the flat ad creative and could read as a fake UI button, though it is a standard CTA. The image copy also contradicts the running headline 'Light the way home', which is about a calm lantern theme. No prize, money, or stat claims appear.",
+        "summary": "The creative is clean and easy to read, and its palette fits the brand. However, its 'Beat friends live online' claim falsely promises multiplayer, which is a serious policy problem. It also clashes with the 'Light the way home' headline and the paper-cut style is only loosely met by the flat glow and dashed orbits.",
+        "text_matches_intended": true,
+        "intended_text": "Beat friends live online Play Now"
+      },
+      "gate_failures": [
+        "policy_safety 2 below 6.0"
+      ],
+      "category": "claim"
+    },
+    {
+      "case": "control",
+      "image": "seeded/control.png",
+      "intended": "Light the way home",
+      "drawn": "Light the way home",
+      "critic": {
+        "text_read": "Light the way home Play Now",
+        "legibility": 9,
+        "brand_fit": 7,
+        "policy_safety": 8,
+        "message_match": 8,
+        "policy_notes": "No prize or real-money implication, no human characters, and no claims or stats. The 'Play Now' pill is part of the ad creative and sits on a flat card, so it is a mild fake-UI risk only if it reads as an interactive in-game button; it is a standard CTA. The orbit rings and dots are abstract and do not clearly show a mechanic the game lacks, though they could loosely suggest gameplay that may not match the real game. Nothing implies multiplayer, chat, combat or timers.",
+        "summary": "A clean, high-contrast dusk-toned ad with a glowing lantern-like orb, a legible headline and a clear coral CTA; it fits the palette well, but the flat gradients and thin dashed rings show little paper-cut layering or grain, and the orbit visuals only loosely evoke 'light the way home'.",
+        "text_matches_intended": true,
+        "intended_text": "Light the way home Play Now"
+      },
+      "gate_failures": [],
+      "category": "control"
+    },
+    {
+      "case": "typo_2",
+      "category": "typo",
+      "image": "seeded/typo_2.png",
+      "intended": "Rotate tiles, link the light",
+      "drawn": "Rotate tiels, link the light",
+      "critic": {
+        "text_read": "Rotate tiels, link the light Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The in-image text contains a typo ('tiels' should be 'tiles'), which is an ad quality problem and hurts credibility. 'Play Now' is drawn like a button inside the creative, so it could read as fake UI. It is a standard CTA, but it is not clickable. The visuals show concentric dashed rings with dots and no tiles. The 'rotate tiles, link the light' claim is not clearly supported, so the mechanic is slightly unclear or misleading. Nothing implies prizes, multiplayer, chat, or combat. No unsourced stats. No humans shown.",
+        "summary": "Clean, high-contrast dusk-toned layout with a clear CTA, but the 'tiels' typo, the flat gradient look (little visible paper-cut layering or grain), and the lack of visible tiles or lanterns weaken brand fit, mechanic clarity, and the tie to 'Light the way home'.",
+        "aspect_ok": true,
+        "text_matches_intended": false,
+        "intended_text": "Rotate tiles, link the light Play Now"
+      },
+      "gate_failures": [
+        "text in image differs from intended text (possible typo)"
+      ]
+    },
+    {
+      "case": "typo_3",
+      "category": "typo",
+      "image": "seeded/typo_3.png",
+      "intended": "A calm puzzle for tonight",
+      "drawn": "A calm puzle for tonihgt",
+      "critic": {
+        "text_read": "A calm puzzle for tonihgt Play Now",
+        "legibility": 7,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The on-image headline has a visible typo, 'tonihgt' instead of 'tonight', which is a quality and trust problem for ad review. The 'Play Now' pill looks like a real button but is a standard CTA, so the fake-UI risk is low to moderate. Nothing implies prizes, multiplayer, chat, combat, or timers. The concentric orbits with dots don't clearly show real gameplay, but they are abstract enough not to mislead. The image text 'A calm puzzle for tonight' differs from the running headline 'Light the way home', so two competing messages appear together.",
+        "summary": "A pleasant dusk-toned glowing orbit graphic with a clear CTA, but the 'tonihgt' typo, a flat gradient look that lacks paper-cut layering and grain, and a mismatch with the 'Light the way home' headline hold it back.",
+        "aspect_ok": true,
+        "text_matches_intended": false,
+        "intended_text": "A calm puzzle for tonight Play Now"
+      },
+      "gate_failures": [
+        "text in image differs from intended text (possible typo)"
+      ]
+    },
+    {
+      "case": "typo_4",
+      "category": "typo",
+      "image": "seeded/typo_4.png",
+      "intended": "Play free on iOS and Android",
+      "drawn": "Play fere on iOS and Andriod",
+      "critic": {
+        "text_read": "Play fere on iOS and Andriod Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 5,
+        "policy_notes": "Two visible typos in the image text: 'fere' (should be 'here') and 'Andriod' (should be 'Android'). Platform name misspellings are a trademark/quality risk and can cause ad disapproval for unprofessional text. The 'Play Now' pill looks like a button but is a standard CTA within an ad creative; low risk. Platform claim (iOS and Android) is true. No prize, multiplayer, or timer implications. Abstract orbits and dots do not show false mechanics.",
+        "summary": "The glowing concentric-orbit art is attractive and mostly on-palette, but the headline text has two obvious typos ('fere', 'Andriod'), the style reads as flat gradient rather than layered paper-cut with grain, and nothing explicitly evokes lanterns or 'light the way home', so the image needs a copy fix and a stronger tie to the concept before running.",
+        "aspect_ok": true,
+        "text_matches_intended": false,
+        "intended_text": "Play free on iOS and Android Play Now"
+      },
+      "gate_failures": [
+        "text in image differs from intended text (possible typo)"
+      ]
+    },
+    {
+      "case": "low_contrast_1",
+      "category": "contrast",
+      "image": "seeded/low_contrast_1.png",
+      "intended": "Light the way home",
+      "drawn": "Light the way home",
+      "critic": {
+        "text_read": "Light the way home Play Now",
+        "legibility": 2,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 6,
+        "policy_notes": "No prize, multiplayer, or combat implications, and no unsourced stats. The 'Play Now' pill is a baked-in CTA that could pass for a real UI button, which is a minor fake-UI risk, though it is a standard ad CTA. The concentric dashed orbits with dots are abstract and do not misrepresent any gameplay mechanic. The headline is nearly invisible, so the ad would not communicate its message, though this is a quality issue and not a policy one.",
+        "summary": "The glowing lantern orb with dashed orbits fits the dusk palette and supports the 'Light the way home' idea, but the headline is dark navy on a dark navy panel, so it is almost unreadable and the ad fails on legibility, even though the 'Play Now' CTA is clear; the flat gradients also lack the layered paper-cut and grain feel.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": "Light the way home Play Now"
+      },
+      "gate_failures": [
+        "legibility 2 below 5.0"
+      ]
+    },
+    {
+      "case": "low_contrast_2",
+      "category": "contrast",
+      "image": "seeded/low_contrast_2.png",
+      "intended": "Rotate tiles, link the light",
+      "drawn": "Rotate tiles, link the light",
+      "critic": {
+        "text_read": "Rotate tiles, link the light Play Now",
+        "legibility": 3,
+        "brand_fit": 6,
+        "policy_safety": 6,
+        "message_match": 6,
+        "policy_notes": "The 'Play Now' pill is part of the flat image and looks like a clickable button. This is a minor fake-UI risk if the ad also carries a real CTA. The artwork shows concentric dashed rings with dots, not tiles. 'Rotate tiles, link the light' therefore describes a mechanic the image does not show, which is mildly misleading. The image has no prize, money, multiplayer or human implications and no unsourced stats. The image text ('Rotate tiles, link the light') differs from the running headline ('Light the way home'), which creates redundancy and mixed messaging.",
+        "summary": "The glowing dusk orbit art is attractive and on-palette, but the headline is dark periwinkle on a navy panel with very low contrast and is nearly unreadable at phone size. The art is also flat gradients and circles rather than layered paper-cut, and it doesn't show the tiles the copy mentions. Only the coral 'Play Now' button reads clearly.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": "Rotate tiles, link the light Play Now"
+      },
+      "gate_failures": [
+        "legibility 3 below 5.0"
+      ]
+    },
+    {
+      "case": "low_contrast_3",
+      "category": "contrast",
+      "image": "seeded/low_contrast_3.png",
+      "intended": "A calm puzzle for tonight",
+      "drawn": "A calm puzzle for tonight",
+      "critic": {
+        "text_read": "A calm puzzle for tonight | Play Now",
+        "legibility": 3,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 6,
+        "policy_notes": "No real-money, prize, or multiplayer implications. No unsourced stats. The 'Play Now' pill is part of the image and looks like a clickable button, which is a mild fake-UI risk when baked into the creative. The concentric orbit rings with dots are abstract and do not clearly show real gameplay, so it may be read as a loose representation of mechanics. 'A calm puzzle for tonight' is consistent with the true facts (no timers). The headline text is nearly invisible, so the image does not state anything misleading.",
+        "summary": "The glowing lantern-like orbit motif is atmospheric and loosely supports 'Light the way home', but the headline text 'A calm puzzle for tonight' is dark navy on a navy panel and practically unreadable. The art also reads as a smooth gradient with dashed vector lines rather than layered paper-cut with grain, and the baked-in Play Now button is only a minor fake-UI concern.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": "A calm puzzle for tonight Play Now"
+      },
+      "gate_failures": [
+        "legibility 3 below 5.0"
+      ]
+    },
+    {
+      "case": "claim_leaderboard",
+      "category": "claim",
+      "image": "seeded/claim_leaderboard.png",
+      "intended": "Climb the global leaderboard",
+      "drawn": "Climb the global leaderboard",
+      "critic": {
+        "text_read": "Climb the global leaderboard Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 5,
+        "message_match": 3,
+        "policy_notes": "The image text says 'Climb the global leaderboard', which suggests a competitive, multiplayer-style ranking. The game is single-player only and has no multiplayer. The 'global' framing could mislead people about the gameplay. The only supporting fact is the daily board, which does not make a global competitive ranking accurate. No real-money or prize wording appears. 'Play Now' is a styled button inside a static ad, so it reads as a CTA and not as fake UI, though it is a mild risk. The orbit graphic is abstract and does not show any mechanics that don't exist.",
+        "summary": "The image is clean and highly legible, with a clear CTA and a palette-consistent glowing orbit design, but the 'global leaderboard' text implies competitive multiplayer ranking that contradicts the single-player product and clashes with the 'Light the way home' headline, and the flat gradient graphics only loosely match the paper-cut style.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": "Climb the global leaderboard Play Now"
+      },
+      "gate_failures": [
+        "policy_safety 5 below 6.0"
+      ]
+    },
+    {
+      "case": "claim_timed",
+      "category": "claim",
+      "image": "seeded/claim_timed.png",
+      "intended": "Beat the clock in timed rounds",
+      "drawn": "Beat the clock in timed rounds",
+      "critic": {
+        "text_read": "Beat the clock in timed rounds Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 2,
+        "message_match": 2,
+        "policy_notes": "The in-image copy 'Beat the clock in timed rounds' contradicts the true fact that levels have no timers, and it is listed as something that must not be implied. This is misleading gameplay. The 'Play Now' pill is a styled CTA inside the creative; it is not a functional UI element, but it looks like a button, so it is a minor fake-UI risk. There are no prize, money or stat claims.",
+        "summary": "The image is clean, readable and on-palette, but its 'Beat the clock in timed rounds' message falsely promises timers and does not support the 'Light the way home' headline, so it should be rejected until the copy is changed.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": "Beat the clock in timed rounds Play Now"
+      },
+      "gate_failures": [
+        "policy_safety 2 below 6.0"
+      ]
+    },
+    {
+      "case": "claim_combat",
+      "category": "claim",
+      "image": "seeded/claim_combat.png",
+      "intended": "Battle monsters in combat mode",
+      "drawn": "Battle monsters in combat mode",
+      "critic": {
+        "text_read": "Battle monsters in combat mode Play Now",
+        "legibility": 9,
+        "brand_fit": 6,
+        "policy_safety": 2,
+        "message_match": 2,
+        "policy_notes": "The image text says 'Battle monsters in combat mode', which advertises a combat mode and monster battles. The fact sheet says there is NO combat mode, so this is misleading gameplay. The 'Play Now' pill looks like a button but sits in a static ad image, which is a common CTA treatment and a minor concern at most. The image shows no prizes, stats, or fake notifications.",
+        "summary": "The visual is clean, readable, and mostly on-palette with a glowing concentric-orbit motif, but the on-image copy 'Battle monsters in combat mode' promotes a nonexistent combat feature and contradicts the 'Light the way home' headline, so it should be rejected until the text is rewritten.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": "Battle monsters in combat mode Play Now"
+      },
+      "gate_failures": [
+        "policy_safety 2 below 6.0"
+      ]
+    },
+    {
+      "case": "aspect_wide",
+      "category": "aspect",
+      "image": "seeded/aspect_wide.png",
+      "intended": "Light the way home",
+      "drawn": "Light the way home",
+      "critic": {
+        "text_read": "Light the way home / Play Now",
+        "legibility": 8,
+        "brand_fit": 6,
+        "policy_safety": 7,
+        "message_match": 7,
+        "policy_notes": "The 'Play Now' pill is baked into the image, so it looks like a clickable button but is not interactive. Some ad platforms treat this as fake UI. The image shows no gameplay mechanics, prizes, chat, multiplayer, combat or humans, so nothing implies a false claim. The headline is in sentence case with no shouting, and there are no unsourced stats.",
+        "summary": "The ad is clean, readable and uses the brand palette, with a warm glowing orbit motif that loosely supports 'Light the way home'. It reads as flat vector with a radial gradient rather than layered, grainy paper-cut, and the in-image CTA button carries minor fake-UI risk.",
+        "aspect_ok": false,
+        "text_matches_intended": true,
+        "intended_text": "Light the way home Play Now"
+      },
+      "gate_failures": [
+        "image is not 1:1"
+      ]
+    },
+    {
+      "case": "aspect_tall",
+      "category": "aspect",
+      "image": "seeded/aspect_tall.png",
+      "intended": "Light the way home",
+      "drawn": "Light the way home",
+      "critic": {
+        "text_read": "Light the way home Play Now",
+        "legibility": 9,
+        "brand_fit": 7,
+        "policy_safety": 8,
+        "message_match": 8,
+        "policy_notes": "No prize, money, or multiplayer implications, no stats, and no humans. The 'Play Now' pill is a standard ad CTA, but it sits inside the creative and could read as a fake in-ad button, which is a minor risk. The orbit visuals are abstract and don't show specific mechanics that contradict the facts (single-player, no timers, no combat). No claims are made that conflict with the true facts.",
+        "summary": "A clean, high-contrast dusk-toned ad with a glowing orbital motif and a clear coral CTA that fits the palette and supports the 'Light the way home' headline. It reads as a flat vector gradient more than layered paper-cut with grain, and the embedded button is a small policy flag.",
+        "aspect_ok": false,
+        "text_matches_intended": true,
+        "intended_text": "Light the way home Play Now"
+      },
+      "gate_failures": [
+        "image is not 1:1"
+      ]
+    },
+    {
+      "case": "aspect_crop",
+      "category": "aspect",
+      "image": "seeded/aspect_crop.png",
+      "intended": "Light the way home",
+      "drawn": "Light the way home",
+      "critic": {
+        "text_read": "",
+        "legibility": 5,
+        "brand_fit": 6,
+        "policy_safety": 9,
+        "message_match": 5,
+        "policy_notes": "No policy red flags. The image has no fake UI, prize implications, stats, or humans, and it doesn't show any mechanic that contradicts the facts. The orbits and dots are abstract and don't suggest multiplayer, combat, or timers. The image contains no text, so there is no CTA and no product name. That is a legibility and clarity gap rather than a safety issue. The headline runs separately, so its contrast has to be checked against the final layout.",
+        "summary": "The image is a safe, abstract glowing-orbit graphic that uses the navy, amber, cream, and coral palette, but it looks like flat vector art with a radial gradient rather than layered paper-cut with grain, and it has no lantern, no home, no path, no product name, and no CTA, so it only loosely supports 'Light the way home'.",
+        "aspect_ok": false,
+        "text_matches_intended": false,
+        "intended_text": "Light the way home Play Now"
+      },
+      "gate_failures": [
+        "image is not 1:1",
+        "text in image differs from intended text (possible typo)"
+      ]
+    }
+  ],
+  "summary": {
+    "images": 16,
+    "defects": 15,
+    "caught": 15,
+    "detection_rate": 1.0,
+    "controls": 1,
+    "controls_flagged": 0,
+    "by_category": {
+      "typo": {
+        "caught": 4,
+        "total": 4
+      },
+      "claim": {
+        "caught": 5,
+        "total": 5
+      },
+      "control": {
+        "caught": 0,
+        "total": 1
+      },
+      "contrast": {
+        "caught": 3,
+        "total": 3
+      },
+      "aspect": {
+        "caught": 3,
+        "total": 3
+      }
+    }
+  },
+  "model": "claude-sonnet-5-5",
+  "cost_usd": 0.112
+}

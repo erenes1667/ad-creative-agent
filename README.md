@@ -2,13 +2,13 @@
 
 Live demo: https://erenes1667.github.io/ad-creative-agent/ (serves `docs/`). Repo: https://github.com/erenes1667/ad-creative-agent
 
-In short: a brief goes in, ranked ad concepts with copy come out. Text, judging and ranking ran live; images are placeholders. Every number below is in `results/`.
+In short: a brief goes in, ranked ad concepts with copy come out. Text, judging and ranking ran live. The pipeline's own images are placeholders; 6 real images came from ChatGPT, made by hand. Every number below is in `results/`.
 
-**A copy, evaluation and judging pipeline for ad creative.** The image step is a plug that has not run live. A launch brief goes in. Out come scored ad concepts: three audiences, three hooks each, copy for Meta, TikTok and Google UAC, a vision critic, and a ranked top 6 with reasons.
+**A copy, evaluation and judging pipeline for ad creative.** The image step is a plug that has not run live through the API. A launch brief goes in. Out come scored ad concepts: three audiences, three hooks each, copy for Meta, TikTok and Google UAC, a vision critic, and a ranked top 6 with reasons.
 
 **The judge is unvalidated against humans, and its platform-fit score is unreliable.** **Best numbers (all in `results/`, all from self-built tests with small n):** judge found the planted flaw in 5 of 5 weak copy sets (I planted them); vision critic blocked 12 of 12 model-caught seeded defects and passed the 1 control (3 more aspect-ratio defects are caught by plain code; I made the defects, and 1 control gives no false-alarm rate); creative memory cut near-duplicate angles from 9 to 0 (3 trials per arm, threshold tuned on the same brief); mean cost $0.3472 per brief; 0 of 108 concepts broke a length limit.
 
-**Diffusion gap: no image model has run in this project.** No working image key was available (no working image key was available), no diffusion server answered on ports 7860 or 8188, and no accounts may be created. The images are placeholders (typography plus procedural SVG). Adapters for Automatic1111 and ComfyUI are written and tested against hand-built response fixtures. The OpenAI adapter is written and its backend selection is tested, its response handling is not. None has met a live server. Read the Role fit table below for what this repo does not cover.
+**Image gap: the image API adapters have not run live.** Six real images exist: ChatGPT (GPT image), run by hand through the web app on 2026-10-24, one chat per concept, from the Tidebreak art-director prompts (`runs/tidebreak-20261024-021544/images_gpt/`). The vision critic scored them (`results/vision_real_gpt.json`). The pipeline did not generate them. The only OpenAI API key returned 401, no diffusion server answered on ports 7860 or 8188, and no accounts may be created. The pipeline's own images stay placeholders (typography plus procedural SVG). Adapters for Automatic1111 and ComfyUI are tested against hand-built response fixtures. The OpenAI adapter is written and its backend selection is tested, its response handling is not. Read the Role fit table below for what this repo does not cover.
 
 Not published. Run locally; open `docs/index.html`.
 
@@ -28,13 +28,13 @@ flowchart TD
   R --> X[8 Export · manifest.json and contact_sheet.html]
 ```
 
-Demo page with real outputs and an inline SVG diagram: `docs/index.html` (full-page screenshots, 1440 and 390 wide, 12000 and 23900 px tall so the whole page shows; re-render with `--window-size=1440,12000` and `--window-size=390,23900`, shorter heights crop the page: `docs/shot-1440.png`, `docs/shot-390.png`). Interview prep: `docs/INTERVIEW.md`.
+Demo page with real outputs and an inline SVG diagram: `docs/index.html` (full-page screenshots, 1440 and 390 wide, 14000 and 28500 px tall so the whole page shows; re-render with `--window-size=1440,14000` and `--window-size=390,28500`, shorter heights crop the page: `docs/shot-1440.png`, `docs/shot-390.png`). Interview prep: `docs/INTERVIEW.md`.
 
 ## Results
 
 All numbers come from files in `results/` and `runs/`. Prices are assumed list prices in `adcreative/llm.py`, not checked against billing. Dollar figures are estimates, not billed amounts.
 
-No key? Run `pytest` and open `docs/index.html`. The committed ledger is at about $5.91 of the $6 cap, so after you set keys, live commands stop with CapExceeded in a fresh clone. With no keys set, `run` and `eval-copy` stop earlier with the 'Set ANTHROPIC_API_KEY_PERSONAL...' message. `data/judge_calibration.json` is the input set; `results/judge_calibration.json` is the saved output.
+No key? Run `pytest` and open `docs/index.html`. The committed ledger is at about $5.97 of the $6 cap, so after you set keys, live commands stop with CapExceeded in a fresh clone. With no keys set, `run` and `eval-copy` stop earlier with the 'Set ANTHROPIC_API_KEY_PERSONAL...' message. `data/judge_calibration.json` is the input set; `results/judge_calibration.json` is the saved output.
 
 Brand and product names (Tidebreak, PennyPlan, TrailNote, QuillCards, FitLoop and others) are invented. Any match with a real product is chance.
 
@@ -55,9 +55,9 @@ Brand and product names (Tidebreak, PennyPlan, TrailNote, QuillCards, FitLoop an
 | Live length-limit repair | Tiny limits forced 6 raw violations on real copy, the Haiku repair fixed all, 0 left. One call. | `results/repair_live.json` |
 | Hand-score check, 20 items | Scored by Claude at the owner's request, not by a human, blind to the judge's scores. Spearman vs judge: hook strength 0.733, platform fit -0.141 (n=20). Means, Claude rater vs judge: hook 5.85 vs 5.9, fit 6.6 vs 5.25. | `results/hand_score.json`, `data/hand_score_sheet.csv` |
 | Second-model (Opus) re-score of the same 20 | Not run: only about $0.09 of the USD 6 cap was left. Opus agreement: no number. | `python -m adcreative judge-check` |
-| Real GPT image run (2 briefs) | Not run. No working OpenAI key was available (the only one returned 401). No account was created. SVG fallback stays the only image path that ran. | none |
+| Real GPT images, vision critic | 6 images from ChatGPT, made by hand in the web app on 2026-10-24 (Tidebreak top 6, no text in image). Critic means: legibility 6.0, brand fit 7.7, policy safety 8.3, message match 7.2. No gate blocked any image. Sonnet critic, same family as the writer; 6 images, one pass. Critic cost $0.0592. The API adapter did not run. | `results/vision_real_gpt.json`, `runs/tidebreak-20261024-021544/images_gpt/` |
 | Creative memory, 3 trials per arm | angles over 0.78 similarity: 9 with memory off, 0 with memory on | `results/memory_demo.json` |
-| Total spend for the project | about $5.91 by assumed prices, including failed attempts and a threshold probe (cap $6). The Lantern Drift full-run scope shows $0.486 in the ledger against $0.3584 in the manifest: the first attempt (02:02:50 to 02:03:44, 5 calls, $0.1277) stopped before the images step and was re-run. | `results/cost_log.jsonl` |
+| Total spend for the project | about $5.97 by assumed prices, including failed attempts, a threshold probe and the $0.0592 real-image critic run (cap $6). The Lantern Drift full-run scope shows $0.486 in the ledger against $0.3584 in the manifest: the first attempt (02:02:50 to 02:03:44, 5 calls, $0.1277) stopped before the images step and was re-run. | `results/cost_log.jsonl` |
 
 ## Role fit
 
@@ -67,7 +67,7 @@ Brand and product names (Tidebreak, PennyPlan, TrailNote, QuillCards, FitLoop an
 | Evals and LLM judge | Copy eval, calibration, seeded vision test | Hand scores: 20 items, scored by Claude at the owner's request, not by a human (`results/hand_score.json`). No human has scored them. No confidence intervals. |
 | Brand reuse | Two brand kits, same code, both run live | Per-brand quality comparison |
 | Retrieval | Local embedding memory with a similarity gate | Learning from performance data |
-| Diffusion and image generation | Nothing run. Adapters only: A1111 and ComfyUI tested on hand-built response fixtures; OpenAI adapter written, backend selection tested only | **Not covered.** No image model has run. Output images are SVG placeholders. A reviewer hiring for image or video generation should treat this repo as showing none of it. |
+| Diffusion and image generation | 6 images made by hand in ChatGPT and scored by the vision critic. Adapters only for the pipeline: A1111 and ComfyUI tested on hand-built response fixtures; OpenAI adapter written, backend selection tested only | **Mostly not covered.** No image API or diffusion server has run, and no diffusion work (checkpoints, LoRA, ControlNet, prompting loops) is shown. The pipeline's own output images are SVG placeholders. A reviewer hiring for image or video generation should treat this repo as showing little of it. |
 | GTM, CRM, outbound, lead routing | Not covered. | **Not covered.** Nothing in this repo touches CRM, enrichment or outbound. |
 | Video | 6.5 s ffmpeg clip from the top 3 images (`adcreative/motion.py`, `docs/assets/motion.mp4`) | No video model. Zoom and crossfade only. |
 | Product framing | Users, flow, metrics, brand kit as the low-code surface (`docs/PRODUCT.md`) | No journey or lifecycle tooling. No reviewer data. |
@@ -75,6 +75,8 @@ Brand and product names (Tidebreak, PennyPlan, TrailNote, QuillCards, FitLoop an
 ## Image step: read this first
 
 No personal OpenAI key and no local diffusion server (ports 7860, 8188, or `SD_URLS`) was reachable when the live runs were made, and no account may be created. So the image step ran the **SVG fallback**: typography plus procedural SVG art, rasterised with headless Chrome. These images are placeholders.
+
+Separately, on 2026-10-24 the six top Tidebreak art prompts were pasted by hand into ChatGPT (GPT image, web app, one new chat each, with the extra words "square 1:1 mobile game ad, no real brand names, the game is fictional, no text in the image") and the images downloaded. `scripts/vision_real_gpt.py` ran the vision critic on them. The images have no headline or CTA, so the text-match gate compares empty with empty. This is a manual step, not the API adapter.
 
 The diffusion step is pluggable and was not run. In `adcreative/images.py`:
 - `a1111_generate`: Automatic1111 `/sdapi/v1/txt2img`.
@@ -103,7 +105,7 @@ export ANTHROPIC_WORKSPACE_ID_PERSONAL=...         # sent as the anthropic-works
 .venv/bin/python scripts/build_docs.py             # rebuild docs/index.html from results/
 ```
 
-If the variables are unset, the code reads only those two names from a `.env` file in the repo root (gitignored). Nothing is printed or written to the repo. Every run writes `runs/<id>/manifest.json` and `contact_sheet.html`. Spend is capped by `AC_SPEND_CAP_USD` (default 6) against `results/cost_log.jsonl`. The committed ledger already sits at about $5.91, so in a fresh clone set your own `AC_SPEND_CAP_USD` and start a new ledger (delete or move `results/cost_log.jsonl`) before live runs. With the committed ledger, any live command stops at once with `CapExceeded`. To raise the cap instead, set `AC_SPEND_CAP_USD` higher; it is a plain env var and your own money. No scraper exists: the only network calls are the Anthropic API, the optional image API and local diffusion probes.
+If the variables are unset, the code reads only those two names from a `.env` file in the repo root (gitignored). Nothing is printed or written to the repo. Every run writes `runs/<id>/manifest.json` and `contact_sheet.html`. Spend is capped by `AC_SPEND_CAP_USD` (default 6) against `results/cost_log.jsonl`. The committed ledger already sits at about $5.97, so in a fresh clone set your own `AC_SPEND_CAP_USD` and start a new ledger (delete or move `results/cost_log.jsonl`) before live runs. With the committed ledger, any live command stops at once with `CapExceeded`. To raise the cap instead, set `AC_SPEND_CAP_USD` higher; it is a plain env var and your own money. No scraper exists: the only network calls are the Anthropic API, the optional image API and local diffusion probes.
 
 ## Design notes
 
@@ -126,7 +128,7 @@ The OpenAI image adapter is opt-in: it only runs if `OPENAI_API_KEY_PERSONAL` is
 
 ## Limits
 
-- Images are SVG compositions, not diffusion output. Image quality claims cannot be made from this repo.
+- The pipeline's own images are SVG compositions. The 6 ChatGPT images were made by hand, one pass each, so nothing here measures GPT image or the art-director prompts beyond those 6, and the critic is the same model family as the writer.
 - Zero raw length violations in the eval. The repair path ran live once with forced tiny limits (6 found, 6 fixed, 0 left, `results/repair_live.json`) plus offline mocked tests.
 - The judge scores platform fit low (5.2 mean; below 5.5 in 9 of 12 briefs, range 4.0 to 6.3). I did not check how much of that is a real copy problem and how much is judge strictness. Calibration covers one product only.
 - Three trials per memory arm. The direction is clear. The effect size is not tight.

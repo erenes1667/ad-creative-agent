@@ -1,0 +1,116 @@
+{
+  "run": "tidebreak-20261024-021544",
+  "images_from": "ChatGPT web app, run by hand 2026-10-24",
+  "model": "claude-sonnet-5-5",
+  "cases": [
+    {
+      "id": "a2h3",
+      "rank_svg_run": 1,
+      "image": "runs/tidebreak-20261024-021544/images_gpt/a2h3.png",
+      "critic": {
+        "text_read": "",
+        "legibility": 7,
+        "brand_fit": 9,
+        "policy_safety": 9,
+        "message_match": 5,
+        "policy_notes": "No fake UI, buttons, notifications, prizes, or unsourced stats appear in the image. Nothing implies real-money rewards, multiplayer, or violence. The sea glass tiles and baby turtles are consistent with the stated facts (swap glowing sea glass, rescue turtles). The image doesn't clearly show a match/swap mechanic, because the tiles read as a waterfall staircase. This is a minor mechanics-clarity concern, not a misleading depiction. Turtles sit on or beside the tiles rather than under them, a small deviation from the facts.",
+        "summary": "A charming, on-palette watercolor ocean scene with no text and no policy risks, but nothing in it conveys '400 levels' or 'free to start', and there is no CTA or game-UI cue, so it only loosely supports the headline.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": " "
+      },
+      "gate_failures": []
+    },
+    {
+      "id": "a2h2",
+      "rank_svg_run": 2,
+      "image": "runs/tidebreak-20261024-021544/images_gpt/a2h2.png",
+      "critic": {
+        "text_read": "",
+        "legibility": 6,
+        "brand_fit": 8,
+        "policy_safety": 9,
+        "message_match": 5,
+        "policy_notes": "No policy red flags. The image has no fake UI, buttons, notifications, stats, or real-money or prize cues. It contains no violence and no multiplayer implication. The glowing sea glass and baby turtle loosely match the real premise (swap sea glass, rescue turtles). However, the image shows no tiles, grid, or swap mechanic, so it is more mood art than gameplay. That is not misleading, but it does not show the product's actual mechanics. The turtle sitting beside a single glowing orb could imply a different kind of game, though this is minor.",
+        "summary": "A charming, on-style watercolor tide pool with a baby turtle and glowing sea glass that is safe and brand-appropriate. It has no visible text or CTA, and nothing in it conveys 'free' or 'optional ads', so it supports the headline only weakly. The large empty dark teal area at the bottom leaves room for the headline and a CTA, but their contrast and legibility will need to be checked.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": " "
+      },
+      "gate_failures": []
+    },
+    {
+      "id": "a1h1",
+      "rank_svg_run": 3,
+      "image": "runs/tidebreak-20261024-021544/images_gpt/a1h1.png",
+      "critic": {
+        "text_read": "",
+        "legibility": 6,
+        "brand_fit": 7,
+        "policy_safety": 8,
+        "message_match": 9,
+        "policy_notes": "No in-image text, fake buttons, notifications, stats, or prize/real-money cues. The phone screen shows a match-style tile grid with sea glass, shells, and starfish, which is broadly consistent with the sea-glass swapping mechanic. No baby turtles are visible under the tiles, so the rescue mechanic is not shown, but nothing is misrepresented. The turtle mascot beside the phone is a friendly character, not a gameplay claim. The airplane window, tray table, and seat pocket support the offline/airplane-mode claim. There is no multiplayer, violence, or reward implication. Minor risk: the airplane setting could suggest connectivity-related claims, but it matches the true offline-play fact. The phone UI is stylized rather than a real in-game screenshot, so gameplay fidelity is approximate.",
+        "summary": "A charming watercolor scene of a baby sea turtle beside a phone showing a sea-glass puzzle on an airplane tray table clearly supports the 'airplane mode' headline with low policy risk, but it has no CTA or logo and leans on pastel, cream, and teal tones with only small hits of the deep navy and orange brand palette.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": " "
+      },
+      "gate_failures": []
+    },
+    {
+      "id": "a3h1",
+      "rank_svg_run": 4,
+      "image": "runs/tidebreak-20261024-021544/images_gpt/a3h1.png",
+      "critic": {
+        "text_read": "",
+        "legibility": 6,
+        "brand_fit": 6,
+        "policy_safety": 8,
+        "message_match": 9,
+        "policy_notes": "The image contains no text, fake UI, buttons, notifications, stats, or real-money and prize cues. The glowing arrows between two sea glass pieces suggest the swap mechanic, which matches the stated gameplay. The baby turtle supports the rescue feature without misleading. The scene is a stylized render rather than confirmed in-game UI, so a reviewer might ask whether it fairly represents actual gameplay. The orange burst of gems and bubbles could read as a 'win reward' effect, but it does not imply cash or prizes. Nothing suggests multiplayer or violence.",
+        "summary": "The image sells the headline well with glowing sea glass, a clear swap arrow, and a cleared-tile burst, but it has no text or CTA, and its glossy 3D-render look drifts from the requested flat watercolor style, though the teal, orange, and cream palette fits.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": " "
+      },
+      "gate_failures": []
+    },
+    {
+      "id": "a3h3",
+      "rank_svg_run": 5,
+      "image": "runs/tidebreak-20261024-021544/images_gpt/a3h3.png",
+      "critic": {
+        "text_read": "",
+        "legibility": 5,
+        "brand_fit": 8,
+        "policy_safety": 8,
+        "message_match": 7,
+        "policy_notes": "No text, fake UI, prize or real-money implications, or unsourced stats appear. The image shows a baby sea turtle and loose sea glass in a tide pool, which loosely matches the true facts (sea glass, turtles). It shows no actual match or swap gameplay, no tile grid, and no turtles under tiles, so it is more mood art than gameplay. That is acceptable as long as it is not presented as in-game footage. The turtle's happy expression is non-violent and raises no concern. The left half of the image is desaturated gray rocks, which is a stylistic choice and not misleading.",
+        "summary": "A charming, non-misleading watercolor tide pool with a smiling baby turtle and glowing sea glass that fits the headline and style well. It has no text, so there is no CTA or branding and legibility depends entirely on overlays, and the palette drifts from the specified deep navy and cream toward a general turquoise, orange and gray look.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": " "
+      },
+      "gate_failures": []
+    },
+    {
+      "id": "a1h2",
+      "rank_svg_run": 6,
+      "image": "runs/tidebreak-20261024-021544/images_gpt/a1h2.png",
+      "critic": {
+        "text_read": "",
+        "legibility": 6,
+        "brand_fit": 8,
+        "policy_safety": 8,
+        "message_match": 8,
+        "policy_notes": "No visible text, fake UI, prize or real-money cues, stats, or violence. The phone shows a match-3 board with sea glass, shells and starfish, which fits the stated mechanic. The baby turtle sits on the player's shoulder instead of under the tiles, which is a minor mismatch with the 'rescue under tiles' fact, but it reads as a mascot and is not misleading. The subway setting loosely supports the offline/lost-signal idea without claiming anything false. The screen is a stylized illustration, so a real gameplay capture may be needed for store compliance. The tiles include shells and starfish as well as glass, a small liberty that is unlikely to be a problem.",
+        "summary": "A warm, on-brand image of someone playing a sea-glass match game on a train that supports the 'Lost signal? Keep matching' headline and carries little policy risk, but it has no in-image text or CTA, and the palette and style lean more painterly and anime than flat watercolor with rounded shapes.",
+        "aspect_ok": true,
+        "text_matches_intended": true,
+        "intended_text": " "
+      },
+      "gate_failures": []
+    }
+  ],
+  "cost_usd": 0.0592
+}

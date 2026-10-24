@@ -157,3 +157,9 @@
 {"ts": "2026-10-24T02:35:43", "scope": "vision-seeded:critic", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 977, "out": 561, "stop": "end_turn", "usd": 0.011346}
 {"ts": "2026-10-24T02:35:47", "scope": "vision-seeded:critic", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 977, "out": 316, "stop": "end_turn", "usd": 0.007671}
 {"ts": "2026-10-24T02:35:53", "scope": "vision-seeded:critic", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 977, "out": 335, "stop": "end_turn", "usd": 0.007956}
+{"ts": "2026-10-24T22:34:17", "scope": "vision-real-gpt", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 1340, "out": 344, "stop": "end_turn", "usd": 0.00918}
+{"ts": "2026-10-24T22:34:22", "scope": "vision-real-gpt", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 1340, "out": 391, "stop": "end_turn", "usd": 0.009885}
+{"ts": "2026-10-24T22:34:27", "scope": "vision-real-gpt", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 1338, "out": 463, "stop": "end_turn", "usd": 0.010959}
+{"ts": "2026-10-24T22:34:31", "scope": "vision-real-gpt", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 1341, "out": 361, "stop": "end_turn", "usd": 0.009438}
+{"ts": "2026-10-24T22:34:35", "scope": "vision-real-gpt", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 1337, "out": 380, "stop": "end_turn", "usd": 0.009711}
+{"ts": "2026-10-24T22:34:40", "scope": "vision-real-gpt", "role": "critic", "model": "claude-sonnet-5-5", "tag": "critic", "in": 1337, "out": 398, "stop": "end_turn", "usd": 0.009981}

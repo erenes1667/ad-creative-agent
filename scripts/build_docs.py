@@ -32,12 +32,26 @@ for t in man["top"]:
     img = asset(run_dir / c["image"], f"top-{t['rank']}.jpg")
     m = c["copy"]
     cards += f"""<article class="card"><img src="{img}" width="640" height="640" alt="Ad image {t['rank']}: {e(c['art']['overlay_text'])}" loading="lazy">
-<p class="ph">Placeholder art, not diffusion</p><h3>#{t['rank']} &middot; score {t['score']}</h3>
+<p class="ph">Placeholder SVG art, not an image model</p><h3>#{t['rank']} &middot; score {t['score']}</h3>
 <dl><dt>Meta</dt><dd>{e(m['meta']['headline'])} <span class="mut">({len(m['meta']['headline'])}/40)</span><br>{e(m['meta']['text'])} <span class="mut">({len(m['meta']['text'])}/125)</span> [{e(m['meta']['cta'])}]</dd>
 <dt>TikTok</dt><dd>{e(m['tiktok']['headline'])} / {e(m['tiktok']['text'])}</dd>
 <dt>Google UAC</dt><dd>{e(m['google_uac']['headline'])} / {e(m['google_uac']['text'])}</dd></dl>
 <p class="mut">Audience: {e(c['audience'])}. Critic: L {c['critic']['legibility']}, B {c['critic']['brand_fit']}, P {c['critic']['policy_safety']}, M {c['critic']['message_match']}.</p>
 <p class="why">{e(t['reason'])}</p></article>"""
+
+tb_dir = ROOT / "runs" / "tidebreak-20261024-021544"
+tb = json.loads((tb_dir / "manifest.json").read_text())
+tb_by = {c["id"]: c for c in tb["concepts"]}
+gpt = json.loads((R / "vision_real_gpt.json").read_text())
+gpt_cards = ""
+gpt_rows = ""
+for g in gpt["cases"]:
+    c = tb_by[g["id"]]; k = g["critic"]; sv = c["critic"]
+    img = asset(ROOT / g["image"], f"gpt-{g['id']}.jpg")
+    gpt_cards += f"""<article class="card"><img src="{img}" width="640" height="640" alt="GPT image for Tidebreak concept {g['id']}: {e(c['hook_line'])}" loading="lazy">
+<h3>{e(c['hook_line'])}</h3><p class="mut">Concept {g['id']}, rank {g['rank_svg_run']} in the SVG run. Critic: L {k['legibility']}, B {k['brand_fit']}, P {k['policy_safety']}, M {k['message_match']}.</p>
+<p class="why">{e(k['summary'])}</p></article>"""
+    gpt_rows += f"<tr><td>{g['id']}</td><td>{sv['legibility']} / {sv['brand_fit']} / {sv['policy_safety']} / {sv['message_match']}</td><td>{k['legibility']} / {k['brand_fit']} / {k['policy_safety']} / {k['message_match']}</td><td>{e('; '.join(g['gate_failures']) or 'none')}</td></tr>"
 
 seeded = ""
 for c in vs["cases"]:
@@ -108,15 +122,21 @@ svg{{width:100%;max-width:520px;height:auto;display:block;margin:0 auto}}.box{{s
 </style></head><body><main>
 <p><span class="tag">Personal project</span><span class="tag">Synthetic data</span><span class="tag">Fictional game</span></p>
 <h1>Ad Creative Agent</h1>
-<p class="lead">A copy, evaluation and judging pipeline for ad creative. The image step is a plug that has not run live.</p>
-<p class="note gap"><b>Diffusion gap.</b> No image model has run in this project. There is no working image API key (no working image key was available), and no diffusion server answered on ports 7860 or 8188. The images on this page are <b>placeholders</b>: typography plus procedural SVG art, drawn in headless Chrome. The image step is a plug. Adapters for Automatic1111 and ComfyUI are written and tested against hand-built response fixtures. The OpenAI adapter is written and its backend selection is tested, its response handling is not. None has met a live server.</p>
-<p class="mut">One launch brief in. Nine scored ad concepts out, with copy for three platforms, a placeholder image each, and a reason for every pick. The game, Lantern Drift, is invented for this demo. Outputs below are real runs from {date}.</p>
+<p class="lead">A copy, evaluation and judging pipeline for ad creative. Six real images from ChatGPT, made by hand, are scored by the vision critic. The API image adapter has not run live.</p>
+<p class="note gap"><b>Image status.</b> The 6 real images further down came from ChatGPT (GPT image), run by hand through the web app on 2026-10-24, one chat per concept. The pipeline did not call an image API: the OpenAI adapter in the repo still has not run live, because the only API key returned 401. No local diffusion server answered on ports 7860 or 8188. The images in the Lantern Drift run below are still placeholders: typography plus procedural SVG art, drawn in headless Chrome. Adapters for Automatic1111 and ComfyUI are tested only against hand-built response fixtures. No video model has run.</p>
+<p class="mut">One launch brief in. Nine scored ad concepts out, with copy for three platforms, an image each, and a reason for every pick. The game, Lantern Drift, is invented for this demo. Outputs below are real runs from {date}.</p>
 
 <h2>How it works</h2>
 <p>An explicit state machine. Blue steps are plain code. Amber steps call a model. The model name on each box comes from the run manifest.</p>
 {svg}
 
-<h2>Real output: top 6 of 9 concepts (placeholder images)</h2>
+<h2>Real GPT images: Tidebreak top 6 (made by hand in ChatGPT)</h2>
+<p class="note">Concepts and art prompts come from run {e(tb['run_id'])}. Each prompt went into a new ChatGPT chat with the extra words "square 1:1 mobile game ad, no real brand names, the game is fictional, no text in the image". Images are 1254 by 1254. Because no text was drawn, the headline and CTA are not in the image, so the critic gate that compares text in the image with the intended text compares nothing. The critic is {e(gpt['model'])}, the same family as the writer. Cost of the six critic calls: ${gpt['cost_usd']}. Six images, one pass each, no retries, so this says nothing about how often GPT image misses a prompt.</p>
+<div class="grid">{gpt_cards}</div>
+<div class="tw"><table><tr><th>Concept</th><th>SVG placeholder: L / B / P / M</th><th>GPT image: L / B / P / M</th><th>Gate failures (GPT)</th></tr>{gpt_rows}</table></div>
+<p class="mut">L legibility, B brand fit, P policy safety, M message match. The two columns are not a fair contest: the SVG images carry text and the GPT images do not, so legibility and message match mean different things. File: <code>results/vision_real_gpt.json</code>.</p>
+
+<h2>Lantern Drift top 6 of 9 concepts (placeholder SVG images)</h2>
 <p class="note">Run {e(man['run_id'])}, {date}. Models: {e(models)}. <b>Image backend: {e(man['image_backend']['name'])}.</b> No personal image API key and no diffusion server were reachable, so the images are typography plus procedural SVG rendered in headless Chrome. They are placeholders for the diffusion step, not diffusion output. The vision critic scores them as flat vector art, and says so.</p>
 <div class="grid">{cards}</div>
 <p class="mut">This run: {man['cost']['calls']} calls, {man['cost']['tokens_in']:,} input and {man['cost']['tokens_out']:,} output tokens, ${man['cost']['usd']} at the assumed prices in the repo. Scores: 0.25 legibility, 0.25 brand fit, 0.35 policy safety, 0.15 message match.</p>

@@ -135,7 +135,7 @@ svg{width:100%;max-width:520px;height:auto;display:block;margin:0 auto}.box{stro
 <p>All 108 eval concepts passed the real limits first time, so the repair path never ran in the eval. To run it once on a live call, real copy from the Lantern Drift run was checked against deliberately tiny limits (Meta headline 16, text 40; TikTok and Google headline 14, text 30). Result: 6 raw violations, repaired by llm, 0 left. One call, $0.0069. Source: results/repair_live.json.</p>
 
 <h2>Judge check</h2>
-<p>Human check: <code>data/hand_score_sheet.csv</code> has 20 blind items. They were scored by Claude at the owner's request, not by a human, without seeing the judge's scores. Spearman vs the judge (n=20): hook strength 0.733, platform fit -0.141 (<code>results/hand_score.json</code>). The Opus re-score (<code>python -m adcreative judge-check</code>) did not run: about $0.09 of budget was left. No Opus agreement number. No image model has run, so the images stay placeholders.</p>
+<p>Human check: <code>data/hand_score_sheet.csv</code> has 20 blind items. They were scored by Claude at the owner's request, not by a human, without seeing the judge's scores. Spearman vs the judge (n=20): hook strength 0.733, platform fit -0.141 (<code>results/hand_score.json</code>). The Opus re-score (<code>python -m adcreative judge-check</code>) did not run: about $0.09 of budget was left. No Opus agreement number. The pipeline's own images stay placeholders; the 6 hand-made GPT images are scored separately.</p>
 
 <h2>Cost</h2>
 <p>All live runs for this project, including failed attempts, cost $5.97 by the repo's assumed prices (cap: $6). Per-call log: results/cost_log.jsonl.</p>

@@ -78,7 +78,7 @@ No personal OpenAI key and no local diffusion server (ports 7860, 8188, or `SD_U
 
 Separately, on 2026-10-24 the six top Tidebreak art prompts were pasted by hand into ChatGPT (GPT image, web app, one new chat each, with the extra words "square 1:1 mobile game ad, no real brand names, the game is fictional, no text in the image") and the images downloaded. `scripts/vision_real_gpt.py` ran the vision critic on them. The images have no headline or CTA, so the text-match gate compares empty with empty. This is a manual step, not the API adapter.
 
-The diffusion step is pluggable and was not run. In `adcreative/images.py`:
+The diffusion and OpenAI adapters are pluggable and did not run live. In `adcreative/images.py`:
 - `a1111_generate`: Automatic1111 `/sdapi/v1/txt2img`.
 - `comfy_generate`: ComfyUI `/prompt`, `/history/<id>`, `/view`, with a default txt2img graph. Set `COMFY_CKPT` to a checkpoint the server has.
 - An OpenAI adapter, also never run.
